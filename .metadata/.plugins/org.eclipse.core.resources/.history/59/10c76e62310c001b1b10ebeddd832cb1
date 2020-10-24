@@ -1,0 +1,59 @@
+package selenide.padrao.pageobjects;
+
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.*;
+
+import org.openqa.selenium.By;
+
+public class Checkout {
+
+	private SelenideElement inputCep = $("#cep"),
+							btnConfirmaCep = $(".freightForm-okBtn"),
+							btnConfirmarCompra = $("#buy-button"),
+							optionFrete = $(By.name("freight-option"));
+
+	public SelenideElement getInputCep() {
+		return inputCep;
+	}
+
+	public void setInputCep(SelenideElement inputCep) {
+		this.inputCep = inputCep;
+	}
+
+	public SelenideElement getBtnConfirmaCep() {
+		return btnConfirmaCep;
+	}
+
+	public void setBtnConfirmaCep(SelenideElement btnConfirmaCep) {
+		this.btnConfirmaCep = btnConfirmaCep;
+	}
+
+	public SelenideElement getBtnConfirmarCompra() {
+		return btnConfirmarCompra;
+	}
+
+	public void setBtnConfirmarCompra(SelenideElement btnConfirmarCompra) {
+		this.btnConfirmarCompra = btnConfirmarCompra;
+	}
+
+	public SelenideElement getOptionFrete() {
+		return optionFrete;
+	}
+
+	public void setOptionFrete(SelenideElement optionFrete) {
+		this.optionFrete = optionFrete;
+	}
+	
+	
+	public void confirmarPedido(String cep, String tipoFrete) {
+		inputCep.setValue(cep);
+		btnConfirmaCep.click();
+		
+		if (tipoFrete.equalsIgnoreCase("retirar")) {
+			optionFrete.selectRadio("PICK_UP_IN_STORE");
+		}
+		
+		btnConfirmarCompra.click();
+	}
+	
+}

@@ -1,0 +1,54 @@
+package selenide.projeto;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import static com.codeborne.selenide.Selenide.*;
+
+import java.io.File;
+
+public class MetodosCondicionais {
+	
+	@BeforeTest
+	void configuracao() {
+		
+		Configuration.browser="firefox";
+		Configuration.startMaximized=true;
+		
+	}
+	
+    //@Test
+	void testCondicao() {
+		
+		open("https://the-internet.herokuapp.com/");
+		$(By.linkText("Dynamic Loading")).click();
+		$(By.linkText("Example 1: Element on page that is hidden")).click();
+		$("#start").find(By.tagName("button")).click();
+		//$("#loading").find(By.tagName("img")).waitUntil(Condition.disappears, 3000);
+		$("#loading").find(By.tagName("img")).waitWhile(Condition.appears, 3000,1000);
+		System.out.println($("#finish").$(By.tagName("h4")).text());
+		
+	
+	}
+	
+	//@Test
+	void upload() {
+		open("https://the-internet.herokuapp.com/");
+		$(By.linkText("File Upload")).click();
+	File file = $("#file-upload").uploadFile(new File("src/test/upload.txt"));
+    $("#file-submit").click();
+    $("#uploaded-files").should(Condition.appear);
+	}
+	
+	@Test
+	void upload2() {
+		open("https://the-internet.herokuapp.com/");
+		$(By.linkText("File Upload")).click();
+	File file = $("#file-upload").uploadFromClasspath("arquivos/upload.txt");
+    $("#file-submit").click();
+    $("#uploaded-files").should(Condition.appear);
+	}
+}

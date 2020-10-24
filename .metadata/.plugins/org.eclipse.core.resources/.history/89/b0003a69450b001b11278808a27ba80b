@@ -1,0 +1,36 @@
+package selenide.projeto;
+
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selectors.*;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.collections.*;
+import static com.codeborne.selenide.CollectionCondition.*;
+
+public class ElementosEspeciais {
+	
+	@BeforeTest
+	void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=5000;
+	}
+	
+	@Test
+	void checkboxRadio() {
+		
+		open("https://demoqa.com/");
+		$(".card-body").click();
+		$("#item-1").click();
+		$(".rct-icon .rct-icon-expand-close").click();
+		$(byAttribute("for", "tree-node-desktop")).find(".rct-title").setSelected(true);
+		$(byAttribute("for", "tree-node-documents")).find(".rct-title").setSelected(true);
+		$(byAttribute("for", "tree-node-downloads")).find(".rct-title").setSelected(true);
+	}
+
+}

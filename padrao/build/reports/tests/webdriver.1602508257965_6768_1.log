@@ -1,0 +1,653 @@
+[1602508258.863][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35119
+[1602508258.864][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602508260.217][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\padrao\\build\\downloads\\1602508253550_6768_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\padrao\\build\\downloads\\1602508253550_6768_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602508260.232][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\padrao\\build\\downloads\\1602508253550_6768_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602508260.235][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602508260.238][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602508260.238][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir14628_1858875437" data:,
+[1602508261.981][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602508264.100][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602508266.168][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir14628_1858875437"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56294"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0435c88848c817ed8b2c2037a488ab97"
+}
+[1602508266.439][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND MaximizeWindow {
+
+}
+[1602508266.440][INFO]: Waiting for pending navigations...
+[1602508266.449][INFO]: Done waiting for pending navigations. Status: ok
+[1602508266.649][INFO]: Waiting for pending navigations...
+[1602508266.654][INFO]: Done waiting for pending navigations. Status: ok
+[1602508266.654][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602508266.673][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602508266.674][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE SetTimeouts
+[1602508266.715][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND Navigate {
+   "url": "https://www.submarino.com.br/"
+}
+[1602508266.716][INFO]: Waiting for pending navigations...
+[1602508266.719][INFO]: Done waiting for pending navigations. Status: ok
+[1602508267.419][INFO]: Waiting for pending navigations...
+[1602508289.278][INFO]: Done waiting for pending navigations. Status: ok
+[1602508289.278][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE Navigate
+[1602508289.522][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#lgpd-accept"
+}
+[1602508289.522][INFO]: Waiting for pending navigations...
+[1602508289.526][INFO]: Done waiting for pending navigations. Status: ok
+[1602508289.592][INFO]: Waiting for pending navigations...
+[1602508289.595][INFO]: Done waiting for pending navigations. Status: ok
+[1602508289.595][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b10fbfa0-c51c-4dbe-b2b5-a28a956c9d15"
+}
+[1602508289.704][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b10fbfa0-c51c-4dbe-b2b5-a28a956c9d15"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508289.704][INFO]: Waiting for pending navigations...
+[1602508289.709][INFO]: Done waiting for pending navigations. Status: ok
+[1602508289.776][INFO]: Waiting for pending navigations...
+[1602508289.780][INFO]: Done waiting for pending navigations. Status: ok
+[1602508289.780][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508289.794][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "b10fbfa0-c51c-4dbe-b2b5-a28a956c9d15"
+}
+[1602508289.794][INFO]: Waiting for pending navigations...
+[1602508289.798][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.047][INFO]: Waiting for pending navigations...
+[1602508290.089][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.089][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508290.106][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-input"
+}
+[1602508290.106][INFO]: Waiting for pending navigations...
+[1602508290.155][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.247][INFO]: Waiting for pending navigations...
+[1602508290.253][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.254][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b9ef5527-0480-487d-8264-e81e42e44d31"
+}
+[1602508290.317][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b9ef5527-0480-487d-8264-e81e42e44d31"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508290.318][INFO]: Waiting for pending navigations...
+[1602508290.322][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.381][INFO]: Waiting for pending navigations...
+[1602508290.389][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.390][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508290.401][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClearElement {
+   "id": "b9ef5527-0480-487d-8264-e81e42e44d31"
+}
+[1602508290.401][INFO]: Waiting for pending navigations...
+[1602508290.404][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.531][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1602508290.580][INFO]: Waiting for pending navigations...
+[1602508290.582][INFO]: Done waiting for pending navigations. Status: ok
+[1602508290.582][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClearElement
+[1602508290.601][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND TypeElement {
+   "id": "b9ef5527-0480-487d-8264-e81e42e44d31",
+   "text": "celular",
+   "value": [ "c", "e", "l", "u", "l", "a", "r" ]
+}
+[1602508290.601][INFO]: Waiting for pending navigations...
+[1602508290.604][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.108][INFO]: Waiting for pending navigations...
+[1602508291.117][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.117][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE TypeElement
+[1602508291.152][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-btn"
+}
+[1602508291.152][INFO]: Waiting for pending navigations...
+[1602508291.155][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.221][INFO]: Waiting for pending navigations...
+[1602508291.227][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.227][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ef58fca2-7648-40fd-8c19-188256c139f1"
+}
+[1602508291.262][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "ef58fca2-7648-40fd-8c19-188256c139f1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508291.262][INFO]: Waiting for pending navigations...
+[1602508291.271][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.309][INFO]: Waiting for pending navigations...
+[1602508291.312][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.312][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508291.320][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "ef58fca2-7648-40fd-8c19-188256c139f1"
+}
+[1602508291.321][INFO]: Waiting for pending navigations...
+[1602508291.322][INFO]: Done waiting for pending navigations. Status: ok
+[1602508291.666][INFO]: Waiting for pending navigations...
+[1602508313.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602508313.369][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508313.401][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602508313.401][INFO]: Waiting for pending navigations...
+[1602508315.191][INFO]: Done waiting for pending navigations. Status: ok
+[1602508317.632][INFO]: Waiting for pending navigations...
+[1602508318.979][INFO]: Done waiting for pending navigations. Status: ok
+[1602508318.980][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "49beefe6-8f85-4dd7-912f-410a6bdf9a98"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "12db571b-3acc-4f56-bdd2-ed187de01026"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "88563c7c-e0a6-4448-8a80-46381855001c"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "94da95c7-4600-43fa-8406-0fe42b1532d7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d1409ea2-f461-4e6a-a717-df78092f04ba"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ae3011fe-b130-4bb5-ae65-24b8ec06ead0"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d60cb633-a25f-4370-9922-9085e9b54910"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3c7d4733-a91b-4bd0-9279-c222eb485df6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0db7ba11-b8b6-4921-baa4-774114435cfd"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0c9424bf-8f9e-46d2-9b3e-d12d88f94301"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "59c48fc3-c290-4c0e-8c7f-884940037613"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "184e0eaf-dc93-41ec-9d28-3d3d2f3c67b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "50663304-64e2-4c60-9d36-d8be64e36d8f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c973f907-c948-4b78-b15f-8d1d7409388a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "df13b57d-3d57-4378-b0fc-bf853f8a6941"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "c8fac12b-4147-4887-ba74-835413218d74"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "5083379e-638f-4059-b449-5782062bda07"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "51fb043c-0cdf-4c78-9396-2a5116c9188b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "cd8789b4-e050-4e4a-be4a-b1ff4c442e14"
+}, "..." ]
+[1602508319.040][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "49beefe6-8f85-4dd7-912f-410a6bdf9a98"
+}
+[1602508319.040][INFO]: Waiting for pending navigations...
+[1602508319.542][INFO]: Done waiting for pending navigations. Status: ok
+[1602508319.871][INFO]: Waiting for pending navigations...
+[1602508320.308][INFO]: Done waiting for pending navigations. Status: ok
+[1602508320.308][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508320.316][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "49beefe6-8f85-4dd7-912f-410a6bdf9a98"
+}
+[1602508320.316][INFO]: Waiting for pending navigations...
+[1602508320.489][INFO]: Done waiting for pending navigations. Status: ok
+[1602508320.631][INFO]: Waiting for pending navigations...
+[1602508320.820][INFO]: Done waiting for pending navigations. Status: ok
+[1602508320.821][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602508320.833][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "12db571b-3acc-4f56-bdd2-ed187de01026"
+}
+[1602508320.833][INFO]: Waiting for pending navigations...
+[1602508321.031][INFO]: Done waiting for pending navigations. Status: ok
+[1602508321.183][INFO]: Waiting for pending navigations...
+[1602508321.421][INFO]: Done waiting for pending navigations. Status: ok
+[1602508321.421][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508321.430][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "12db571b-3acc-4f56-bdd2-ed187de01026"
+}
+[1602508321.430][INFO]: Waiting for pending navigations...
+[1602508321.730][INFO]: Done waiting for pending navigations. Status: ok
+[1602508322.029][INFO]: Waiting for pending navigations...
+[1602508322.315][INFO]: Done waiting for pending navigations. Status: ok
+[1602508322.316][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Prata"
+[1602508322.331][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "88563c7c-e0a6-4448-8a80-46381855001c"
+}
+[1602508322.331][INFO]: Waiting for pending navigations...
+[1602508322.535][INFO]: Done waiting for pending navigations. Status: ok
+[1602508322.646][INFO]: Waiting for pending navigations...
+[1602508322.802][INFO]: Done waiting for pending navigations. Status: ok
+[1602508322.802][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508322.839][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "88563c7c-e0a6-4448-8a80-46381855001c"
+}
+[1602508322.839][INFO]: Waiting for pending navigations...
+[1602508322.935][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.065][INFO]: Waiting for pending navigations...
+[1602508323.357][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.357][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone LG K71 128GB Dual Chip Android 10 Tela 6.8\" Quad Core Câmera Tripla 48MP+5MP+5MP Frontal 32MP - White"
+[1602508323.366][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "94da95c7-4600-43fa-8406-0fe42b1532d7"
+}
+[1602508323.366][INFO]: Waiting for pending navigations...
+[1602508323.376][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.407][INFO]: Waiting for pending navigations...
+[1602508323.423][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.423][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508323.445][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "94da95c7-4600-43fa-8406-0fe42b1532d7"
+}
+[1602508323.445][INFO]: Waiting for pending navigations...
+[1602508323.461][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.532][INFO]: Waiting for pending navigations...
+[1602508323.547][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.548][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 Lite - Preto"
+[1602508323.559][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "d1409ea2-f461-4e6a-a717-df78092f04ba"
+}
+[1602508323.559][INFO]: Waiting for pending navigations...
+[1602508323.568][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.601][INFO]: Waiting for pending navigations...
+[1602508323.618][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.618][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508323.632][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "d1409ea2-f461-4e6a-a717-df78092f04ba"
+}
+[1602508323.632][INFO]: Waiting for pending navigations...
+[1602508323.640][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.707][INFO]: Waiting for pending navigations...
+[1602508323.726][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.726][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s 64GB Dual Chip Android 10 Tela 6.5\" Octa-Core 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Preto"
+[1602508323.764][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "ae3011fe-b130-4bb5-ae65-24b8ec06ead0"
+}
+[1602508323.764][INFO]: Waiting for pending navigations...
+[1602508323.778][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.804][INFO]: Waiting for pending navigations...
+[1602508323.818][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.818][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508323.833][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "ae3011fe-b130-4bb5-ae65-24b8ec06ead0"
+}
+[1602508323.833][INFO]: Waiting for pending navigations...
+[1602508323.854][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.921][INFO]: Waiting for pending navigations...
+[1602508323.934][INFO]: Done waiting for pending navigations. Status: ok
+[1602508323.935][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s Dual Chip Android 10 Tela 6.5\" Octa-Core 64GB 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Branco"
+[1602508323.973][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "d60cb633-a25f-4370-9922-9085e9b54910"
+}
+[1602508323.973][INFO]: Waiting for pending navigations...
+[1602508324.000][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.038][INFO]: Waiting for pending navigations...
+[1602508324.048][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.048][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508324.066][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "d60cb633-a25f-4370-9922-9085e9b54910"
+}
+[1602508324.066][INFO]: Waiting for pending navigations...
+[1602508324.084][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.153][INFO]: Waiting for pending navigations...
+[1602508324.189][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.189][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602508324.203][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementTagName {
+   "id": "3c7d4733-a91b-4bd0-9279-c222eb485df6"
+}
+[1602508324.203][INFO]: Waiting for pending navigations...
+[1602508324.219][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.252][INFO]: Waiting for pending navigations...
+[1602508324.273][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.274][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementTagName "h2"
+[1602508324.282][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND GetElementText {
+   "id": "3c7d4733-a91b-4bd0-9279-c222eb485df6"
+}
+[1602508324.283][INFO]: Waiting for pending navigations...
+[1602508324.290][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.360][INFO]: Waiting for pending navigations...
+[1602508324.370][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.370][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602508324.412][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3c7d4733-a91b-4bd0-9279-c222eb485df6"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508324.412][INFO]: Waiting for pending navigations...
+[1602508324.428][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.486][INFO]: Waiting for pending navigations...
+[1602508324.495][INFO]: Done waiting for pending navigations. Status: ok
+[1602508324.496][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508324.506][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "3c7d4733-a91b-4bd0-9279-c222eb485df6"
+}
+[1602508324.506][INFO]: Waiting for pending navigations...
+[1602508324.516][INFO]: Done waiting for pending navigations. Status: ok
+[1602508325.943][INFO]: Waiting for pending navigations...
+[1602508343.572][INFO]: Done waiting for pending navigations. Status: ok
+[1602508343.572][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508343.589][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btn-buy"
+}
+[1602508343.590][INFO]: Waiting for pending navigations...
+[1602508344.494][INFO]: Done waiting for pending navigations. Status: ok
+[1602508344.810][INFO]: Waiting for pending navigations...
+[1602508344.925][INFO]: Done waiting for pending navigations. Status: ok
+[1602508344.925][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "606ed629-ed4c-4423-b758-7d683b47ecdf"
+}
+[1602508344.979][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "606ed629-ed4c-4423-b758-7d683b47ecdf"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508344.980][INFO]: Waiting for pending navigations...
+[1602508345.051][INFO]: Done waiting for pending navigations. Status: ok
+[1602508345.233][INFO]: Waiting for pending navigations...
+[1602508345.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602508345.370][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508345.382][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "606ed629-ed4c-4423-b758-7d683b47ecdf"
+}
+[1602508345.382][INFO]: Waiting for pending navigations...
+[1602508345.522][INFO]: Done waiting for pending navigations. Status: ok
+[1602508347.692][INFO]: Waiting for pending navigations...
+[1602508353.912][INFO]: Done waiting for pending navigations. Status: ok
+[1602508353.912][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508353.925][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btn-continue"
+}
+[1602508353.925][INFO]: Waiting for pending navigations...
+[1602508354.064][INFO]: Done waiting for pending navigations. Status: ok
+[1602508354.202][INFO]: Waiting for pending navigations...
+[1602508354.294][INFO]: Done waiting for pending navigations. Status: ok
+[1602508354.294][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ffce63ed-a892-4a9b-90c2-b0aea97965c1"
+}
+[1602508354.326][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "ffce63ed-a892-4a9b-90c2-b0aea97965c1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508354.326][INFO]: Waiting for pending navigations...
+[1602508354.540][INFO]: Done waiting for pending navigations. Status: ok
+[1602508354.662][INFO]: Waiting for pending navigations...
+[1602508354.889][INFO]: Done waiting for pending navigations. Status: ok
+[1602508354.889][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508354.898][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "ffce63ed-a892-4a9b-90c2-b0aea97965c1"
+}
+[1602508354.899][INFO]: Waiting for pending navigations...
+[1602508354.928][INFO]: Done waiting for pending navigations. Status: ok
+[1602508357.996][INFO]: Waiting for pending navigations...
+[1602508358.135][INFO]: Done waiting for pending navigations. Status: ok
+[1602508358.135][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508358.275][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#cep"
+}
+[1602508358.275][INFO]: Waiting for pending navigations...
+[1602508358.283][INFO]: Done waiting for pending navigations. Status: ok
+[1602508358.514][INFO]: Waiting for pending navigations...
+[1602508358.589][INFO]: Done waiting for pending navigations. Status: ok
+[1602508358.589][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#cep"}
+  (Session info: chrome=85.0.4183.121)
+[1602508359.010][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#cep"
+}
+[1602508359.010][INFO]: Waiting for pending navigations...
+[1602508359.293][INFO]: Done waiting for pending navigations. Status: ok
+[1602508360.520][INFO]: Waiting for pending navigations...
+[1602508360.659][INFO]: Done waiting for pending navigations. Status: ok
+[1602508360.659][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#cep"}
+  (Session info: chrome=85.0.4183.121)
+[1602508360.885][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#cep"
+}
+[1602508360.886][INFO]: Waiting for pending navigations...
+[1602508361.177][INFO]: Done waiting for pending navigations. Status: ok
+[1602508361.816][INFO]: Waiting for pending navigations...
+[1602508362.413][INFO]: Done waiting for pending navigations. Status: ok
+[1602508362.413][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "0f19002e-b36f-469c-bcda-ad7ecf6bad3a"
+}
+[1602508362.549][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0f19002e-b36f-469c-bcda-ad7ecf6bad3a"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508362.549][INFO]: Waiting for pending navigations...
+[1602508363.235][INFO]: Done waiting for pending navigations. Status: ok
+[1602508363.940][INFO]: Waiting for pending navigations...
+[1602508366.014][INFO]: Done waiting for pending navigations. Status: ok
+[1602508366.015][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508366.033][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClearElement {
+   "id": "0f19002e-b36f-469c-bcda-ad7ecf6bad3a"
+}
+[1602508366.033][INFO]: Waiting for pending navigations...
+[1602508367.259][INFO]: Done waiting for pending navigations. Status: ok
+[1602508367.824][INFO]: Waiting for pending navigations...
+[1602508367.861][INFO]: Done waiting for pending navigations. Status: ok
+[1602508367.861][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClearElement
+[1602508367.878][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND TypeElement {
+   "id": "0f19002e-b36f-469c-bcda-ad7ecf6bad3a",
+   "text": "50060090",
+   "value": [ "5", "0", "0", "6", "0", "0", "9", "0" ]
+}
+[1602508367.878][INFO]: Waiting for pending navigations...
+[1602508367.986][INFO]: Done waiting for pending navigations. Status: ok
+[1602508371.296][INFO]: Waiting for pending navigations...
+[1602508371.341][INFO]: Done waiting for pending navigations. Status: ok
+[1602508371.341][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE TypeElement
+[1602508371.352][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".freightForm-okBtn"
+}
+[1602508371.353][INFO]: Waiting for pending navigations...
+[1602508371.528][INFO]: Done waiting for pending navigations. Status: ok
+[1602508371.694][INFO]: Waiting for pending navigations...
+[1602508371.835][INFO]: Done waiting for pending navigations. Status: ok
+[1602508371.835][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "fa83fb00-89ea-47a4-8685-f61afcdff0de"
+}
+[1602508371.872][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "fa83fb00-89ea-47a4-8685-f61afcdff0de"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508371.872][INFO]: Waiting for pending navigations...
+[1602508372.023][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.091][INFO]: Waiting for pending navigations...
+[1602508372.093][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.094][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508372.104][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "fa83fb00-89ea-47a4-8685-f61afcdff0de"
+}
+[1602508372.104][INFO]: Waiting for pending navigations...
+[1602508372.106][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.706][INFO]: Waiting for pending navigations...
+[1602508372.753][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.754][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508372.788][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#buy-button"
+}
+[1602508372.789][INFO]: Waiting for pending navigations...
+[1602508372.798][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.889][INFO]: Waiting for pending navigations...
+[1602508372.910][INFO]: Done waiting for pending navigations. Status: ok
+[1602508372.910][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "45a859fa-e0bc-479f-88c3-48a44432627d"
+}
+[1602508372.954][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "45a859fa-e0bc-479f-88c3-48a44432627d"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602508372.955][INFO]: Waiting for pending navigations...
+[1602508372.958][INFO]: Done waiting for pending navigations. Status: ok
+[1602508373.009][INFO]: Waiting for pending navigations...
+[1602508373.011][INFO]: Done waiting for pending navigations. Status: ok
+[1602508373.012][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ExecuteScript true
+[1602508373.019][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND ClickElement {
+   "id": "45a859fa-e0bc-479f-88c3-48a44432627d"
+}
+[1602508373.019][INFO]: Waiting for pending navigations...
+[1602508373.021][INFO]: Done waiting for pending navigations. Status: ok
+[1602508373.403][INFO]: Waiting for pending navigations...
+[1602508385.741][INFO]: Done waiting for pending navigations. Status: ok
+[1602508385.741][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE ClickElement
+[1602508385.849][INFO]: [0435c88848c817ed8b2c2037a488ab97] COMMAND Quit {
+
+}
+[1602508386.503][INFO]: [0435c88848c817ed8b2c2037a488ab97] RESPONSE Quit

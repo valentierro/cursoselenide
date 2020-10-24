@@ -1,0 +1,36 @@
+package projeto.selenide.objects;
+
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.*;
+
+import org.openqa.selenium.By;
+
+public class Frete {
+	
+	private SelenideElement chkTermosServico = $("#cgv"),
+							btnCheckout = $(By.name("processCarrier"));
+
+	public SelenideElement getChkTermosServico() {
+		return chkTermosServico;
+	}
+
+	public void setChkTermosServico(SelenideElement chkTermosServico) {
+		this.chkTermosServico = chkTermosServico;
+	}
+
+	public SelenideElement getBtnCheckout() {
+		return btnCheckout;
+	}
+
+	public void setBtnCheckout(SelenideElement btnCheckout) {
+		this.btnCheckout = btnCheckout;
+	}
+	
+	
+	public void aceitarTermos() {
+		chkTermosServico.click();
+		btnCheckout.click();
+	}
+			
+
+}

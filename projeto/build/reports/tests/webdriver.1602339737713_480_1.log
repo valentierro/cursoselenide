@@ -1,0 +1,1713 @@
+[1602339739.039][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15510
+[1602339739.040][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602339740.723][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602339740.743][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602339740.745][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602339740.748][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602339740.749][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir2616_664762727" data:,
+[1602339742.544][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602339744.729][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602339746.950][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir2616_664762727"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:51588"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "81fc5488c94b95ea576a60c538e1d3b3"
+}
+[1602339747.296][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND MaximizeWindow {
+
+}
+[1602339747.296][INFO]: Waiting for pending navigations...
+[1602339747.304][INFO]: Done waiting for pending navigations. Status: ok
+[1602339747.446][INFO]: Waiting for pending navigations...
+[1602339747.450][INFO]: Done waiting for pending navigations. Status: ok
+[1602339747.450][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602339747.483][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND Navigate {
+   "url": "https://www.submarino.com.br/"
+}
+[1602339747.483][INFO]: Waiting for pending navigations...
+[1602339747.488][INFO]: Done waiting for pending navigations. Status: ok
+[1602339748.193][INFO]: Waiting for pending navigations...
+[1602339758.246][INFO]: Done waiting for pending navigations. Status: ok
+[1602339758.246][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE Navigate
+[1602339759.584][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#lgpd-accept"
+}
+[1602339759.584][INFO]: Waiting for pending navigations...
+[1602339760.755][INFO]: Done waiting for pending navigations. Status: ok
+[1602339761.033][INFO]: Waiting for pending navigations...
+[1602339768.713][INFO]: Done waiting for pending navigations. Status: ok
+[1602339768.713][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "bf52c153-59c1-4574-8b73-e92f4b596acb"
+}
+[1602339768.968][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "bf52c153-59c1-4574-8b73-e92f4b596acb"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602339768.968][INFO]: Waiting for pending navigations...
+[1602339769.341][INFO]: Done waiting for pending navigations. Status: ok
+[1602339769.896][INFO]: Waiting for pending navigations...
+[1602339770.132][INFO]: Done waiting for pending navigations. Status: ok
+[1602339770.132][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ExecuteScript true
+[1602339770.165][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ClickElement {
+   "id": "bf52c153-59c1-4574-8b73-e92f4b596acb"
+}
+[1602339770.165][INFO]: Waiting for pending navigations...
+[1602339770.393][INFO]: Done waiting for pending navigations. Status: ok
+[1602339771.475][INFO]: Waiting for pending navigations...
+[1602339771.635][INFO]: Done waiting for pending navigations. Status: ok
+[1602339771.635][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ClickElement
+[1602339771.655][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-input"
+}
+[1602339771.656][INFO]: Waiting for pending navigations...
+[1602339771.903][INFO]: Done waiting for pending navigations. Status: ok
+[1602339772.143][INFO]: Waiting for pending navigations...
+[1602339772.375][INFO]: Done waiting for pending navigations. Status: ok
+[1602339772.375][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec"
+}
+[1602339772.424][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602339772.424][INFO]: Waiting for pending navigations...
+[1602339772.499][INFO]: Done waiting for pending navigations. Status: ok
+[1602339772.593][INFO]: Waiting for pending navigations...
+[1602339772.622][INFO]: Done waiting for pending navigations. Status: ok
+[1602339772.622][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ExecuteScript true
+[1602339772.636][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ClearElement {
+   "id": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec"
+}
+[1602339772.636][INFO]: Waiting for pending navigations...
+[1602339772.714][INFO]: Done waiting for pending navigations. Status: ok
+[1602339773.628][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1602339773.687][INFO]: Waiting for pending navigations...
+[1602339773.691][INFO]: Done waiting for pending navigations. Status: ok
+[1602339773.692][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ClearElement
+[1602339773.712][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND TypeElement {
+   "id": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec",
+   "text": "celular",
+   "value": [ "c", "e", "l", "u", "l", "a", "r" ]
+}
+[1602339773.712][INFO]: Waiting for pending navigations...
+[1602339773.714][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.262][INFO]: Waiting for pending navigations...
+[1602339774.298][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.298][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE TypeElement
+[1602339774.312][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-input"
+}
+[1602339774.312][INFO]: Waiting for pending navigations...
+[1602339774.314][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.329][INFO]: Waiting for pending navigations...
+[1602339774.333][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.333][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec"
+}
+[1602339774.383][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602339774.383][INFO]: Waiting for pending navigations...
+[1602339774.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.412][INFO]: Waiting for pending navigations...
+[1602339774.414][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.415][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ExecuteScript true
+[1602339774.439][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND TypeElement {
+   "id": "1b81bbb2-0a62-4c00-b55b-63bb900c82ec",
+   "text": "",
+   "value": [ "" ]
+}
+[1602339774.439][INFO]: Waiting for pending navigations...
+[1602339774.441][INFO]: Done waiting for pending navigations. Status: ok
+[1602339774.706][INFO]: Waiting for pending navigations...
+[1602339798.612][INFO]: Done waiting for pending navigations. Status: ok
+[1602339798.612][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE TypeElement
+[1602339798.626][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".page-title"
+}
+[1602339798.626][INFO]: Waiting for pending navigations...
+[1602339802.089][INFO]: Done waiting for pending navigations. Status: ok
+[1602339803.256][INFO]: Waiting for pending navigations...
+[1602339806.285][INFO]: Done waiting for pending navigations. Status: ok
+[1602339806.285][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "59fb9be9-60bc-4951-8094-5a5d70e2257d"
+}
+[1602339806.392][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "59fb9be9-60bc-4951-8094-5a5d70e2257d"
+}
+[1602339806.392][INFO]: Waiting for pending navigations...
+[1602339806.638][INFO]: Done waiting for pending navigations. Status: ok
+[1602339807.363][INFO]: Waiting for pending navigations...
+[1602339807.882][INFO]: Done waiting for pending navigations. Status: ok
+[1602339807.882][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "celular"
+[1602339807.925][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339807.925][INFO]: Waiting for pending navigations...
+[1602339808.154][INFO]: Done waiting for pending navigations. Status: ok
+[1602339808.683][INFO]: Waiting for pending navigations...
+[1602339808.943][INFO]: Done waiting for pending navigations. Status: ok
+[1602339808.944][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339809.048][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339809.049][INFO]: Waiting for pending navigations...
+[1602339809.322][INFO]: Done waiting for pending navigations. Status: ok
+[1602339809.639][INFO]: Waiting for pending navigations...
+[1602339810.047][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.048][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339810.084][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339810.084][INFO]: Waiting for pending navigations...
+[1602339810.190][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.271][INFO]: Waiting for pending navigations...
+[1602339810.296][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.297][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339810.327][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339810.327][INFO]: Waiting for pending navigations...
+[1602339810.348][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.448][INFO]: Waiting for pending navigations...
+[1602339810.490][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.490][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339810.530][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339810.530][INFO]: Waiting for pending navigations...
+[1602339810.606][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.725][INFO]: Waiting for pending navigations...
+[1602339810.750][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.750][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339810.805][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339810.805][INFO]: Waiting for pending navigations...
+[1602339810.845][INFO]: Done waiting for pending navigations. Status: ok
+[1602339810.984][INFO]: Waiting for pending navigations...
+[1602339811.090][INFO]: Done waiting for pending navigations. Status: ok
+[1602339811.090][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339811.170][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339811.170][INFO]: Waiting for pending navigations...
+[1602339811.232][INFO]: Done waiting for pending navigations. Status: ok
+[1602339811.321][INFO]: Waiting for pending navigations...
+[1602339811.343][INFO]: Done waiting for pending navigations. Status: ok
+[1602339811.344][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339811.562][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339811.563][INFO]: Waiting for pending navigations...
+[1602339811.603][INFO]: Done waiting for pending navigations. Status: ok
+[1602339811.817][INFO]: Waiting for pending navigations...
+[1602339811.833][INFO]: Done waiting for pending navigations. Status: ok
+[1602339811.833][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339812.055][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339812.055][INFO]: Waiting for pending navigations...
+[1602339812.074][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.113][INFO]: Waiting for pending navigations...
+[1602339812.125][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.126][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339812.341][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339812.341][INFO]: Waiting for pending navigations...
+[1602339812.347][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.382][INFO]: Waiting for pending navigations...
+[1602339812.402][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.403][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339812.616][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339812.616][INFO]: Waiting for pending navigations...
+[1602339812.628][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.655][INFO]: Waiting for pending navigations...
+[1602339812.673][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.673][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339812.895][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339812.895][INFO]: Waiting for pending navigations...
+[1602339812.905][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.929][INFO]: Waiting for pending navigations...
+[1602339812.947][INFO]: Done waiting for pending navigations. Status: ok
+[1602339812.947][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339813.181][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339813.181][INFO]: Waiting for pending navigations...
+[1602339813.209][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.234][INFO]: Waiting for pending navigations...
+[1602339813.253][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.253][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339813.479][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339813.479][INFO]: Waiting for pending navigations...
+[1602339813.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.545][INFO]: Waiting for pending navigations...
+[1602339813.565][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.565][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339813.778][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339813.778][INFO]: Waiting for pending navigations...
+[1602339813.787][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.822][INFO]: Waiting for pending navigations...
+[1602339813.847][INFO]: Done waiting for pending navigations. Status: ok
+[1602339813.847][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339814.069][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339814.069][INFO]: Waiting for pending navigations...
+[1602339814.084][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.112][INFO]: Waiting for pending navigations...
+[1602339814.133][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.134][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339814.358][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339814.358][INFO]: Waiting for pending navigations...
+[1602339814.372][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.416][INFO]: Waiting for pending navigations...
+[1602339814.433][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.434][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339814.677][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339814.677][INFO]: Waiting for pending navigations...
+[1602339814.704][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.747][INFO]: Waiting for pending navigations...
+[1602339814.771][INFO]: Done waiting for pending navigations. Status: ok
+[1602339814.771][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339814.988][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339814.989][INFO]: Waiting for pending navigations...
+[1602339815.003][INFO]: Done waiting for pending navigations. Status: ok
+[1602339815.046][INFO]: Waiting for pending navigations...
+[1602339815.062][INFO]: Done waiting for pending navigations. Status: ok
+[1602339815.062][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339815.314][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339815.315][INFO]: Waiting for pending navigations...
+[1602339815.328][INFO]: Done waiting for pending navigations. Status: ok
+[1602339815.670][INFO]: Waiting for pending navigations...
+[1602339815.854][INFO]: Done waiting for pending navigations. Status: ok
+[1602339815.854][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339816.119][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339816.119][INFO]: Waiting for pending navigations...
+[1602339816.164][INFO]: Done waiting for pending navigations. Status: ok
+[1602339816.209][INFO]: Waiting for pending navigations...
+[1602339816.238][INFO]: Done waiting for pending navigations. Status: ok
+[1602339816.239][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339816.469][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339816.469][INFO]: Waiting for pending navigations...
+[1602339816.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602339816.558][INFO]: Waiting for pending navigations...
+[1602339816.634][INFO]: Done waiting for pending navigations. Status: ok
+[1602339816.634][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339816.900][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339816.900][INFO]: Waiting for pending navigations...
+[1602339817.059][INFO]: Done waiting for pending navigations. Status: ok
+[1602339817.212][INFO]: Waiting for pending navigations...
+[1602339817.300][INFO]: Done waiting for pending navigations. Status: ok
+[1602339817.300][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339817.570][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602339817.570][INFO]: Waiting for pending navigations...
+[1602339817.769][INFO]: Done waiting for pending navigations. Status: ok
+[1602339817.924][INFO]: Waiting for pending navigations...
+[1602339818.035][INFO]: Done waiting for pending navigations. Status: ok
+[1602339818.035][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "e675becc-b230-4470-81da-c5435ac543fa"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9511a425-437e-4989-837c-f22e91344944"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3961108-b760-4989-89da-e1563cfa68b3"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "4860de02-5bf2-431c-8928-449561233b05"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}, "..." ]
+[1602339818.305][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "60e15292-1596-4e36-9469-d476a2de6ec1"
+}
+[1602339818.305][INFO]: Waiting for pending navigations...
+[1602339818.403][INFO]: Done waiting for pending navigations. Status: ok
+[1602339818.604][INFO]: Waiting for pending navigations...
+[1602339818.625][INFO]: Done waiting for pending navigations. Status: ok
+[1602339818.625][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602339818.684][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "938852d9-3d3f-41a0-84ac-23b1d148cecc"
+}
+[1602339818.684][INFO]: Waiting for pending navigations...
+[1602339818.713][INFO]: Done waiting for pending navigations. Status: ok
+[1602339818.841][INFO]: Waiting for pending navigations...
+[1602339818.879][INFO]: Done waiting for pending navigations. Status: ok
+[1602339818.880][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602339818.924][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "6dc1aefc-7e4c-4a27-8be9-c4c8da149882"
+}
+[1602339818.924][INFO]: Waiting for pending navigations...
+[1602339818.971][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.095][INFO]: Waiting for pending navigations...
+[1602339819.121][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.121][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602339819.173][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "68f252ff-a07f-4b0c-a5b2-3fc7db240da2"
+}
+[1602339819.173][INFO]: Waiting for pending navigations...
+[1602339819.214][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.332][INFO]: Waiting for pending navigations...
+[1602339819.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.392][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Preto"
+[1602339819.432][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "3687e02a-11cc-4871-af79-d65a7b37b152"
+}
+[1602339819.432][INFO]: Waiting for pending navigations...
+[1602339819.461][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.582][INFO]: Waiting for pending navigations...
+[1602339819.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.651][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone LG K71 128GB Dual Chip Android 10 Tela 6.8\" Quad Core Câmera Tripla 48MP+5MP+5MP Frontal 32MP - White"
+[1602339819.713][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "e95db4f2-fa54-4234-9562-4527de2fbfac"
+}
+[1602339819.714][INFO]: Waiting for pending navigations...
+[1602339819.829][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.943][INFO]: Waiting for pending navigations...
+[1602339819.994][INFO]: Done waiting for pending navigations. Status: ok
+[1602339819.995][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Prata"
+[1602339820.044][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "ec5cc3ab-051c-4cc8-b4ca-726dc0ba2e51"
+}
+[1602339820.045][INFO]: Waiting for pending navigations...
+[1602339820.113][INFO]: Done waiting for pending navigations. Status: ok
+[1602339820.284][INFO]: Waiting for pending navigations...
+[1602339820.306][INFO]: Done waiting for pending navigations. Status: ok
+[1602339820.306][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 Lite - Preto"
+[1602339820.374][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "0359b4fe-e331-4db5-838a-dad2ad7ee5ea"
+}
+[1602339820.374][INFO]: Waiting for pending navigations...
+[1602339820.451][INFO]: Done waiting for pending navigations. Status: ok
+[1602339820.658][INFO]: Waiting for pending navigations...
+[1602339820.732][INFO]: Done waiting for pending navigations. Status: ok
+[1602339820.732][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Rosa"
+[1602339820.813][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "9283d437-4b00-4bf5-afe6-b50c3da3be6a"
+}
+[1602339820.813][INFO]: Waiting for pending navigations...
+[1602339820.892][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.052][INFO]: Waiting for pending navigations...
+[1602339821.104][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.104][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 128GB Dual Chip Android Tela 6.1” Octa-Core 4G Câmera Tripla Traseira 12MP + 12MP + 16MP - Branco"
+[1602339821.156][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "e675becc-b230-4470-81da-c5435ac543fa"
+}
+[1602339821.156][INFO]: Waiting for pending navigations...
+[1602339821.214][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.336][INFO]: Waiting for pending navigations...
+[1602339821.452][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.452][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602339821.486][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "7a121e4d-684f-43d8-9d02-7a328bf974ed"
+}
+[1602339821.486][INFO]: Waiting for pending navigations...
+[1602339821.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.621][INFO]: Waiting for pending navigations...
+[1602339821.642][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.643][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy S20 - Cosmic Gray"
+[1602339821.716][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "bc3ab38d-29e7-4314-93e2-4691aa66cd93"
+}
+[1602339821.716][INFO]: Waiting for pending navigations...
+[1602339821.785][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.960][INFO]: Waiting for pending navigations...
+[1602339821.972][INFO]: Done waiting for pending navigations. Status: ok
+[1602339821.972][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s 64GB Dual Chip Android 10 Tela 6.5\" Octa-Core 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Preto"
+[1602339822.071][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "8cbea8c4-63a4-4356-b4b4-7a945ba01594"
+}
+[1602339822.071][INFO]: Waiting for pending navigations...
+[1602339822.101][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.232][INFO]: Waiting for pending navigations...
+[1602339822.295][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.295][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Azul Capri"
+[1602339822.378][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "9511a425-437e-4989-837c-f22e91344944"
+}
+[1602339822.378][INFO]: Waiting for pending navigations...
+[1602339822.413][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.579][INFO]: Waiting for pending navigations...
+[1602339822.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.651][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A10s 32GB Dual Chip Android 9.0 Tela 6.2” Octa-Core 4G Câmera 13MP+2MP - Preto"
+[1602339822.685][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "d3961108-b760-4989-89da-e1563cfa68b3"
+}
+[1602339822.685][INFO]: Waiting for pending navigations...
+[1602339822.732][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.834][INFO]: Waiting for pending navigations...
+[1602339822.901][INFO]: Done waiting for pending navigations. Status: ok
+[1602339822.901][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s Dual Chip Android 10 Tela 6.5\" Octa-Core 64GB 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Branco"
+[1602339822.948][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "741f4e6d-d0a3-4716-b7d5-bb13d3e260b8"
+}
+[1602339822.948][INFO]: Waiting for pending navigations...
+[1602339822.958][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.105][INFO]: Waiting for pending navigations...
+[1602339823.138][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.138][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Azul"
+[1602339823.166][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "113d18ef-22ca-42d7-9426-ae90bb97f752"
+}
+[1602339823.166][INFO]: Waiting for pending navigations...
+[1602339823.263][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.388][INFO]: Waiting for pending navigations...
+[1602339823.494][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.494][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A31 Dual Chip Android 10 Tela 6.4\" Octa-Core 128GB 4G Câmera Quádrupla 48MP+8MP+5MP+5MP - Azul"
+[1602339823.576][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "4860de02-5bf2-431c-8928-449561233b05"
+}
+[1602339823.576][INFO]: Waiting for pending navigations...
+[1602339823.662][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.805][INFO]: Waiting for pending navigations...
+[1602339823.865][INFO]: Done waiting for pending navigations. Status: ok
+[1602339823.865][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A51 Android Tela 6,5\" Super Amoled Octa-Core 2.3 128GB 4G Câmera 48MP+12MP+5Mp - Azul"
+[1602339823.977][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "0f25120b-a4a2-4926-8ebe-3e05d3a140d9"
+}
+[1602339823.978][INFO]: Waiting for pending navigations...
+[1602339824.006][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.116][INFO]: Waiting for pending navigations...
+[1602339824.152][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.152][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A20s 32GB Dual Chip Android 9.0 Tela 6.5\" Octa-Core 1.8 GHz 4G Câmera Tripla 13.0 MP + 5.0 MP + 5.0 MP(UW) - Azul"
+[1602339824.167][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "5bddbe3d-0e35-46b5-8e91-daa1b24dbbb8"
+}
+[1602339824.167][INFO]: Waiting for pending navigations...
+[1602339824.218][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.367][INFO]: Waiting for pending navigations...
+[1602339824.416][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.416][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Azul"
+[1602339824.446][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "f0ac784f-61ff-4894-933a-ada9ef42b4c5"
+}
+[1602339824.446][INFO]: Waiting for pending navigations...
+[1602339824.504][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.617][INFO]: Waiting for pending navigations...
+[1602339824.702][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.702][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Branco"
+[1602339824.746][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "e38b1b42-d235-440c-9bb3-2e5db1f15daf"
+}
+[1602339824.746][INFO]: Waiting for pending navigations...
+[1602339824.801][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.899][INFO]: Waiting for pending navigations...
+[1602339824.923][INFO]: Done waiting for pending navigations. Status: ok
+[1602339824.923][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Motorola One Fusion Dual Chip Android tela 6.5\" 128GB Wi-Fi Câmera 48MP+8MP - Azul Safira"
+[1602339824.991][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "f4834f8c-5153-4835-a96e-8d09557671e9"
+}
+[1602339824.991][INFO]: Waiting for pending navigations...
+[1602339825.032][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.175][INFO]: Waiting for pending navigations...
+[1602339825.224][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.224][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy A01 - Azul"
+[1602339825.294][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "bd4770d0-b80b-423d-9b8b-49585ec6a6fc"
+}
+[1602339825.294][INFO]: Waiting for pending navigations...
+[1602339825.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.424][INFO]: Waiting for pending navigations...
+[1602339825.446][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.446][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Moto G8 Play 32GB Dual Chip Android Tela 6.2\" 4G Wi-Fi Câmera 13MP + 8MP + 2MP - Preto Ônix"
+[1602339825.517][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "33ba3a1f-3e9a-4b6f-8ce3-f234c864e059"
+}
+[1602339825.517][INFO]: Waiting for pending navigations...
+[1602339825.544][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.663][INFO]: Waiting for pending navigations...
+[1602339825.717][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.717][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Porta Celular Suporte Smartphone Tablet Prime Maxcril Preto"
+[1602339825.752][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "94899af7-faed-4e97-b3d1-8ff8ed76c8f0"
+}
+[1602339825.752][INFO]: Waiting for pending navigations...
+[1602339825.785][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.897][INFO]: Waiting for pending navigations...
+[1602339825.913][INFO]: Done waiting for pending navigations. Status: ok
+[1602339825.913][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602339825.942][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "4dd98894-87e9-4464-8b00-44e8c878df9c"
+}
+[1602339825.942][INFO]: Waiting for pending navigations...
+[1602339825.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.077][INFO]: Waiting for pending navigations...
+[1602339826.111][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.112][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Suporte Veicular Magnético Super Firme E Resistente Super Fino Para Carro Segura Celular Smartphone GPS Tablet 2 Unidades WixGear"
+[1602339826.123][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "e841f639-ac94-4078-8709-a12048206917"
+}
+[1602339826.123][INFO]: Waiting for pending navigations...
+[1602339826.137][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.267][INFO]: Waiting for pending navigations...
+[1602339826.305][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.305][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Sony Xperia Z5 Premium 32GB 3GB RAM Câmera Traseira 23MP e Frontal 5MP Tela 5.5\" Dourado"
+[1602339826.357][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "2d2f2736-492b-4d60-9db9-c5682e530422"
+}
+[1602339826.357][INFO]: Waiting for pending navigations...
+[1602339826.371][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.458][INFO]: Waiting for pending navigations...
+[1602339826.472][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.472][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "USADO: Smartphone LG X230DS K4 Novo Dual Chip, 4G, Câmera Traseira: 8 MP, Ram 1GB, Tela: 5” - Chocolate - Excelente"
+[1602339826.498][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "00bd9c01-9a97-401c-823f-e679dbd3b2bc"
+}
+[1602339826.499][INFO]: Waiting for pending navigations...
+[1602339826.506][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.569][INFO]: Waiting for pending navigations...
+[1602339826.598][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.599][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Celular Dual Chip LG B220 Desbloqueado 32MB 2G Rádio FM - Preto"
+[1602339826.627][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "a5818d40-0c5f-47e5-a3f2-312586198394"
+}
+[1602339826.627][INFO]: Waiting for pending navigations...
+[1602339826.704][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.783][INFO]: Waiting for pending navigations...
+[1602339826.828][INFO]: Done waiting for pending navigations. Status: ok
+[1602339826.828][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Celular Positivo P28 Preto com Dual Chip, Tela 2.8”, Câmera, Rádio FM, MP3/MP4, Bluetooth"
+[1602339826.856][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "08291369-34b8-49dd-98f2-375d26e6711c"
+}
+[1602339826.856][INFO]: Waiting for pending navigations...
+[1602339826.874][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.013][INFO]: Waiting for pending navigations...
+[1602339827.049][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.049][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Samsung Galaxy J6 32GB Dual Chip Android 8.0 Tela 5.6\" Octa-Core 1.6GHz 4G Câmera 13MP com TV - Preto"
+[1602339827.077][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "7c0ee38c-d882-4e6c-ad7e-cfe6e8e8ac56"
+}
+[1602339827.077][INFO]: Waiting for pending navigations...
+[1602339827.102][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.156][INFO]: Waiting for pending navigations...
+[1602339827.206][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.206][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText "Smartphone Motorola Moto G6 32GB Dual Chip Android Oreo - 8.0 Tela 5.7\" Octa-Core 1.8 GHz 4G Câmera 12 + 5MP (Dual Traseira) - Índigo"
+[1602339827.229][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND GetElementText {
+   "id": "d05f2847-a980-40e8-a15d-e2895e8ebd30"
+}
+[1602339827.229][INFO]: Waiting for pending navigations...
+[1602339827.275][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.329][INFO]: Waiting for pending navigations...
+[1602339827.348][INFO]: Done waiting for pending navigations. Status: ok
+[1602339827.348][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE GetElementText ""
+[1602339827.374][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602339827.375][INFO]: Waiting for pending navigations...
+[1602339827.399][INFO]: Done waiting for pending navigations. Status: ok
+[1602339828.332][INFO]: Waiting for pending navigations...
+[1602339828.379][INFO]: Done waiting for pending navigations. Status: ok
+[1602339828.383][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE ExecuteScript "\u003Chtml lang=\"pt-br\">\u003Chead>\n        \u003Cmeta charset=\"UTF-8\">\n        \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\u003Cmeta name=\"X-Recruiting\" content=\"Do you want to impact people's life with yo..."
+[1602339829.967][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND Screenshot {
+
+}
+[1602339829.967][INFO]: Waiting for pending navigations...
+[1602339830.018][INFO]: Done waiting for pending navigations. Status: ok
+[1602339830.869][INFO]: Waiting for pending navigations...
+[1602339830.902][INFO]: Done waiting for pending navigations. Status: ok
+[1602339830.903][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4VNXWx/EvJbQQRFEpSi8iNfSiUgRREFAEL4IaRJBiQUFQ1JcicK+ANMECWLhGJepFUUBUpIPUUAOISEcIIGDooUTeP1aGKZkkM+nl93meeSBnztlnn5kzJ..."
+[1602339832.435][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] COMMAND Quit {
+
+}
+[1602339833.356][INFO]: [81fc5488c94b95ea576a60c538e1d3b3] RESPONSE Quit

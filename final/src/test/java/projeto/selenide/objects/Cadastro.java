@@ -1,0 +1,171 @@
+package projeto.selenide.objects;
+
+import org.openqa.selenium.By;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.*;
+
+public class Cadastro {
+
+	private SelenideElement radioGenero = $(By.name("id_gender")), inputPrimeiroNome = $("#customer_firstname"),
+			inputUltimoNome = $("#customer_lastname"), inputEmail = $("#email"), inputSenha = $("#passwd"),
+			selectDia = $("#days"), selectMes = $("#months"), selectAno = $("#years"), chkNovidades = $("#newsletter"),
+			inputEndereco = $("#address1"), inputCidade = $("#city"), selectEstado = $("#id_state"),
+			inputCep = $("#postcode"), inputCelular = $("#phone_mobile"), btnConfirmarCadastro = $("#submitAccount");
+
+	public SelenideElement getRadioGenero() {
+		return radioGenero;
+	}
+
+	public void setRadioGenero(SelenideElement radioGenero) {
+		this.radioGenero = radioGenero;
+	}
+
+	public SelenideElement getInputPrimeiroNome() {
+		return inputPrimeiroNome;
+	}
+
+	public void setInputPrimeiroNome(SelenideElement inputPrimeiroNome) {
+		this.inputPrimeiroNome = inputPrimeiroNome;
+	}
+
+	public SelenideElement getInputUltimoNome() {
+		return inputUltimoNome;
+	}
+
+	public void setInputUltimoNome(SelenideElement inputUltimoNome) {
+		this.inputUltimoNome = inputUltimoNome;
+	}
+
+	public SelenideElement getInputEmail() {
+		return inputEmail;
+	}
+
+	public void setInputEmail(SelenideElement inputEmail) {
+		this.inputEmail = inputEmail;
+	}
+
+	public SelenideElement getInputSenha() {
+		return inputSenha;
+	}
+
+	public void setInputSenha(SelenideElement inputSenha) {
+		this.inputSenha = inputSenha;
+	}
+
+	public SelenideElement getSelectDia() {
+		return selectDia;
+	}
+
+	public void setSelectDia(SelenideElement selectDia) {
+		this.selectDia = selectDia;
+	}
+
+	public SelenideElement getSelectMes() {
+		return selectMes;
+	}
+
+	public void setSelectMes(SelenideElement selectMes) {
+		this.selectMes = selectMes;
+	}
+
+	public SelenideElement getSelectAno() {
+		return selectAno;
+	}
+
+	public void setSelectAno(SelenideElement selectAno) {
+		this.selectAno = selectAno;
+	}
+
+	public SelenideElement getChkNovidades() {
+		return chkNovidades;
+	}
+
+	public void setChkNovidades(SelenideElement chkNovidades) {
+		this.chkNovidades = chkNovidades;
+	}
+
+	public SelenideElement getInputEndereco() {
+		return inputEndereco;
+	}
+
+	public void setInputEndereco(SelenideElement inputEndereco) {
+		this.inputEndereco = inputEndereco;
+	}
+
+	public SelenideElement getInputCidade() {
+		return inputCidade;
+	}
+
+	public void setInputCidade(SelenideElement inputCidade) {
+		this.inputCidade = inputCidade;
+	}
+
+	public SelenideElement getSelectEstado() {
+		return selectEstado;
+	}
+
+	public void setSelectEstado(SelenideElement selectEstado) {
+		this.selectEstado = selectEstado;
+	}
+
+	public SelenideElement getInputCep() {
+		return inputCep;
+	}
+
+	public void setInputCep(SelenideElement inputCep) {
+		this.inputCep = inputCep;
+	}
+
+	public SelenideElement getInputCelular() {
+		return inputCelular;
+	}
+
+	public void setInputCelular(SelenideElement inputCelular) {
+		this.inputCelular = inputCelular;
+	}
+
+	public SelenideElement getBtnConfirmarCadastro() {
+		return btnConfirmarCadastro;
+	}
+
+	public void setBtnConfirmarCadastro(SelenideElement btnConfirmarCadastro) {
+		this.btnConfirmarCadastro = btnConfirmarCadastro;
+	}
+
+	public void preencherCadastro(String genero, String nome, String ultimoNome, String senha, String diaNascimento,
+			String mesNascimento, String anoNascimento, String endereco, String cidade, String estado, String cep,
+			String celular) {
+		
+		if (genero.equalsIgnoreCase("masculino")) {
+			radioGenero.selectRadio("1");
+		}else {
+			radioGenero.selectRadio("2");
+		}
+		
+		inputPrimeiroNome.setValue(nome).pressTab();
+		inputUltimoNome.setValue(ultimoNome).pressTab();
+		
+		inputEmail.shouldNot(Condition.empty);
+		inputSenha.setValue(senha);
+		
+		selectDia.selectOptionByValue(diaNascimento);
+		selectMes.selectOptionByValue(mesNascimento);
+		selectAno.selectOptionByValue(anoNascimento);
+		
+		chkNovidades.click();
+		
+		
+		inputEndereco.setValue(endereco);
+		inputCidade.setValue(cidade);
+		selectEstado.selectOption(estado);
+		inputCep.setValue(cep);
+		inputCelular.setValue(celular);
+		
+		btnConfirmarCadastro.click();
+		
+		
+	}
+
+}

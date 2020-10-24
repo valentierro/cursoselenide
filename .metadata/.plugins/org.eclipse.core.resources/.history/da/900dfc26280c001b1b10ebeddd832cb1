@@ -1,0 +1,14 @@
+package selenide.padrao.pageobjects;
+
+import static com.codeborne.selenide.Selenide.$;
+
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.SelenideElement;
+import com.codeborne.selenide.ex.ElementWithTextNotFound;
+import com.codeborne.selenide.Selenide.*;
+
+public class ResultadoBusca {
+	
+	private ElementsCollection resultados = $$(".TitleUI-bwhjk3-15");
+
+}

@@ -1,0 +1,736 @@
+[1601841707.098][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29746
+[1601841707.099][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601841708.126][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601841708.138][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601841708.139][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601841708.142][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1601841708.142][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir12544_318788312" data:,
+[1601841709.276][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601841711.290][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601841713.306][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir12544_318788312"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62712"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "73cf9feb718dc7472a60fce2e43c7aa4"
+}
+[1601841713.441][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND MaximizeWindow {
+
+}
+[1601841713.441][INFO]: Waiting for pending navigations...
+[1601841713.445][INFO]: Done waiting for pending navigations. Status: ok
+[1601841713.569][INFO]: Waiting for pending navigations...
+[1601841713.570][INFO]: Done waiting for pending navigations. Status: ok
+[1601841713.570][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1601841713.605][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND Navigate {
+   "url": "https://sqengineer.com/"
+}
+[1601841713.606][INFO]: Waiting for pending navigations...
+[1601841713.610][INFO]: Done waiting for pending navigations. Status: ok
+[1601841715.119][INFO]: Waiting for pending navigations...
+[1601841717.401][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.401][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE Navigate
+[1601841717.621][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841717.622][INFO]: Waiting for pending navigations...
+[1601841717.624][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.648][INFO]: Waiting for pending navigations...
+[1601841717.650][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.650][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841717.663][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841717.663][INFO]: Waiting for pending navigations...
+[1601841717.664][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.704][INFO]: Waiting for pending navigations...
+[1601841717.706][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.706][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841717.939][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841717.939][INFO]: Waiting for pending navigations...
+[1601841717.940][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.951][INFO]: Waiting for pending navigations...
+[1601841717.952][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.953][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841717.959][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841717.960][INFO]: Waiting for pending navigations...
+[1601841717.961][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.982][INFO]: Waiting for pending navigations...
+[1601841717.983][INFO]: Done waiting for pending navigations. Status: ok
+[1601841717.983][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841718.194][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841718.194][INFO]: Waiting for pending navigations...
+[1601841718.196][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.208][INFO]: Waiting for pending navigations...
+[1601841718.210][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.210][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841718.219][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841718.220][INFO]: Waiting for pending navigations...
+[1601841718.221][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.237][INFO]: Waiting for pending navigations...
+[1601841718.239][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.239][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841718.450][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841718.450][INFO]: Waiting for pending navigations...
+[1601841718.452][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.464][INFO]: Waiting for pending navigations...
+[1601841718.466][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.466][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841718.475][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841718.475][INFO]: Waiting for pending navigations...
+[1601841718.477][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.494][INFO]: Waiting for pending navigations...
+[1601841718.495][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.495][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841718.706][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841718.706][INFO]: Waiting for pending navigations...
+[1601841718.708][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.720][INFO]: Waiting for pending navigations...
+[1601841718.722][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.722][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841718.729][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841718.729][INFO]: Waiting for pending navigations...
+[1601841718.731][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.751][INFO]: Waiting for pending navigations...
+[1601841718.752][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.752][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841718.961][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841718.961][INFO]: Waiting for pending navigations...
+[1601841718.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.974][INFO]: Waiting for pending navigations...
+[1601841718.976][INFO]: Done waiting for pending navigations. Status: ok
+[1601841718.976][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841718.983][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841718.983][INFO]: Waiting for pending navigations...
+[1601841718.985][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.002][INFO]: Waiting for pending navigations...
+[1601841719.003][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.003][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841719.212][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841719.212][INFO]: Waiting for pending navigations...
+[1601841719.214][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.224][INFO]: Waiting for pending navigations...
+[1601841719.226][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.226][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841719.233][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841719.233][INFO]: Waiting for pending navigations...
+[1601841719.235][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.251][INFO]: Waiting for pending navigations...
+[1601841719.252][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.253][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841719.463][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841719.464][INFO]: Waiting for pending navigations...
+[1601841719.466][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.476][INFO]: Waiting for pending navigations...
+[1601841719.478][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.478][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841719.486][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841719.486][INFO]: Waiting for pending navigations...
+[1601841719.488][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.505][INFO]: Waiting for pending navigations...
+[1601841719.507][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.507][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841719.717][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841719.717][INFO]: Waiting for pending navigations...
+[1601841719.719][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.729][INFO]: Waiting for pending navigations...
+[1601841719.730][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.730][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841719.737][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841719.737][INFO]: Waiting for pending navigations...
+[1601841719.739][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.755][INFO]: Waiting for pending navigations...
+[1601841719.756][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.756][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841719.964][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841719.964][INFO]: Waiting for pending navigations...
+[1601841719.966][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.975][INFO]: Waiting for pending navigations...
+[1601841719.977][INFO]: Done waiting for pending navigations. Status: ok
+[1601841719.977][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841719.984][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841719.984][INFO]: Waiting for pending navigations...
+[1601841719.985][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.011][INFO]: Waiting for pending navigations...
+[1601841720.016][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.016][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841720.226][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841720.226][INFO]: Waiting for pending navigations...
+[1601841720.227][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.237][INFO]: Waiting for pending navigations...
+[1601841720.239][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.239][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841720.246][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841720.246][INFO]: Waiting for pending navigations...
+[1601841720.248][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.265][INFO]: Waiting for pending navigations...
+[1601841720.267][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.267][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841720.476][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841720.476][INFO]: Waiting for pending navigations...
+[1601841720.478][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.488][INFO]: Waiting for pending navigations...
+[1601841720.490][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.490][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841720.497][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841720.497][INFO]: Waiting for pending navigations...
+[1601841720.499][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.516][INFO]: Waiting for pending navigations...
+[1601841720.518][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.518][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841720.726][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841720.726][INFO]: Waiting for pending navigations...
+[1601841720.728][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.741][INFO]: Waiting for pending navigations...
+[1601841720.743][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.743][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841720.749][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841720.749][INFO]: Waiting for pending navigations...
+[1601841720.751][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.768][INFO]: Waiting for pending navigations...
+[1601841720.769][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.769][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841720.977][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841720.977][INFO]: Waiting for pending navigations...
+[1601841720.979][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.990][INFO]: Waiting for pending navigations...
+[1601841720.991][INFO]: Done waiting for pending navigations. Status: ok
+[1601841720.991][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841720.997][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841720.998][INFO]: Waiting for pending navigations...
+[1601841720.999][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.015][INFO]: Waiting for pending navigations...
+[1601841721.017][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.017][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841721.229][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841721.229][INFO]: Waiting for pending navigations...
+[1601841721.231][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.241][INFO]: Waiting for pending navigations...
+[1601841721.243][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.243][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841721.249][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841721.249][INFO]: Waiting for pending navigations...
+[1601841721.251][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.268][INFO]: Waiting for pending navigations...
+[1601841721.269][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.269][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841721.480][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841721.481][INFO]: Waiting for pending navigations...
+[1601841721.482][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.493][INFO]: Waiting for pending navigations...
+[1601841721.494][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.495][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841721.501][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841721.501][INFO]: Waiting for pending navigations...
+[1601841721.503][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.520][INFO]: Waiting for pending navigations...
+[1601841721.521][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.521][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841721.731][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841721.731][INFO]: Waiting for pending navigations...
+[1601841721.732][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.743][INFO]: Waiting for pending navigations...
+[1601841721.745][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.745][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841721.751][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841721.752][INFO]: Waiting for pending navigations...
+[1601841721.753][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.770][INFO]: Waiting for pending navigations...
+[1601841721.771][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.771][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841721.981][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841721.981][INFO]: Waiting for pending navigations...
+[1601841721.983][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.994][INFO]: Waiting for pending navigations...
+[1601841721.995][INFO]: Done waiting for pending navigations. Status: ok
+[1601841721.996][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841722.002][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841722.002][INFO]: Waiting for pending navigations...
+[1601841722.004][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.022][INFO]: Waiting for pending navigations...
+[1601841722.024][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.024][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841722.233][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841722.233][INFO]: Waiting for pending navigations...
+[1601841722.235][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.245][INFO]: Waiting for pending navigations...
+[1601841722.246][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.247][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841722.262][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841722.262][INFO]: Waiting for pending navigations...
+[1601841722.267][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.290][INFO]: Waiting for pending navigations...
+[1601841722.292][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.293][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841722.501][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841722.501][INFO]: Waiting for pending navigations...
+[1601841722.504][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.518][INFO]: Waiting for pending navigations...
+[1601841722.519][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.519][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841722.526][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841722.526][INFO]: Waiting for pending navigations...
+[1601841722.527][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.544][INFO]: Waiting for pending navigations...
+[1601841722.545][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.545][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841722.753][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841722.753][INFO]: Waiting for pending navigations...
+[1601841722.755][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.764][INFO]: Waiting for pending navigations...
+[1601841722.766][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.766][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841722.772][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841722.773][INFO]: Waiting for pending navigations...
+[1601841722.774][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.792][INFO]: Waiting for pending navigations...
+[1601841722.793][INFO]: Done waiting for pending navigations. Status: ok
+[1601841722.793][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841723.002][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841723.002][INFO]: Waiting for pending navigations...
+[1601841723.004][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.015][INFO]: Waiting for pending navigations...
+[1601841723.017][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.017][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841723.022][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841723.022][INFO]: Waiting for pending navigations...
+[1601841723.024][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.041][INFO]: Waiting for pending navigations...
+[1601841723.042][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.042][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841723.249][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841723.249][INFO]: Waiting for pending navigations...
+[1601841723.251][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.261][INFO]: Waiting for pending navigations...
+[1601841723.263][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.263][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841723.268][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841723.269][INFO]: Waiting for pending navigations...
+[1601841723.270][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.288][INFO]: Waiting for pending navigations...
+[1601841723.289][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.289][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841723.498][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841723.498][INFO]: Waiting for pending navigations...
+[1601841723.500][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.510][INFO]: Waiting for pending navigations...
+[1601841723.512][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.512][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841723.518][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindChildElement {
+   "id": "e20c7977-120c-4033-a1e5-ec62db81d22f",
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841723.518][INFO]: Waiting for pending navigations...
+[1601841723.520][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.536][INFO]: Waiting for pending navigations...
+[1601841723.537][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.537][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841723.754][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".onepress-menu"
+}
+[1601841723.754][INFO]: Waiting for pending navigations...
+[1601841723.756][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.767][INFO]: Waiting for pending navigations...
+[1601841723.768][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.768][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+}
+[1601841723.819][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "e20c7977-120c-4033-a1e5-ec62db81d22f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601841723.819][INFO]: Waiting for pending navigations...
+[1601841723.821][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.849][INFO]: Waiting for pending navigations...
+[1601841723.851][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.851][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE ExecuteScript true
+[1601841723.889][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601841723.889][INFO]: Waiting for pending navigations...
+[1601841723.891][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.906][INFO]: Waiting for pending navigations...
+[1601841723.908][INFO]: Done waiting for pending navigations. Status: ok
+[1601841723.908][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE ExecuteScript "\u003Chtml lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\">\u003Chead>\n\u003Cmeta charset=\"UTF-8\">\n\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\u003Clink rel=\"profile\" href=\"http://gmpg.org/xfn/11..."
+[1601841723.968][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND Screenshot {
+
+}
+[1601841723.968][INFO]: Waiting for pending navigations...
+[1601841723.970][INFO]: Done waiting for pending navigations. Status: ok
+[1601841724.460][INFO]: Waiting for pending navigations...
+[1601841724.462][INFO]: Done waiting for pending navigations. Status: ok
+[1601841724.463][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlYVGX7B/DvAI2yjKmDC/CWuIQauCQogpamCCKQawaa+0ZuuS8oRipoipJpprjghuaCG5KAqPBTxA2XJEXrJfANKBW3QUAS5/cHzmkGZoZhE6Tv57q4opnnn..."
+[1601841725.441][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] COMMAND Quit {
+
+}
+[1601841725.708][INFO]: [73cf9feb718dc7472a60fce2e43c7aa4] RESPONSE Quit

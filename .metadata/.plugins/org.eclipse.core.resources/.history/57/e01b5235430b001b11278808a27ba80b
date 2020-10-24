@@ -1,0 +1,37 @@
+package selenide.projeto;
+
+
+import org.openqa.selenium.By;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.collections.*;
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selectors.*;
+
+import static com.codeborne.selenide.CollectionCondition.*;
+
+public class ElementosEspeciais {
+	
+	@BeforeTest
+	void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=5000;
+	}
+	
+	@Test
+	void checkboxRadio() {
+		
+		open("https://the-internet.herokuapp.com/");
+		$(By.linkText("Checkboxes")).click();
+		$("#checkboxes").find(byText("checkbox 2")).setSelected(false);
+		$("#checkboxes").find(byText("checkbox 1")).setSelected(true);
+		
+		
+	}
+
+}

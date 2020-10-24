@@ -1,0 +1,44 @@
+package selenide.padrao.tests;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.codeborne.selenide.Configuration;
+
+import selenide.padrao.pageobjects.Checkout;
+import selenide.padrao.pageobjects.DetalheProduto;
+import selenide.padrao.pageobjects.Garantia;
+import selenide.padrao.pageobjects.Home;
+import selenide.padrao.pageobjects.ResultadoBusca;
+
+public class TesteCompra {
+	
+	static Home homeObjects;
+	static Checkout checkoutObjects;
+	static DetalheProduto detalheObjects;
+	static Garantia garantiaObjects;
+	static ResultadoBusca resultadoObjects;
+	
+	
+	@BeforeClass
+	public static void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=8000;
+		
+		homeObjects = new Home();
+		checkoutObjects = new Checkout();
+		detalheObjects = new DetalheProduto();
+		garantiaObjects = new Garantia();
+		resultadoObjects = new ResultadoBusca();
+	}
+	
+	@Test
+	public void comprarCelular() {
+		homeObjects.buscaProduto("celular");
+		resultadoObjects.escolhaItem("Motorola");
+		detalheObjects.comprar();
+		garantiaObjects.continuarGarantia();
+		checkoutObjects.confirmarPedido("51030480", "retirar");
+	}
+
+}

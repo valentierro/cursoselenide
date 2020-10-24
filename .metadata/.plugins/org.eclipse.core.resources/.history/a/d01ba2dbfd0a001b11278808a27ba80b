@@ -1,0 +1,47 @@
+package selenide.projeto;
+
+import static com.codeborne.selenide.Selenide.*;
+
+import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.collections.*;
+import static com.codeborne.selenide.CollectionCondition.*;
+
+public class Colecoes {
+	
+	@BeforeTest
+	void configuracao() {
+		Configuration.timeout=7000;
+		Configuration.startMaximized=true;
+		open("https://www.submarino.com.br/");
+	}
+	
+	@Test
+	void colecoes() {
+		
+		$("#lgpd-accept").click();
+		$("#h_search-input").setValue("celular").pressEnter();
+		
+		//ElementsCollection colecoes = $$(".product-grid-item");
+		//System.out.println(colecoes.size());
+		//colecoes.shouldHaveSize(42);
+		//Assert.assertTrue(colecoes.size() > 0);
+		
+		//$$(".product-grid-item").shouldHaveSize(42);	
+		ElementsCollection titulos = $$(By.xpath("//h2[contains(@class,'TitleUI-bwhjk3-15')]"));
+		System.out.println(titulos.size());
+		
+	}
+	
+	@Test
+	void assertions() {
+		ElementsCollection titulos = $$(By.xpath("//h2[contains(@class,'TitleUI-bwhjk3-15')]"));
+		System.out.println(titulos.size());
+	}
+}

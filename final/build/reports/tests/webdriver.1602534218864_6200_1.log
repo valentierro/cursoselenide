@@ -1,0 +1,1189 @@
+[1602534219.639][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 31256
+[1602534219.640][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602534220.943][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602534216016_6200_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602534216016_6200_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602534220.960][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602534216016_6200_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602534220.961][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602534220.964][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602534220.964][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir15036_232128420" data:,
+[1602534222.788][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602534224.820][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602534226.848][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir15036_232128420"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49363"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "f7456cbc6f1bf9bb7862cfeeba0da91f"
+}
+[1602534227.110][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND MaximizeWindow {
+
+}
+[1602534227.110][INFO]: Waiting for pending navigations...
+[1602534227.116][INFO]: Done waiting for pending navigations. Status: ok
+[1602534227.261][INFO]: Waiting for pending navigations...
+[1602534227.263][INFO]: Done waiting for pending navigations. Status: ok
+[1602534227.263][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602534227.281][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602534227.281][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE SetTimeouts
+[1602534227.320][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1602534227.321][INFO]: Waiting for pending navigations...
+[1602534227.323][INFO]: Done waiting for pending navigations. Status: ok
+[1602534229.800][INFO]: Waiting for pending navigations...
+[1602534235.663][INFO]: Done waiting for pending navigations. Status: ok
+[1602534235.663][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE Navigate
+[1602534236.281][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Sign in"
+}
+[1602534236.509][INFO]: Waiting for pending navigations...
+[1602534236.517][INFO]: Done waiting for pending navigations. Status: ok
+[1602534236.580][INFO]: Waiting for pending navigations...
+[1602534236.582][INFO]: Done waiting for pending navigations. Status: ok
+[1602534236.582][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "20a75ffa-9d12-4b76-9c28-e3f085a82379"
+}
+[1602534236.706][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "20a75ffa-9d12-4b76-9c28-e3f085a82379"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602534236.706][INFO]: Waiting for pending navigations...
+[1602534236.716][INFO]: Done waiting for pending navigations. Status: ok
+[1602534236.779][INFO]: Waiting for pending navigations...
+[1602534236.781][INFO]: Done waiting for pending navigations. Status: ok
+[1602534236.781][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript true
+[1602534236.793][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ClickElement {
+   "id": "20a75ffa-9d12-4b76-9c28-e3f085a82379"
+}
+[1602534236.794][INFO]: Waiting for pending navigations...
+[1602534236.796][INFO]: Done waiting for pending navigations. Status: ok
+[1602534237.101][INFO]: Waiting for pending navigations...
+[1602534238.543][INFO]: Done waiting for pending navigations. Status: ok
+[1602534238.543][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ClickElement
+[1602534238.597][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1602534238.597][INFO]: Waiting for pending navigations...
+[1602534238.632][INFO]: Done waiting for pending navigations. Status: ok
+[1602534238.745][INFO]: Waiting for pending navigations...
+[1602534238.913][INFO]: Done waiting for pending navigations. Status: ok
+[1602534238.913][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=85.0.4183.121)
+[1602534239.227][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#email"
+}
+[1602534239.227][INFO]: Waiting for pending navigations...
+[1602534239.452][INFO]: Done waiting for pending navigations. Status: ok
+[1602534239.487][INFO]: Waiting for pending navigations...
+[1602534239.489][INFO]: Done waiting for pending navigations. Status: ok
+[1602534239.489][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "69d8fd0f-2f32-48c7-a6cd-a74e76a77c64"
+}
+[1602534239.530][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "69d8fd0f-2f32-48c7-a6cd-a74e76a77c64"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602534239.530][INFO]: Waiting for pending navigations...
+[1602534239.538][INFO]: Done waiting for pending navigations. Status: ok
+[1602534239.660][INFO]: Waiting for pending navigations...
+[1602534239.699][INFO]: Done waiting for pending navigations. Status: ok
+[1602534239.700][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript true
+[1602534239.763][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ClearElement {
+   "id": "69d8fd0f-2f32-48c7-a6cd-a74e76a77c64"
+}
+[1602534239.763][INFO]: Waiting for pending navigations...
+[1602534239.767][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.063][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1602534240.169][INFO]: Waiting for pending navigations...
+[1602534240.173][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.173][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ClearElement
+[1602534240.205][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND TypeElement {
+   "id": "69d8fd0f-2f32-48c7-a6cd-a74e76a77c64",
+   "text": "erick2@erick.com",
+   "value": [ "e", "r", "i", "c", "k", "2", "@", "e", "r", "i", "c", "k", ".", "c", "o", "m" ]
+}
+[1602534240.205][INFO]: Waiting for pending navigations...
+[1602534240.208][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.829][INFO]: Waiting for pending navigations...
+[1602534240.850][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.850][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE TypeElement
+[1602534240.878][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#passwd"
+}
+[1602534240.878][INFO]: Waiting for pending navigations...
+[1602534240.891][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.943][INFO]: Waiting for pending navigations...
+[1602534240.946][INFO]: Done waiting for pending navigations. Status: ok
+[1602534240.946][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "3f28fe83-a6a4-4417-8d14-96377229dc1f"
+}
+[1602534241.001][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "3f28fe83-a6a4-4417-8d14-96377229dc1f"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602534241.001][INFO]: Waiting for pending navigations...
+[1602534241.005][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.044][INFO]: Waiting for pending navigations...
+[1602534241.048][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.048][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript true
+[1602534241.058][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ClearElement {
+   "id": "3f28fe83-a6a4-4417-8d14-96377229dc1f"
+}
+[1602534241.059][INFO]: Waiting for pending navigations...
+[1602534241.061][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.215][INFO]: Waiting for pending navigations...
+[1602534241.218][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.218][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ClearElement
+[1602534241.228][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND TypeElement {
+   "id": "3f28fe83-a6a4-4417-8d14-96377229dc1f",
+   "text": "123456",
+   "value": [ "1", "2", "3", "4", "5", "6" ]
+}
+[1602534241.228][INFO]: Waiting for pending navigations...
+[1602534241.230][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.735][INFO]: Waiting for pending navigations...
+[1602534241.743][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.744][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE TypeElement
+[1602534241.756][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#SubmitLogin"
+}
+[1602534241.756][INFO]: Waiting for pending navigations...
+[1602534241.758][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.800][INFO]: Waiting for pending navigations...
+[1602534241.802][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.803][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d8deef0f-89cf-451b-8c12-b42e501b0c5b"
+}
+[1602534241.846][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d8deef0f-89cf-451b-8c12-b42e501b0c5b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602534241.846][INFO]: Waiting for pending navigations...
+[1602534241.865][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.901][INFO]: Waiting for pending navigations...
+[1602534241.904][INFO]: Done waiting for pending navigations. Status: ok
+[1602534241.904][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript true
+[1602534241.915][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ClickElement {
+   "id": "d8deef0f-89cf-451b-8c12-b42e501b0c5b"
+}
+[1602534241.915][INFO]: Waiting for pending navigations...
+[1602534241.917][INFO]: Done waiting for pending navigations. Status: ok
+[1602534242.152][INFO]: Waiting for pending navigations...
+[1602534244.837][INFO]: Done waiting for pending navigations. Status: ok
+[1602534244.837][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ClickElement
+[1602534244.895][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".page-heading"
+}
+[1602534244.895][INFO]: Waiting for pending navigations...
+[1602534244.913][INFO]: Done waiting for pending navigations. Status: ok
+[1602534244.992][INFO]: Waiting for pending navigations...
+[1602534245.006][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.007][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d9ca53ac-5025-4625-8c42-e7b8ac7ebdfe"
+}
+[1602534245.034][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND GetElementTagName {
+   "id": "d9ca53ac-5025-4625-8c42-e7b8ac7ebdfe"
+}
+[1602534245.034][INFO]: Waiting for pending navigations...
+[1602534245.057][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.076][INFO]: Waiting for pending navigations...
+[1602534245.079][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.079][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE GetElementTagName "h1"
+[1602534245.090][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND GetElementText {
+   "id": "d9ca53ac-5025-4625-8c42-e7b8ac7ebdfe"
+}
+[1602534245.090][INFO]: Waiting for pending navigations...
+[1602534245.093][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.214][INFO]: Waiting for pending navigations...
+[1602534245.217][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.217][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE GetElementText "MY ACCOUNT"
+[1602534245.319][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534245.319][INFO]: Waiting for pending navigations...
+[1602534245.374][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.610][INFO]: Waiting for pending navigations...
+[1602534245.611][INFO]: Done waiting for pending navigations. Status: ok
+[1602534245.611][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534245.834][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534245.834][INFO]: Waiting for pending navigations...
+[1602534245.837][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.007][INFO]: Waiting for pending navigations...
+[1602534246.010][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.010][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534246.226][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534246.226][INFO]: Waiting for pending navigations...
+[1602534246.228][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.381][INFO]: Waiting for pending navigations...
+[1602534246.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.384][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534246.601][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534246.601][INFO]: Waiting for pending navigations...
+[1602534246.605][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.766][INFO]: Waiting for pending navigations...
+[1602534246.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602534246.768][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534246.987][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534246.987][INFO]: Waiting for pending navigations...
+[1602534246.989][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.138][INFO]: Waiting for pending navigations...
+[1602534247.142][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.142][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534247.360][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534247.360][INFO]: Waiting for pending navigations...
+[1602534247.362][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.510][INFO]: Waiting for pending navigations...
+[1602534247.512][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.512][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534247.726][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534247.726][INFO]: Waiting for pending navigations...
+[1602534247.728][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.884][INFO]: Waiting for pending navigations...
+[1602534247.889][INFO]: Done waiting for pending navigations. Status: ok
+[1602534247.889][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534248.103][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534248.103][INFO]: Waiting for pending navigations...
+[1602534248.106][INFO]: Done waiting for pending navigations. Status: ok
+[1602534248.266][INFO]: Waiting for pending navigations...
+[1602534248.268][INFO]: Done waiting for pending navigations. Status: ok
+[1602534248.269][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534248.481][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534248.481][INFO]: Waiting for pending navigations...
+[1602534248.483][INFO]: Done waiting for pending navigations. Status: ok
+[1602534248.637][INFO]: Waiting for pending navigations...
+[1602534248.639][INFO]: Done waiting for pending navigations. Status: ok
+[1602534248.639][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534248.854][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534248.854][INFO]: Waiting for pending navigations...
+[1602534248.858][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.009][INFO]: Waiting for pending navigations...
+[1602534249.012][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.012][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534249.232][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534249.232][INFO]: Waiting for pending navigations...
+[1602534249.234][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.381][INFO]: Waiting for pending navigations...
+[1602534249.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.383][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534249.597][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534249.597][INFO]: Waiting for pending navigations...
+[1602534249.600][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.753][INFO]: Waiting for pending navigations...
+[1602534249.756][INFO]: Done waiting for pending navigations. Status: ok
+[1602534249.756][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534249.970][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534249.970][INFO]: Waiting for pending navigations...
+[1602534249.972][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.157][INFO]: Waiting for pending navigations...
+[1602534250.185][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.186][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534250.403][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534250.403][INFO]: Waiting for pending navigations...
+[1602534250.406][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.553][INFO]: Waiting for pending navigations...
+[1602534250.556][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.556][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534250.769][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534250.769][INFO]: Waiting for pending navigations...
+[1602534250.771][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.922][INFO]: Waiting for pending navigations...
+[1602534250.925][INFO]: Done waiting for pending navigations. Status: ok
+[1602534250.925][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534251.141][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534251.141][INFO]: Waiting for pending navigations...
+[1602534251.147][INFO]: Done waiting for pending navigations. Status: ok
+[1602534251.301][INFO]: Waiting for pending navigations...
+[1602534251.303][INFO]: Done waiting for pending navigations. Status: ok
+[1602534251.304][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534251.531][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534251.531][INFO]: Waiting for pending navigations...
+[1602534251.533][INFO]: Done waiting for pending navigations. Status: ok
+[1602534251.710][INFO]: Waiting for pending navigations...
+[1602534251.712][INFO]: Done waiting for pending navigations. Status: ok
+[1602534251.712][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534251.926][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534251.927][INFO]: Waiting for pending navigations...
+[1602534251.928][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.063][INFO]: Waiting for pending navigations...
+[1602534252.064][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.065][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534252.277][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534252.277][INFO]: Waiting for pending navigations...
+[1602534252.279][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.409][INFO]: Waiting for pending navigations...
+[1602534252.411][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.411][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534252.624][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534252.624][INFO]: Waiting for pending navigations...
+[1602534252.629][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.798][INFO]: Waiting for pending navigations...
+[1602534252.800][INFO]: Done waiting for pending navigations. Status: ok
+[1602534252.801][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534253.012][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "link text",
+   "value": " Home"
+}
+[1602534253.012][INFO]: Waiting for pending navigations...
+[1602534253.015][INFO]: Done waiting for pending navigations. Status: ok
+[1602534253.164][INFO]: Waiting for pending navigations...
+[1602534253.169][INFO]: Done waiting for pending navigations. Status: ok
+[1602534253.169][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":" Home"}
+  (Session info: chrome=85.0.4183.121)
+[1602534253.388][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602534253.389][INFO]: Waiting for pending navigations...
+[1602534253.390][INFO]: Done waiting for pending navigations. Status: ok
+[1602534253.415][INFO]: Waiting for pending navigations...
+[1602534253.418][INFO]: Done waiting for pending navigations. Status: ok
+[1602534253.418][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"\">\u003Chead>\n\t\t\u003Cmeta charset=\"utf-8\">\n\t\t\u003Ctitle>My account - My Store\u003C/title>\n\t\t\u003Cmeta name=\"generator\" content=\"PrestaShop\">\n\t\t\u003Cmeta name=\"robots\" content=\"index,follow\">\n\t\t\u003Cmeta ..."
+[1602534253.480][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND Screenshot {
+
+}
+[1602534253.480][INFO]: Waiting for pending navigations...
+[1602534253.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.048][INFO]: Waiting for pending navigations...
+[1602534254.050][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.051][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuYHOV95/vpuvVleqbnopGEJBAaCbCNuQlhsJNjb6KR5DjB2EZI4GWXhAUB65Ozm4AZYSc4dmIj2Xg32RyvYXDYgw/PQySLkJiTi6RREm9iTNANhC8ImAGZm..."
+[1602534254.227][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.227][INFO]: Waiting for pending navigations...
+[1602534254.231][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.304][INFO]: Waiting for pending navigations...
+[1602534254.306][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.306][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534254.317][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.317][INFO]: Waiting for pending navigations...
+[1602534254.319][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.359][INFO]: Waiting for pending navigations...
+[1602534254.361][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.361][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534254.580][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.580][INFO]: Waiting for pending navigations...
+[1602534254.582][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.597][INFO]: Waiting for pending navigations...
+[1602534254.598][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.599][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534254.610][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.610][INFO]: Waiting for pending navigations...
+[1602534254.612][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.624][INFO]: Waiting for pending navigations...
+[1602534254.626][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.626][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534254.836][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.836][INFO]: Waiting for pending navigations...
+[1602534254.839][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.852][INFO]: Waiting for pending navigations...
+[1602534254.853][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.853][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534254.861][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534254.861][INFO]: Waiting for pending navigations...
+[1602534254.865][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.879][INFO]: Waiting for pending navigations...
+[1602534254.880][INFO]: Done waiting for pending navigations. Status: ok
+[1602534254.881][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534255.091][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.092][INFO]: Waiting for pending navigations...
+[1602534255.094][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.110][INFO]: Waiting for pending navigations...
+[1602534255.112][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.112][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534255.119][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.120][INFO]: Waiting for pending navigations...
+[1602534255.121][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.137][INFO]: Waiting for pending navigations...
+[1602534255.140][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.140][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534255.350][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.350][INFO]: Waiting for pending navigations...
+[1602534255.352][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.367][INFO]: Waiting for pending navigations...
+[1602534255.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.369][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534255.380][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.380][INFO]: Waiting for pending navigations...
+[1602534255.382][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.394][INFO]: Waiting for pending navigations...
+[1602534255.396][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.397][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534255.608][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.608][INFO]: Waiting for pending navigations...
+[1602534255.609][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.623][INFO]: Waiting for pending navigations...
+[1602534255.624][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.624][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534255.632][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.632][INFO]: Waiting for pending navigations...
+[1602534255.634][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.649][INFO]: Waiting for pending navigations...
+[1602534255.652][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.653][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534255.865][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.865][INFO]: Waiting for pending navigations...
+[1602534255.868][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.882][INFO]: Waiting for pending navigations...
+[1602534255.884][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.884][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534255.892][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534255.893][INFO]: Waiting for pending navigations...
+[1602534255.896][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.909][INFO]: Waiting for pending navigations...
+[1602534255.910][INFO]: Done waiting for pending navigations. Status: ok
+[1602534255.910][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534256.121][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.121][INFO]: Waiting for pending navigations...
+[1602534256.123][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.137][INFO]: Waiting for pending navigations...
+[1602534256.140][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.140][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534256.150][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.150][INFO]: Waiting for pending navigations...
+[1602534256.152][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.166][INFO]: Waiting for pending navigations...
+[1602534256.169][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.169][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534256.380][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.381][INFO]: Waiting for pending navigations...
+[1602534256.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.397][INFO]: Waiting for pending navigations...
+[1602534256.398][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.398][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534256.407][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.408][INFO]: Waiting for pending navigations...
+[1602534256.409][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.423][INFO]: Waiting for pending navigations...
+[1602534256.425][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.425][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534256.634][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.634][INFO]: Waiting for pending navigations...
+[1602534256.638][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.652][INFO]: Waiting for pending navigations...
+[1602534256.653][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.653][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534256.663][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.664][INFO]: Waiting for pending navigations...
+[1602534256.667][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.679][INFO]: Waiting for pending navigations...
+[1602534256.681][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.681][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534256.892][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.892][INFO]: Waiting for pending navigations...
+[1602534256.895][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.909][INFO]: Waiting for pending navigations...
+[1602534256.911][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.911][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534256.921][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534256.921][INFO]: Waiting for pending navigations...
+[1602534256.923][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.937][INFO]: Waiting for pending navigations...
+[1602534256.938][INFO]: Done waiting for pending navigations. Status: ok
+[1602534256.939][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534257.149][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.150][INFO]: Waiting for pending navigations...
+[1602534257.153][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.166][INFO]: Waiting for pending navigations...
+[1602534257.168][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.168][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534257.177][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.177][INFO]: Waiting for pending navigations...
+[1602534257.179][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.189][INFO]: Waiting for pending navigations...
+[1602534257.191][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.191][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534257.399][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.399][INFO]: Waiting for pending navigations...
+[1602534257.402][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.416][INFO]: Waiting for pending navigations...
+[1602534257.419][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.419][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534257.428][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.428][INFO]: Waiting for pending navigations...
+[1602534257.430][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.442][INFO]: Waiting for pending navigations...
+[1602534257.444][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.444][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534257.656][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.657][INFO]: Waiting for pending navigations...
+[1602534257.659][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.673][INFO]: Waiting for pending navigations...
+[1602534257.674][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.674][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534257.682][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.682][INFO]: Waiting for pending navigations...
+[1602534257.684][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.696][INFO]: Waiting for pending navigations...
+[1602534257.699][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.699][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534257.907][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.907][INFO]: Waiting for pending navigations...
+[1602534257.909][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.929][INFO]: Waiting for pending navigations...
+[1602534257.931][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.931][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534257.941][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534257.941][INFO]: Waiting for pending navigations...
+[1602534257.943][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.961][INFO]: Waiting for pending navigations...
+[1602534257.963][INFO]: Done waiting for pending navigations. Status: ok
+[1602534257.963][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534258.173][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.174][INFO]: Waiting for pending navigations...
+[1602534258.176][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.190][INFO]: Waiting for pending navigations...
+[1602534258.191][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.191][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534258.200][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.200][INFO]: Waiting for pending navigations...
+[1602534258.202][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.213][INFO]: Waiting for pending navigations...
+[1602534258.215][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.216][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534258.425][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.425][INFO]: Waiting for pending navigations...
+[1602534258.428][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.441][INFO]: Waiting for pending navigations...
+[1602534258.442][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.442][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534258.452][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.452][INFO]: Waiting for pending navigations...
+[1602534258.455][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.474][INFO]: Waiting for pending navigations...
+[1602534258.477][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.477][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534258.693][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.693][INFO]: Waiting for pending navigations...
+[1602534258.694][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.708][INFO]: Waiting for pending navigations...
+[1602534258.709][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.710][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534258.719][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.719][INFO]: Waiting for pending navigations...
+[1602534258.721][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.731][INFO]: Waiting for pending navigations...
+[1602534258.733][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.733][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534258.941][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.941][INFO]: Waiting for pending navigations...
+[1602534258.942][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.955][INFO]: Waiting for pending navigations...
+[1602534258.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.957][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534258.976][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534258.976][INFO]: Waiting for pending navigations...
+[1602534258.978][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.990][INFO]: Waiting for pending navigations...
+[1602534258.995][INFO]: Done waiting for pending navigations. Status: ok
+[1602534258.995][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534259.203][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.203][INFO]: Waiting for pending navigations...
+[1602534259.205][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.224][INFO]: Waiting for pending navigations...
+[1602534259.229][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.229][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534259.237][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.237][INFO]: Waiting for pending navigations...
+[1602534259.239][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.253][INFO]: Waiting for pending navigations...
+[1602534259.255][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.255][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534259.463][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.464][INFO]: Waiting for pending navigations...
+[1602534259.466][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.479][INFO]: Waiting for pending navigations...
+[1602534259.481][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.481][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534259.491][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.492][INFO]: Waiting for pending navigations...
+[1602534259.495][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.508][INFO]: Waiting for pending navigations...
+[1602534259.510][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.510][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534259.721][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.721][INFO]: Waiting for pending navigations...
+[1602534259.724][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.743][INFO]: Waiting for pending navigations...
+[1602534259.745][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.745][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534259.751][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.752][INFO]: Waiting for pending navigations...
+[1602534259.754][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.766][INFO]: Waiting for pending navigations...
+[1602534259.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.768][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534259.977][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534259.977][INFO]: Waiting for pending navigations...
+[1602534259.979][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.994][INFO]: Waiting for pending navigations...
+[1602534259.996][INFO]: Done waiting for pending navigations. Status: ok
+[1602534259.996][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534260.004][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.004][INFO]: Waiting for pending navigations...
+[1602534260.007][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.020][INFO]: Waiting for pending navigations...
+[1602534260.022][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.022][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534260.230][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.230][INFO]: Waiting for pending navigations...
+[1602534260.232][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.248][INFO]: Waiting for pending navigations...
+[1602534260.252][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.252][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534260.261][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.261][INFO]: Waiting for pending navigations...
+[1602534260.264][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.279][INFO]: Waiting for pending navigations...
+[1602534260.281][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.281][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534260.490][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.490][INFO]: Waiting for pending navigations...
+[1602534260.492][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.505][INFO]: Waiting for pending navigations...
+[1602534260.507][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.507][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534260.514][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.514][INFO]: Waiting for pending navigations...
+[1602534260.517][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.529][INFO]: Waiting for pending navigations...
+[1602534260.531][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.531][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534260.740][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.740][INFO]: Waiting for pending navigations...
+[1602534260.742][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.758][INFO]: Waiting for pending navigations...
+[1602534260.760][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.761][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534260.771][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.771][INFO]: Waiting for pending navigations...
+[1602534260.773][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.785][INFO]: Waiting for pending navigations...
+[1602534260.787][INFO]: Done waiting for pending navigations. Status: ok
+[1602534260.787][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534260.995][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534260.995][INFO]: Waiting for pending navigations...
+[1602534260.997][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.010][INFO]: Waiting for pending navigations...
+[1602534261.011][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.012][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534261.020][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.020][INFO]: Waiting for pending navigations...
+[1602534261.023][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.034][INFO]: Waiting for pending navigations...
+[1602534261.036][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.037][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534261.244][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.245][INFO]: Waiting for pending navigations...
+[1602534261.247][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.261][INFO]: Waiting for pending navigations...
+[1602534261.262][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.262][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534261.270][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.270][INFO]: Waiting for pending navigations...
+[1602534261.273][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.285][INFO]: Waiting for pending navigations...
+[1602534261.288][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.288][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534261.497][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.497][INFO]: Waiting for pending navigations...
+[1602534261.498][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.512][INFO]: Waiting for pending navigations...
+[1602534261.514][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.514][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534261.523][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.523][INFO]: Waiting for pending navigations...
+[1602534261.525][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.538][INFO]: Waiting for pending navigations...
+[1602534261.540][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.541][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534261.748][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.748][INFO]: Waiting for pending navigations...
+[1602534261.750][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.768][INFO]: Waiting for pending navigations...
+[1602534261.770][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.770][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534261.778][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534261.778][INFO]: Waiting for pending navigations...
+[1602534261.780][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.794][INFO]: Waiting for pending navigations...
+[1602534261.799][INFO]: Done waiting for pending navigations. Status: ok
+[1602534261.799][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534262.008][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534262.008][INFO]: Waiting for pending navigations...
+[1602534262.010][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.032][INFO]: Waiting for pending navigations...
+[1602534262.036][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.036][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".product_img_link"}
+  (Session info: chrome=85.0.4183.121)
+[1602534262.053][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602534262.053][INFO]: Waiting for pending navigations...
+[1602534262.061][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.075][INFO]: Waiting for pending navigations...
+[1602534262.079][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.079][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE FindElements [  ]
+[1602534262.289][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602534262.289][INFO]: Waiting for pending navigations...
+[1602534262.291][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.304][INFO]: Waiting for pending navigations...
+[1602534262.308][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.308][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"\">\u003Chead>\n\t\t\u003Cmeta charset=\"utf-8\">\n\t\t\u003Ctitle>My account - My Store\u003C/title>\n\t\t\u003Cmeta name=\"generator\" content=\"PrestaShop\">\n\t\t\u003Cmeta name=\"robots\" content=\"index,follow\">\n\t\t\u003Cmeta ..."
+[1602534262.377][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND Screenshot {
+
+}
+[1602534262.378][INFO]: Waiting for pending navigations...
+[1602534262.381][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.920][INFO]: Waiting for pending navigations...
+[1602534262.923][INFO]: Done waiting for pending navigations. Status: ok
+[1602534262.924][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuYHOV95/vpuvVleqbnopGEJBAaCbCNuQlhsJNjb6KR5DjB2EZI4GWXhAUB65Ozm4AZYSc4dmIj2Xg32RyvYXDYgw/PQySLkJiTi6RREm9iTNANhC8ImAGZm..."
+[1602534263.042][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] COMMAND Quit {
+
+}
+[1602534263.517][INFO]: [f7456cbc6f1bf9bb7862cfeeba0da91f] RESPONSE Quit

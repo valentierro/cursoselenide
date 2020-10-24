@@ -1,0 +1,675 @@
+[1602366919.184][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 46467
+[1602366919.184][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602366920.354][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602366920.368][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602366920.369][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602366920.372][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602366920.373][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir8088_1465477293" data:,
+[1602366921.728][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602366923.943][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602366926.346][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir8088_1465477293"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56839"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "4d8494b3f6b5c991a024d2d760136fad"
+}
+[1602366926.618][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND MaximizeWindow {
+
+}
+[1602366926.618][INFO]: Waiting for pending navigations...
+[1602366926.626][INFO]: Done waiting for pending navigations. Status: ok
+[1602366926.784][INFO]: Waiting for pending navigations...
+[1602366926.785][INFO]: Done waiting for pending navigations. Status: ok
+[1602366926.786][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602366926.835][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/"
+}
+[1602366926.835][INFO]: Waiting for pending navigations...
+[1602366926.852][INFO]: Done waiting for pending navigations. Status: ok
+[1602366928.133][INFO]: Waiting for pending navigations...
+[1602366929.759][INFO]: Done waiting for pending navigations. Status: ok
+[1602366929.760][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE Navigate
+[1602366930.410][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "link text",
+   "value": "Checkboxes"
+}
+[1602366930.410][INFO]: Waiting for pending navigations...
+[1602366930.413][INFO]: Done waiting for pending navigations. Status: ok
+[1602366930.492][INFO]: Waiting for pending navigations...
+[1602366930.494][INFO]: Done waiting for pending navigations. Status: ok
+[1602366930.495][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5524e0a1-5e7b-46e2-ae6a-90f6f640ea83"
+}
+[1602366930.678][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "5524e0a1-5e7b-46e2-ae6a-90f6f640ea83"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602366930.678][INFO]: Waiting for pending navigations...
+[1602366930.685][INFO]: Done waiting for pending navigations. Status: ok
+[1602366930.748][INFO]: Waiting for pending navigations...
+[1602366930.754][INFO]: Done waiting for pending navigations. Status: ok
+[1602366930.754][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE ExecuteScript true
+[1602366930.767][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND ClickElement {
+   "id": "5524e0a1-5e7b-46e2-ae6a-90f6f640ea83"
+}
+[1602366930.767][INFO]: Waiting for pending navigations...
+[1602366930.769][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.015][INFO]: Waiting for pending navigations...
+[1602366931.630][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.630][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE ClickElement
+[1602366931.669][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366931.670][INFO]: Waiting for pending navigations...
+[1602366931.687][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.771][INFO]: Waiting for pending navigations...
+[1602366931.774][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.774][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366931.786][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366931.786][INFO]: Waiting for pending navigations...
+[1602366931.789][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.843][INFO]: Waiting for pending navigations...
+[1602366931.845][INFO]: Done waiting for pending navigations. Status: ok
+[1602366931.846][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366932.101][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366932.102][INFO]: Waiting for pending navigations...
+[1602366932.106][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.118][INFO]: Waiting for pending navigations...
+[1602366932.121][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.121][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366932.137][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366932.137][INFO]: Waiting for pending navigations...
+[1602366932.139][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.157][INFO]: Waiting for pending navigations...
+[1602366932.158][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.159][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366932.371][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366932.371][INFO]: Waiting for pending navigations...
+[1602366932.374][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.389][INFO]: Waiting for pending navigations...
+[1602366932.391][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.391][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366932.400][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366932.400][INFO]: Waiting for pending navigations...
+[1602366932.404][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.419][INFO]: Waiting for pending navigations...
+[1602366932.422][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.422][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366932.633][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366932.633][INFO]: Waiting for pending navigations...
+[1602366932.635][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.647][INFO]: Waiting for pending navigations...
+[1602366932.649][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.649][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366932.668][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366932.668][INFO]: Waiting for pending navigations...
+[1602366932.675][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.691][INFO]: Waiting for pending navigations...
+[1602366932.693][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.693][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366932.906][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366932.907][INFO]: Waiting for pending navigations...
+[1602366932.909][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.920][INFO]: Waiting for pending navigations...
+[1602366932.922][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.923][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366932.932][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366932.933][INFO]: Waiting for pending navigations...
+[1602366932.934][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.949][INFO]: Waiting for pending navigations...
+[1602366932.951][INFO]: Done waiting for pending navigations. Status: ok
+[1602366932.951][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366933.166][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366933.166][INFO]: Waiting for pending navigations...
+[1602366933.168][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.184][INFO]: Waiting for pending navigations...
+[1602366933.186][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.186][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366933.198][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366933.198][INFO]: Waiting for pending navigations...
+[1602366933.200][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.217][INFO]: Waiting for pending navigations...
+[1602366933.218][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.218][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366933.437][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366933.437][INFO]: Waiting for pending navigations...
+[1602366933.439][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.452][INFO]: Waiting for pending navigations...
+[1602366933.454][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.454][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366933.464][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366933.464][INFO]: Waiting for pending navigations...
+[1602366933.466][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.484][INFO]: Waiting for pending navigations...
+[1602366933.485][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.486][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366933.698][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366933.698][INFO]: Waiting for pending navigations...
+[1602366933.699][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.712][INFO]: Waiting for pending navigations...
+[1602366933.714][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.714][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366933.724][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366933.724][INFO]: Waiting for pending navigations...
+[1602366933.726][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.740][INFO]: Waiting for pending navigations...
+[1602366933.743][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.744][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366933.956][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366933.956][INFO]: Waiting for pending navigations...
+[1602366933.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.971][INFO]: Waiting for pending navigations...
+[1602366933.973][INFO]: Done waiting for pending navigations. Status: ok
+[1602366933.973][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366933.983][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366933.983][INFO]: Waiting for pending navigations...
+[1602366933.985][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.004][INFO]: Waiting for pending navigations...
+[1602366934.006][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.006][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366934.217][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366934.217][INFO]: Waiting for pending navigations...
+[1602366934.220][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.234][INFO]: Waiting for pending navigations...
+[1602366934.236][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.236][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366934.249][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366934.249][INFO]: Waiting for pending navigations...
+[1602366934.252][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.266][INFO]: Waiting for pending navigations...
+[1602366934.268][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.268][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366934.479][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366934.479][INFO]: Waiting for pending navigations...
+[1602366934.482][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.495][INFO]: Waiting for pending navigations...
+[1602366934.497][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.498][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366934.507][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366934.507][INFO]: Waiting for pending navigations...
+[1602366934.509][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.527][INFO]: Waiting for pending navigations...
+[1602366934.528][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.528][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366934.740][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366934.740][INFO]: Waiting for pending navigations...
+[1602366934.744][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.773][INFO]: Waiting for pending navigations...
+[1602366934.775][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.775][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366934.783][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366934.783][INFO]: Waiting for pending navigations...
+[1602366934.786][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.825][INFO]: Waiting for pending navigations...
+[1602366934.827][INFO]: Done waiting for pending navigations. Status: ok
+[1602366934.827][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366935.037][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366935.037][INFO]: Waiting for pending navigations...
+[1602366935.039][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.054][INFO]: Waiting for pending navigations...
+[1602366935.056][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.056][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366935.068][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366935.068][INFO]: Waiting for pending navigations...
+[1602366935.070][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.089][INFO]: Waiting for pending navigations...
+[1602366935.091][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.091][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366935.308][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366935.308][INFO]: Waiting for pending navigations...
+[1602366935.310][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.323][INFO]: Waiting for pending navigations...
+[1602366935.325][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.325][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366935.335][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366935.335][INFO]: Waiting for pending navigations...
+[1602366935.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.354][INFO]: Waiting for pending navigations...
+[1602366935.356][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.356][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366935.566][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366935.566][INFO]: Waiting for pending navigations...
+[1602366935.569][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.583][INFO]: Waiting for pending navigations...
+[1602366935.585][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.585][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366935.600][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366935.600][INFO]: Waiting for pending navigations...
+[1602366935.621][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.639][INFO]: Waiting for pending navigations...
+[1602366935.641][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.642][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366935.852][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366935.852][INFO]: Waiting for pending navigations...
+[1602366935.854][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.868][INFO]: Waiting for pending navigations...
+[1602366935.872][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.872][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366935.880][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366935.880][INFO]: Waiting for pending navigations...
+[1602366935.883][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.901][INFO]: Waiting for pending navigations...
+[1602366935.903][INFO]: Done waiting for pending navigations. Status: ok
+[1602366935.903][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366936.115][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366936.115][INFO]: Waiting for pending navigations...
+[1602366936.117][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.130][INFO]: Waiting for pending navigations...
+[1602366936.133][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.133][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366936.140][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366936.140][INFO]: Waiting for pending navigations...
+[1602366936.143][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.161][INFO]: Waiting for pending navigations...
+[1602366936.163][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.163][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366936.373][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366936.374][INFO]: Waiting for pending navigations...
+[1602366936.375][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.389][INFO]: Waiting for pending navigations...
+[1602366936.391][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.391][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366936.402][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366936.402][INFO]: Waiting for pending navigations...
+[1602366936.404][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.419][INFO]: Waiting for pending navigations...
+[1602366936.421][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.421][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366936.636][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366936.636][INFO]: Waiting for pending navigations...
+[1602366936.639][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.654][INFO]: Waiting for pending navigations...
+[1602366936.656][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.656][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366936.665][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindChildElement {
+   "id": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5",
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"checkbox 2\"]/parent::*"
+}
+[1602366936.665][INFO]: Waiting for pending navigations...
+[1602366936.668][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.684][INFO]: Waiting for pending navigations...
+[1602366936.686][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.686][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(translate(string(.), '	
+ ', '    ')) = "checkbox 2"]/parent::*"}
+  (Session info: chrome=85.0.4183.121)
+[1602366936.900][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#checkboxes"
+}
+[1602366936.900][INFO]: Waiting for pending navigations...
+[1602366936.902][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.914][INFO]: Waiting for pending navigations...
+[1602366936.916][INFO]: Done waiting for pending navigations. Status: ok
+[1602366936.916][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+}
+[1602366936.956][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6f996aca-8ea3-416a-a1a3-5c7deb0c3fe5"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602366936.956][INFO]: Waiting for pending navigations...
+[1602366936.958][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.002][INFO]: Waiting for pending navigations...
+[1602366937.005][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.005][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE ExecuteScript true
+[1602366937.050][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602366937.050][INFO]: Waiting for pending navigations...
+[1602366937.055][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.074][INFO]: Waiting for pending navigations...
+[1602366937.076][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.076][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1602366937.087][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND Screenshot {
+
+}
+[1602366937.087][INFO]: Waiting for pending navigations...
+[1602366937.089][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.593][INFO]: Waiting for pending navigations...
+[1602366937.595][INFO]: Done waiting for pending navigations. Status: ok
+[1602366937.595][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xt4lPW57/9PDhBOBgZMBASJmeABPBAGlQhIgETUVWlZK4T2stoWQtIK7BZ1rSTt3l1Z3btO8ltWtCIuQqC2qJUknsCiGJSAUmJliCdiQSagoEBCGAhJYMjp9..."
+[1602366938.669][INFO]: [4d8494b3f6b5c991a024d2d760136fad] COMMAND Quit {
+
+}
+[1602366939.117][INFO]: [4d8494b3f6b5c991a024d2d760136fad] RESPONSE Quit

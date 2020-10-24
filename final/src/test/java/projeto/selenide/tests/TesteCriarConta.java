@@ -1,0 +1,56 @@
+package projeto.selenide.tests;
+
+import static com.codeborne.selenide.Selenide.open;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+
+import projeto.selenide.objects.Cadastro;
+import projeto.selenide.objects.CompraEndereco;
+import projeto.selenide.objects.ConfirmarCompra;
+import projeto.selenide.objects.DetalhesProduto;
+import projeto.selenide.objects.Frete;
+import projeto.selenide.objects.Home;
+import projeto.selenide.objects.Login;
+import projeto.selenide.objects.MinhaConta;
+import projeto.selenide.objects.ResultadoBusca;
+import projeto.selenide.objects.ResumoCompra;
+
+public class TesteCriarConta {
+	
+	static Home homeObj;
+	static Login loginObj;
+	static Cadastro cadastroObj;
+	static MinhaConta minhaContaObj;
+
+	
+	@BeforeClass
+	public static void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=8000;
+		
+		open("http://automationpractice.com/");
+		
+		homeObj = new Home();
+		loginObj = new Login();
+		cadastroObj = new Cadastro();	
+		minhaContaObj = new MinhaConta();
+
+	}
+	
+	
+	@Test
+	public void criarConta() {
+		homeObj.menuCadastro();
+		loginObj.iniciarCadastro("erick2@erick.com");
+		cadastroObj.preencherCadastro("masculino", "Erick", "Santos", "123456", "27", "7", "1985", "Rua x", "Recife", "Colorado", "56432", "8192232323");
+		minhaContaObj.getH1Titulo().shouldHave(Condition.text("My Account"));
+	}
+
+	
+	
+
+}

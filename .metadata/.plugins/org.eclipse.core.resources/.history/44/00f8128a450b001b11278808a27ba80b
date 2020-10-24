@@ -1,0 +1,33 @@
+package selenide.projeto;
+
+
+import static com.codeborne.selenide.Selectors.byAttribute;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.codeborne.selenide.Configuration;
+
+public class ElementosEspeciais {
+	
+	@BeforeTest
+	void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=5000;
+	}
+	
+	@Test
+	void checkboxRadio() {
+		
+		open("https://demoqa.com/");
+		$(".card-body").click();
+		$("#item-1").click();
+		$(".rct-icon .rct-icon-expand-close").click();
+		$(byAttribute("for", "tree-node-desktop")).find(".rct-title").setSelected(true);
+		$(byAttribute("for", "tree-node-documents")).find(".rct-title").setSelected(true);
+		$(byAttribute("for", "tree-node-downloads")).find(".rct-title").setSelected(true);
+	}
+
+}

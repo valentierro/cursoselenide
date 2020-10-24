@@ -1,0 +1,546 @@
+[1602439007.371][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 10745
+[1602439007.372][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602439008.652][INFO]: [650c7843db37775772be6c66020ca812] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602439008.665][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602439008.666][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602439008.668][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602439008.668][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir6288_801270379" data:,
+[1602439010.166][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602439012.400][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602439014.433][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir6288_801270379"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49315"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "650c7843db37775772be6c66020ca812"
+}
+[1602439014.711][INFO]: [650c7843db37775772be6c66020ca812] COMMAND MaximizeWindow {
+
+}
+[1602439014.712][INFO]: Waiting for pending navigations...
+[1602439014.717][INFO]: Done waiting for pending navigations. Status: ok
+[1602439014.878][INFO]: Waiting for pending navigations...
+[1602439014.881][INFO]: Done waiting for pending navigations. Status: ok
+[1602439014.881][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602439014.905][INFO]: [650c7843db37775772be6c66020ca812] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/"
+}
+[1602439014.906][INFO]: Waiting for pending navigations...
+[1602439014.908][INFO]: Done waiting for pending navigations. Status: ok
+[1602439015.813][INFO]: Waiting for pending navigations...
+[1602439017.504][INFO]: Done waiting for pending navigations. Status: ok
+[1602439017.504][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE Navigate
+[1602439018.089][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "link text",
+   "value": "Frames"
+}
+[1602439018.090][INFO]: Waiting for pending navigations...
+[1602439018.098][INFO]: Done waiting for pending navigations. Status: ok
+[1602439018.174][INFO]: Waiting for pending navigations...
+[1602439018.177][INFO]: Done waiting for pending navigations. Status: ok
+[1602439018.177][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ebead724-81f1-4485-89ab-2e25ef9e29f9"
+}
+[1602439018.319][INFO]: [650c7843db37775772be6c66020ca812] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "ebead724-81f1-4485-89ab-2e25ef9e29f9"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602439018.319][INFO]: Waiting for pending navigations...
+[1602439018.321][INFO]: Done waiting for pending navigations. Status: ok
+[1602439018.373][INFO]: Waiting for pending navigations...
+[1602439018.376][INFO]: Done waiting for pending navigations. Status: ok
+[1602439018.376][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE ExecuteScript true
+[1602439018.390][INFO]: [650c7843db37775772be6c66020ca812] COMMAND ClickElement {
+   "id": "ebead724-81f1-4485-89ab-2e25ef9e29f9"
+}
+[1602439018.390][INFO]: Waiting for pending navigations...
+[1602439018.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602439018.588][INFO]: Waiting for pending navigations...
+[1602439019.212][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.212][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE ClickElement
+[1602439019.224][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "link text",
+   "value": "iFrame"
+}
+[1602439019.224][INFO]: Waiting for pending navigations...
+[1602439019.228][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.285][INFO]: Waiting for pending navigations...
+[1602439019.287][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.287][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6022c709-ebda-4036-9152-828b01bff4e0"
+}
+[1602439019.321][INFO]: [650c7843db37775772be6c66020ca812] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6022c709-ebda-4036-9152-828b01bff4e0"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602439019.321][INFO]: Waiting for pending navigations...
+[1602439019.324][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.369][INFO]: Waiting for pending navigations...
+[1602439019.372][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.372][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE ExecuteScript true
+[1602439019.386][INFO]: [650c7843db37775772be6c66020ca812] COMMAND ClickElement {
+   "id": "6022c709-ebda-4036-9152-828b01bff4e0"
+}
+[1602439019.386][INFO]: Waiting for pending navigations...
+[1602439019.388][INFO]: Done waiting for pending navigations. Status: ok
+[1602439019.590][INFO]: Waiting for pending navigations...
+[1602439021.867][INFO]: Done waiting for pending navigations. Status: ok
+[1602439021.867][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE ClickElement
+[1602439021.883][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439021.883][INFO]: Waiting for pending navigations...
+[1602439021.886][INFO]: Done waiting for pending navigations. Status: ok
+[1602439021.968][INFO]: Waiting for pending navigations...
+[1602439021.977][INFO]: Done waiting for pending navigations. Status: ok
+[1602439021.978][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439022.252][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439022.252][INFO]: Waiting for pending navigations...
+[1602439022.256][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.277][INFO]: Waiting for pending navigations...
+[1602439022.288][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.288][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439022.520][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439022.520][INFO]: Waiting for pending navigations...
+[1602439022.523][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.540][INFO]: Waiting for pending navigations...
+[1602439022.542][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.542][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439022.756][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439022.756][INFO]: Waiting for pending navigations...
+[1602439022.758][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.776][INFO]: Waiting for pending navigations...
+[1602439022.777][INFO]: Done waiting for pending navigations. Status: ok
+[1602439022.777][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439022.992][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439022.992][INFO]: Waiting for pending navigations...
+[1602439022.993][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.009][INFO]: Waiting for pending navigations...
+[1602439023.011][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.011][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439023.223][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439023.223][INFO]: Waiting for pending navigations...
+[1602439023.227][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.241][INFO]: Waiting for pending navigations...
+[1602439023.242][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.242][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439023.454][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439023.455][INFO]: Waiting for pending navigations...
+[1602439023.457][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.475][INFO]: Waiting for pending navigations...
+[1602439023.477][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.477][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439023.688][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439023.688][INFO]: Waiting for pending navigations...
+[1602439023.690][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.705][INFO]: Waiting for pending navigations...
+[1602439023.707][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.707][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439023.921][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439023.921][INFO]: Waiting for pending navigations...
+[1602439023.924][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.940][INFO]: Waiting for pending navigations...
+[1602439023.942][INFO]: Done waiting for pending navigations. Status: ok
+[1602439023.942][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439024.155][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439024.155][INFO]: Waiting for pending navigations...
+[1602439024.157][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.172][INFO]: Waiting for pending navigations...
+[1602439024.176][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.176][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439024.389][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439024.389][INFO]: Waiting for pending navigations...
+[1602439024.392][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.407][INFO]: Waiting for pending navigations...
+[1602439024.409][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.410][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439024.622][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439024.622][INFO]: Waiting for pending navigations...
+[1602439024.624][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.636][INFO]: Waiting for pending navigations...
+[1602439024.637][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.637][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439024.848][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439024.848][INFO]: Waiting for pending navigations...
+[1602439024.851][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.868][INFO]: Waiting for pending navigations...
+[1602439024.870][INFO]: Done waiting for pending navigations. Status: ok
+[1602439024.870][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439025.079][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439025.079][INFO]: Waiting for pending navigations...
+[1602439025.082][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.097][INFO]: Waiting for pending navigations...
+[1602439025.100][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.100][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439025.310][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439025.310][INFO]: Waiting for pending navigations...
+[1602439025.313][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.332][INFO]: Waiting for pending navigations...
+[1602439025.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.336][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439025.546][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439025.546][INFO]: Waiting for pending navigations...
+[1602439025.547][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.562][INFO]: Waiting for pending navigations...
+[1602439025.563][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.563][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439025.775][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439025.775][INFO]: Waiting for pending navigations...
+[1602439025.777][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.792][INFO]: Waiting for pending navigations...
+[1602439025.793][INFO]: Done waiting for pending navigations. Status: ok
+[1602439025.794][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439026.004][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439026.004][INFO]: Waiting for pending navigations...
+[1602439026.007][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.023][INFO]: Waiting for pending navigations...
+[1602439026.025][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.025][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439026.239][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439026.239][INFO]: Waiting for pending navigations...
+[1602439026.243][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.259][INFO]: Waiting for pending navigations...
+[1602439026.261][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.262][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439026.476][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439026.476][INFO]: Waiting for pending navigations...
+[1602439026.478][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.495][INFO]: Waiting for pending navigations...
+[1602439026.497][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.497][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439026.707][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439026.707][INFO]: Waiting for pending navigations...
+[1602439026.710][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.726][INFO]: Waiting for pending navigations...
+[1602439026.728][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.728][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439026.938][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439026.938][INFO]: Waiting for pending navigations...
+[1602439026.940][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.954][INFO]: Waiting for pending navigations...
+[1602439026.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602439026.957][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439027.172][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439027.172][INFO]: Waiting for pending navigations...
+[1602439027.175][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.193][INFO]: Waiting for pending navigations...
+[1602439027.196][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.196][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439027.405][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439027.405][INFO]: Waiting for pending navigations...
+[1602439027.407][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.422][INFO]: Waiting for pending navigations...
+[1602439027.424][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.424][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439027.633][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439027.634][INFO]: Waiting for pending navigations...
+[1602439027.637][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.659][INFO]: Waiting for pending navigations...
+[1602439027.661][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.661][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439027.873][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439027.874][INFO]: Waiting for pending navigations...
+[1602439027.876][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.891][INFO]: Waiting for pending navigations...
+[1602439027.893][INFO]: Done waiting for pending navigations. Status: ok
+[1602439027.893][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439028.103][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439028.103][INFO]: Waiting for pending navigations...
+[1602439028.106][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.120][INFO]: Waiting for pending navigations...
+[1602439028.122][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.122][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439028.337][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439028.337][INFO]: Waiting for pending navigations...
+[1602439028.339][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.354][INFO]: Waiting for pending navigations...
+[1602439028.357][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.357][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439028.567][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439028.567][INFO]: Waiting for pending navigations...
+[1602439028.571][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.588][INFO]: Waiting for pending navigations...
+[1602439028.590][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.590][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439028.799][INFO]: [650c7843db37775772be6c66020ca812] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439028.799][INFO]: Waiting for pending navigations...
+[1602439028.801][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.818][INFO]: Waiting for pending navigations...
+[1602439028.820][INFO]: Done waiting for pending navigations. Status: ok
+[1602439028.820][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"#tinymce"}
+  (Session info: chrome=85.0.4183.121)
+[1602439029.061][INFO]: [650c7843db37775772be6c66020ca812] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602439029.061][INFO]: Waiting for pending navigations...
+[1602439029.065][INFO]: Done waiting for pending navigations. Status: ok
+[1602439029.087][INFO]: Waiting for pending navigations...
+[1602439029.090][INFO]: Done waiting for pending navigations. Status: ok
+[1602439029.090][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE ExecuteScript "\u003Chtml class=\"no-js\" lang=\"en\">\u003C!--\u003C![endif]-->\u003Chead>\n    \u003Cscript src=\"/js/vendor/298279967.js\">\u003C/script>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width\">\n    \u003Ctitl..."
+[1602439029.105][INFO]: [650c7843db37775772be6c66020ca812] COMMAND Screenshot {
+
+}
+[1602439029.106][INFO]: Waiting for pending navigations...
+[1602439029.108][INFO]: Done waiting for pending navigations. Status: ok
+[1602439029.616][INFO]: Waiting for pending navigations...
+[1602439029.618][INFO]: Done waiting for pending navigations. Status: ok
+[1602439029.618][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtcU3e6L/4PN6NoY6OFooWqBHsBbQ3RlrRYooC07hHrPoCdUTqvUYSZomeK7Wxhus8M7W93gLNbbafiHBA701I7NTC1QseKeImODnZryEyVdFRALbYqiNEIa..."
+[1602439030.620][INFO]: [650c7843db37775772be6c66020ca812] COMMAND Quit {
+
+}
+[1602439030.967][INFO]: [650c7843db37775772be6c66020ca812] RESPONSE Quit

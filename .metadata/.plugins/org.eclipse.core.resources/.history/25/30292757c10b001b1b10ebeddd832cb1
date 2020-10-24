@@ -1,0 +1,33 @@
+package selenide.projeto;
+
+
+import org.openqa.selenium.By;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+import static com.codeborne.selenide.Selenide.*;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.collections.*;
+import static com.codeborne.selenide.CollectionCondition.*;
+
+public class ElementosEspeciais {
+	
+	@BeforeTest
+	void configuracoes() {
+		Configuration.startMaximized=true;
+		Configuration.timeout=5000;
+	}
+	
+	@Test
+	void checkboxRadio() {
+			open("https://www.testandquiz.com/selenium/testing.html");	
+			$("#fname").setValue("Erick");
+			$(By.name("gender")).selectRadio("male");
+			$(".Automation").setSelected(true);
+			$(".Performance").setSelected(true);
+			
+	}
+
+}

@@ -1,0 +1,344 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Demo website to automate checkbox demo using selenium webdriver">
+
+    <meta name="author" content="http://seleniumeasy.com">
+    <meta name="robots" content="follow, index">
+    <link rel="shortcut icon" href="http://www.seleniumeasy.com/sites/default/files/favicon_0_0.ico" type="image/vnd.microsoft.icon">
+    <title>Selenium Easy - Checkbox demo for automation using selenium</title>
+    <link rel="author" href="http://plus.google.com/113160911704961579558">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/slider-cars.css" rel="stylesheet">
+    <link href="css/home-bar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/animate.css/3.5.1/animate.min.css">
+
+</head>
+
+<body>
+    <!-- ##### Nav Bar ##### -->
+    <div class="container-fluid">
+        <!-- Top logo -->
+        <div class="row topper">
+            <div class="col-md-6 header-section">
+                <div class="logo">
+                    <a href="/" title="Home" rel="home" style="border: medium none;"> <img height="100px" width="100px" src="http://www.seleniumeasy.com/sites/default/files/seleniumEasy_0.jpg" alt="Selenium Easy" role="presentation"> </a>
+                </div>
+                <div id="name-and-slogan">
+                    <div id="site-name" class="site-name"><a href="/" title="Home" rel="home">Selenium Easy</a></div>
+                    <div id="site-slogan" class="site-slogan">Complete Automation Testing Tutorials</div>
+                </div>
+            </div>
+            <div class="top-banner col-md-6">
+<a href="https://crossbrowsertesting.com/?utm_source=seleniumeasy&amp;utm_medium=da&amp;utm_campaign=sedemo" target="”_blank”">
+<img class="cbt" src="http://www.seleniumeasy.com/test/img/sponsored-by-CBT.png"></a>
+            </div>
+        </div>
+        <!-- End Top -->
+        <div class="row">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand navbar-brand-centered"><a href="/test">Demo Home</a></div>
+                    </div>
+
+                    <!-- Nav links for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Input Forms
+					  <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./basic-first-form-demo.html">Simple Form Demo</a></li>
+                                    <li><a href="./basic-checkbox-demo.html">Checkbox Demo</a></li>
+                                    <li><a href="./basic-radiobutton-demo.html">Radio Buttons Demo</a></li>
+                                    <li><a href="./basic-select-dropdown-demo.html">Select Dropdown List</a></li>
+                                    <li><a href="./input-form-demo.html">Input Form Submit</a></li>
+                                    <li><a href="./ajax-form-submit-demo.html">Ajax Form Submit</a></li>
+                                     <li><a href="./jquery-dropdown-search-demo.html">JQuery Select dropdown</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Date pickers
+					  <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./bootstrap-date-picker-demo.html">Bootstrap Date Picker</a></li>
+                                    <li><a href="./jquery-date-picker-demo.html">JQuery Date Picker</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Table
+					  <b class="caret"></b> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./table-pagination-demo.html">Table Pagination</a></li>
+                                    <li><a href="./table-search-filter-demo.html">Table Data Search</a></li>
+                                    <li><a href="./table-records-filter-demo.html">Table Filter </a></li>
+                                    <li><a href="./table-sort-search-demo.html">Table Sort &amp; Search</a></li>
+                                    <li><a href="./table-data-download-demo.html">Table Data Download</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Progress Bars
+					  <b class="caret"></b>
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./jquery-download-progress-bar-demo.html">JQuery Download Progress bars</a></li>
+                                    <li><a href="./bootstrap-download-progress-demo.html">Bootstrap Progress bar</a></li>
+                                    <li><a href="./drag-drop-range-sliders-demo.html">Drag &amp; Drop Sliders</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alerts &amp; Modals
+					 		<b class="caret"></b>
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./bootstrap-alert-messages-demo.html">Bootstrap Alerts</a></li>
+                                    <li><a href="./bootstrap-modal-demo.html">Bootstrap Modals</a></li>
+                                    <li><a href="./window-popup-modal-demo.html">Window Popup Modal</a></li>
+                                    <li><a href="./bootstrap-progress-bar-dialog-demo.html">Progress Bar Modal</a></li>
+                                    <li><a href="./javascript-alert-box-demo.html">Javascript Alerts</a></li>
+                                     <li><a href="./generate-file-to-download-demo.html">File Download</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">List Box
+					 	<b class="caret"></b>
+                            </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./bootstrap-dual-list-box-demo.html">Bootstrap List Box</a></li>
+                                    <li><a href="./jquery-dual-list-box-demo.html">JQuery List Box</a></li>
+                                    <li><a href="./data-list-filter-demo.html">Data List Filter</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Others
+                            <b class="caret"></b>
+                            </a>
+                                <ul class="dropdown-menu">
+                                <li><a href="./drag-and-drop-demo.html">Drag and Drop</a></li>
+                                    <li><a href="./dynamic-data-loading-demo.html">Dynamic Data Loading</a></li>
+                                    <li><a href="./charts-mouse-hover-demo.html">Charts Demo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <!-- ##### End Nav Bar ##### -->
+    <div class="container-fluid text-center" id="easycont">
+        <div class="row">
+            <div class="col-md-3 sidenav">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Menu List</div>
+                    <div class="panel-body">
+                        <!-- TREEVIEW -->
+                        <ul id="treemenu" class="treeview treeview-tree">
+                            <li class="tree-branch"><i class="tree-indicator glyphicon glyphicon-chevron-down"></i>
+                                <a href="#">All Examples</a>
+                                <ul>
+
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Input Forms</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./basic-first-form-demo.html">Simple Form Demo</a></li>
+                                            <li style="display: none;"><a href="./basic-checkbox-demo.html">Checkbox Demo</a></li>
+                                            <li style="display: none;"><a href="./basic-radiobutton-demo.html">Radio Buttons Demo</a></li>
+                                            <li style="display: none;"><a href="./basic-select-dropdown-demo.html">Select Dropdown List</a></li>
+                                            <li style="display: none;"><a href="./input-form-demo.html">Input Form Submit</a></li>
+                                            <li style="display: none;"><a href="./ajax-form-submit-demo.html">Ajax Form Submit</a></li>
+                                             <li style="display: none;"><a href="./jquery-dropdown-search-demo.html">JQuery Select dropdown</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Date pickers</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./bootstrap-date-picker-demo.html">Bootstrap Date Picker</a></li>
+                                            <li style="display: none;"><a href="./jquery-date-picker-demo.html">JQuery Date Picker</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Table</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./table-pagination-demo.html">Table Pagination</a></li>
+                                            <li style="display: none;"><a href="./table-search-filter-demo.html">Table Data Search</a></li>
+                                            <li style="display: none;"><a href="./table-records-filter-demo.html">Table Filter </a></li>
+                                            <li style="display: none;"><a href="./table-sort-search-demo.html">Table Sort &amp; Search</a></li>
+                                            <li style="display: none;"><a href="./table-data-download-demo.html">Table Data Download</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Progress Bars &amp; Sliders</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./jquery-download-progress-bar-demo.html">JQuery Download Progress bars</a></li>
+                                            <li style="display: none;"><a href="./bootstrap-download-progress-demo.html">Bootstrap Progress bar</a></li>
+                                            <li style="display: none;"><a href="./drag-drop-range-sliders-demo.html">Drag &amp; Drop Sliders</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Alerts &amp; Modals</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./bootstrap-alert-messages-demo.html">Bootstrap Alerts</a></li>
+                                            <li style="display: none;"><a href="./bootstrap-modal-demo.html">Bootstrap Modals</a></li>
+                                            <li style="display: none;"><a href="./window-popup-modal-demo.html">Window Popup Modal</a></li>
+                                            <li style="display: none;"><a href="./bootstrap-progress-bar-dialog-demo.html">Progress Bar Modal</a></li>
+                                            <li style="display: none;"><a href="./javascript-alert-box-demo.html">Javascript Alerts</a></li>
+                                            <li style="display: none;"><a href="./generate-file-to-download-demo.html">File Download</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">List Box</a>
+                                        <ul>
+                                            <li style="display: none;"><a href="./bootstrap-dual-list-box-demo.html">Bootstrap List Box</a></li>
+                                            <li style="display: none;"><a href="./jquery-dual-list-box-demo.html">JQuery List Box</a></li>
+                                            <li style="display: none;"><a href="./data-list-filter-demo.html">Data List Filter</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="tree-branch" style="display: list-item;"><i class="tree-indicator glyphicon glyphicon-chevron-right"></i>
+                                        <a href="#">Others</a>
+                                        <ul>
+                                        <li style="display: none;"><a href="./drag-and-drop-demo.html">Drag and Drop</a></li>
+                                            <li style="display: none;"><a href="./dynamic-data-loading-demo.html">Dynamic Data Loading</a></li>
+                                            <li style="display: none;"><a href="./charts-mouse-hover-demo.html">Charts Demo</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- TREEVIEW -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-left">
+                <h3>This would be a basic example to start with checkboxes using selenium.</h3>
+                <br>
+                <p>The HTML input <code>"checkbox"</code> is an input element to enter an array of different values. Eash input type checkbox has value attribute which is used to define the value submitted by the checkbox.</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Single Checkbox Demo</div>
+                    <div class="panel-body">
+                        <p> Clicking on the checkbox will display a success message. Keep an eye on it</p>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="isAgeSelected" value="">Click on this check box</label>
+                        </div>
+                        <div id="txtAge" style="display:none">Success - Check box is checked</div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">Multiple Checkbox Demo</div>
+                    <div class="panel-body">
+                        <p>Check the below points before automating</p>
+                        <ul>
+                            <li>Click on 'Check All' to check all checkboxes at once.</li>
+                            <li>When you check all the checkboxes, button will change to 'Uncheck All'</li>
+                            <li>When you uncheck at least one checkbox, button will change to 'Check All'</li>
+                        </ul>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="cb1-element" value="">Option 1</label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="cb1-element" value="">Option 2</label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="cb1-element" value="">Option 3</label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="cb1-element" value="">Option 4</label>
+                        </div>
+                        <input type="button" class="btn btn-primary" id="check1" value="Check All">
+                        <input type="hidden" id="isChkd" value="false">
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ##### R Side Bar ##### -->
+            <div class="col-md-3 sidenav">
+
+            </div>
+            <!-- ##### R Side Bar ##### -->
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="col-md-6">
+                <h4>Tutorials Menu</h4>
+                <ul>
+                    <li><a href="../selenium-tutorials">Selenium Tutorials</a></li>
+                    <li><a href="../testng-tutorials">TestNG Tutorial</a></li>
+                    <li><a href="../junit-tutorials">JUnit Tutorial</a></li>
+                    <li><a href="../jxl-tutorials">JXL Tutorial</a></li>
+                    <li><a href="../apachepoi-tutorials">Apache POI</a></li>
+                    <li><a href="../ant-tutorials">ANT Tutorial</a></li>
+                    <li><a href="../maven-tutorials">Maven Tutorial</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Popular Posts</h4>
+                <ul>
+                    <li><a href="../selenium-tutorials/launching-firefox-browser-with-geckodriver-selenium-3">Gecko Driver Selenium 3</a></li>
+                    <li><a href="../selenium-tutorials/page-factory-pattern-in-selenium-webdriver">Page Factory Pattern</a></li>
+                    <li><a href="../jenkins-tutorials/invoke-testng-xml-tests-from-jenkins">Execute Tests in Jenkins </a></li>
+                    <li><a href="../testng-tutorials/testng-customize-emailable-html-report-example">TestNG Custom Report</a></li>
+                    <li><a href="../maven-tutorials/how-to-execute-selenium-webdriver-testng-xml-using-maven">Execute Selenium tests using Maven</a></li>
+                    <li><a href="../selenium-webdriver-tutorials">View All Selenium Tutorials</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/basic-checkbox.js"></script>
+    <script src="js/treemenu.js"></script>
+
+    <script>
+        $('#isAgeSelected').click(function() {
+            $("#txtAge").toggle(this.checked);
+        });
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46729791-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+</body></html>

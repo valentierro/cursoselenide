@@ -1,0 +1,7 @@
+---------ChromeDriver 86.0.4240.22 (2020-09-03)---------
+Supports Chrome version 86
+Resolved issue 3370: Shut down Chrome gracefully or cookie will not be correctly saved to SQLite persistance file [Pri-2]
+Resolved issue 3401: Get Element Location JS does not locate the visible center of the element [Pri-2]
+Resolved issue 3462: sendKeys. CMD key don't work for MAC  [Pri-2]
+Resolved issue 3541: Improve log between Client and ChromeDriver [Pri-]
+Resolved issue 3559: Output Chrome version when ChromeDriver reports incompatible [Pri-]

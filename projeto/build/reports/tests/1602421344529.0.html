@@ -1,0 +1,171 @@
+<html><head>
+		<title>Sample Test Page</title>
+		<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style></style>
+	</head>
+	<body style="font-family: cursive;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8" style="font-size: 30; margin-top: 40px; ">
+					Sample WebPage for Automation Testing
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:20px; margin-top:40px;">
+					This is sample webpage with dummy elements that will help you in learning selenium automation.
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<b>This is sample text.</b>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p> <b>Link : </b><a href="https://www.javatpoint.com/">This is a link</a></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>TextBox : </b><input id="fname" type="text" name="firstName"></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>Button : </b><button id="idOfButton" title="Click me!!" type="button" onclick="this.style.background='green';">Submit</button></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>Radio button : </b> 
+						</p><form action="#">
+							<input id="male" type="radio" name="gender" value="male"> Male  
+							<input id="female" type="radio" name="gender" value="female"> Female
+						</form>
+					<p></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>Checkbox :</b>
+						</p><form action="#">
+							<input type="checkbox" class="Automation" value="Automation"> Automation Testing
+							<input type="checkbox" class="Performance" value="Performance"> Performance Testing
+						</form>
+					<p></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>Drop down :</b>
+						<select id="testingDropdown">
+							<option id="automation" value="Automation">Automation Testing</option>
+							<option id="performance" value="Performance">Performance Testing</option>
+							<option id="manual" value="Manual">Manual Testing</option>
+							<option id="database" value="Database">Database Testing</option>
+						</select>
+					</p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><button id="dblClkBtn" ondblclick="alert('hi, JavaTpoint Testing');">Double-click to generate alert box</button></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p><b>Click button to generate Alert box : </b>
+					  	<button onclick="alert('hi, JavaTpoint Testing');">Generate Alert Box</button>
+					</p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p> <b> Click button to generate Confirm box : </b>
+						<button onclick="generateConfirmBox()">Generate Confirm Box</button>
+					</p>
+					<p id="demo"></p>
+				</div>
+			</div>
+			<br>
+
+			<div class="row">
+				<div class="col-md-12" style="font-size:15px;">
+					<p>Drag and drop example- drag the below image on the textbox</p>
+					
+					<div id="targetDiv" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:400px;height:150px;padding:10px;border:1px solid #aaaaaa;"></div>
+					<img id="sourceImage" src="https://image.ibb.co/gDtUPe/jtp.png" alt="javatpoint" draggable="true" ondragstart="drag(event)" height="120px">
+
+					<!-- <a href="https://imgbb.com/"><img src="https://image.ibb.co/gDtUPe/jtp.png" alt="jtp" border="0"></a>
+ -->
+				</div>
+			</div>
+			<br>
+
+
+
+
+
+		</div>
+
+		<script>
+			function generateConfirmBox()
+			{
+				var x;
+				var r=confirm("Press a button!");
+				if (r==true)
+				{
+					x="You pressed OK!";
+				}
+				else
+				{
+					x="You pressed Cancel!";
+				}
+				document.getElementById("demo").innerHTML=x;
+			}
+
+			function allowDrop(ev)
+			{
+				ev.preventDefault();
+			}
+
+			function drag(ev)
+			{
+				ev.dataTransfer.setData("Text",ev.target.id);
+			}
+
+			function drop(ev)
+			{
+				ev.preventDefault();
+				var data=ev.dataTransfer.getData("Text");
+				ev.target.appendChild(document.getElementById(data));
+			}
+
+		</script>
+	
+
+</body></html>

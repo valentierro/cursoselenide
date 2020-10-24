@@ -1,0 +1,33 @@
+package selenide.projeto;
+
+import static com.codeborne.selenide.Selenide.*;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.collections.*;
+
+public class Colecoes {
+	
+	@BeforeTest
+	void configuracao() {
+		Configuration.timeout=7000;
+		Configuration.startMaximized=true;
+	}
+	
+	@Test
+	void colecoes() {
+		
+		open("https://www.submarino.com.br/");
+		$("#lgpd-accept").click();
+		
+		$("#h_search-input").setValue("celular").pressEnter();
+		ElementsCollection colecao = $$(".product-grid-item");
+		System.out.println(colecao.size());
+	}
+	
+
+}

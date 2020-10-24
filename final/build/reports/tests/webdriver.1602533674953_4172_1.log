@@ -1,0 +1,468 @@
+[1602533675.543][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14499
+[1602533675.543][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602533676.564][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602533672994_4172_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602533672994_4172_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602533676.574][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\final\\build\\downloads\\1602533672994_4172_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602533676.575][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602533676.578][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602533676.578][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir12144_459864275" data:,
+[1602533677.921][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602533679.934][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602533681.954][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir12144_459864275"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65185"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "22ff13f842c189e506128654e2c5ae7e"
+}
+[1602533682.115][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND MaximizeWindow {
+
+}
+[1602533682.115][INFO]: Waiting for pending navigations...
+[1602533682.119][INFO]: Done waiting for pending navigations. Status: ok
+[1602533682.243][INFO]: Waiting for pending navigations...
+[1602533682.245][INFO]: Done waiting for pending navigations. Status: ok
+[1602533682.245][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602533682.261][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1602533682.261][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE SetTimeouts
+[1602533682.291][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1602533682.291][INFO]: Waiting for pending navigations...
+[1602533682.293][INFO]: Done waiting for pending navigations. Status: ok
+[1602533684.182][INFO]: Waiting for pending navigations...
+[1602533688.191][INFO]: Done waiting for pending navigations. Status: ok
+[1602533688.191][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE Navigate
+[1602533688.489][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".product_img_link"
+}
+[1602533688.490][INFO]: Waiting for pending navigations...
+[1602533688.502][INFO]: Done waiting for pending navigations. Status: ok
+[1602533688.622][INFO]: Waiting for pending navigations...
+[1602533688.630][INFO]: Done waiting for pending navigations. Status: ok
+[1602533688.630][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8219002e-e027-4b72-9d80-998e1adb3285"
+}
+[1602533688.739][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8219002e-e027-4b72-9d80-998e1adb3285"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602533688.739][INFO]: Waiting for pending navigations...
+[1602533688.742][INFO]: Done waiting for pending navigations. Status: ok
+[1602533688.798][INFO]: Waiting for pending navigations...
+[1602533688.800][INFO]: Done waiting for pending navigations. Status: ok
+[1602533688.800][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE ExecuteScript true
+[1602533688.810][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND ClickElement {
+   "id": "8219002e-e027-4b72-9d80-998e1adb3285"
+}
+[1602533688.811][INFO]: Waiting for pending navigations...
+[1602533688.813][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.222][INFO]: Waiting for pending navigations...
+[1602533689.243][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.243][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE ClickElement
+[1602533689.264][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533689.264][INFO]: Waiting for pending navigations...
+[1602533689.267][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.307][INFO]: Waiting for pending navigations...
+[1602533689.309][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.309][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533689.570][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533689.570][INFO]: Waiting for pending navigations...
+[1602533689.572][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.586][INFO]: Waiting for pending navigations...
+[1602533689.588][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.588][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533689.808][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533689.808][INFO]: Waiting for pending navigations...
+[1602533689.809][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.822][INFO]: Waiting for pending navigations...
+[1602533689.823][INFO]: Done waiting for pending navigations. Status: ok
+[1602533689.824][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533690.038][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533690.038][INFO]: Waiting for pending navigations...
+[1602533690.040][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.054][INFO]: Waiting for pending navigations...
+[1602533690.055][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.056][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533690.269][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533690.269][INFO]: Waiting for pending navigations...
+[1602533690.271][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.285][INFO]: Waiting for pending navigations...
+[1602533690.287][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.287][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533690.500][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533690.500][INFO]: Waiting for pending navigations...
+[1602533690.502][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.519][INFO]: Waiting for pending navigations...
+[1602533690.520][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.520][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533690.733][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533690.733][INFO]: Waiting for pending navigations...
+[1602533690.735][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.750][INFO]: Waiting for pending navigations...
+[1602533690.751][INFO]: Done waiting for pending navigations. Status: ok
+[1602533690.752][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533690.971][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533690.971][INFO]: Waiting for pending navigations...
+[1602533690.973][INFO]: Done waiting for pending navigations. Status: ok
+[1602533691.000][INFO]: Waiting for pending navigations...
+[1602533691.007][INFO]: Done waiting for pending navigations. Status: ok
+[1602533691.007][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533691.235][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533691.235][INFO]: Waiting for pending navigations...
+[1602533691.281][INFO]: Done waiting for pending navigations. Status: ok
+[1602533691.643][INFO]: Waiting for pending navigations...
+[1602533691.644][INFO]: Done waiting for pending navigations. Status: ok
+[1602533691.645][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533691.872][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533691.872][INFO]: Waiting for pending navigations...
+[1602533691.991][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.056][INFO]: Waiting for pending navigations...
+[1602533692.059][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.059][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533692.277][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533692.278][INFO]: Waiting for pending navigations...
+[1602533692.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.388][INFO]: Waiting for pending navigations...
+[1602533692.391][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.391][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533692.607][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533692.607][INFO]: Waiting for pending navigations...
+[1602533692.610][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.628][INFO]: Waiting for pending navigations...
+[1602533692.630][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.630][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533692.843][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533692.843][INFO]: Waiting for pending navigations...
+[1602533692.848][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.881][INFO]: Waiting for pending navigations...
+[1602533692.885][INFO]: Done waiting for pending navigations. Status: ok
+[1602533692.885][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533693.100][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533693.100][INFO]: Waiting for pending navigations...
+[1602533693.102][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.117][INFO]: Waiting for pending navigations...
+[1602533693.118][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.119][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533693.330][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533693.330][INFO]: Waiting for pending navigations...
+[1602533693.332][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.348][INFO]: Waiting for pending navigations...
+[1602533693.350][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.350][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533693.563][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533693.563][INFO]: Waiting for pending navigations...
+[1602533693.565][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.578][INFO]: Waiting for pending navigations...
+[1602533693.580][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.580][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533693.803][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533693.804][INFO]: Waiting for pending navigations...
+[1602533693.806][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.843][INFO]: Waiting for pending navigations...
+[1602533693.888][INFO]: Done waiting for pending navigations. Status: ok
+[1602533693.888][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533694.104][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533694.104][INFO]: Waiting for pending navigations...
+[1602533694.107][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.137][INFO]: Waiting for pending navigations...
+[1602533694.139][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.139][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533694.353][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533694.353][INFO]: Waiting for pending navigations...
+[1602533694.354][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.368][INFO]: Waiting for pending navigations...
+[1602533694.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.369][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533694.582][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533694.582][INFO]: Waiting for pending navigations...
+[1602533694.584][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.598][INFO]: Waiting for pending navigations...
+[1602533694.599][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.599][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533694.809][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533694.809][INFO]: Waiting for pending navigations...
+[1602533694.811][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.824][INFO]: Waiting for pending navigations...
+[1602533694.826][INFO]: Done waiting for pending navigations. Status: ok
+[1602533694.826][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533695.039][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533695.039][INFO]: Waiting for pending navigations...
+[1602533695.052][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.076][INFO]: Waiting for pending navigations...
+[1602533695.079][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.079][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533695.287][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533695.287][INFO]: Waiting for pending navigations...
+[1602533695.289][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.302][INFO]: Waiting for pending navigations...
+[1602533695.304][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.304][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533695.514][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533695.514][INFO]: Waiting for pending navigations...
+[1602533695.517][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.533][INFO]: Waiting for pending navigations...
+[1602533695.534][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.534][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533695.743][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533695.745][INFO]: Waiting for pending navigations...
+[1602533695.752][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.771][INFO]: Waiting for pending navigations...
+[1602533695.772][INFO]: Done waiting for pending navigations. Status: ok
+[1602533695.773][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533695.990][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533695.990][INFO]: Waiting for pending navigations...
+[1602533695.991][INFO]: Done waiting for pending navigations. Status: ok
+[1602533696.006][INFO]: Waiting for pending navigations...
+[1602533696.008][INFO]: Done waiting for pending navigations. Status: ok
+[1602533696.008][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Submit']"}
+  (Session info: chrome=85.0.4183.121)
+[1602533696.318][INFO]: [22ff13f842c189e506128654e2c5ae7e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='Submit']"
+}
+[1602533696.368][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602533700.318][WARNING]: Timed out connecting to Chrome, retrying...
+[1602533700.321][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602533708.337][INFO]: [22ff13f842c189e506128654e2c5ae7e] RESPONSE FindElement ERROR chrome not reachable
+  (Session info: chrome=85.0.4183.121)

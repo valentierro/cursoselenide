@@ -1,0 +1,642 @@
+[1602439491.727][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 15422
+[1602439491.728][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602439492.952][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602439492.967][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602439492.969][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602439492.974][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602439492.974][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir3436_91445220" data:,
+[1602439494.423][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602439496.539][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602439498.746][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir3436_91445220"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:49597"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7d15e48256859c2c795a49fd1d69ec0f"
+}
+[1602439498.990][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND MaximizeWindow {
+
+}
+[1602439498.990][INFO]: Waiting for pending navigations...
+[1602439498.998][INFO]: Done waiting for pending navigations. Status: ok
+[1602439499.158][INFO]: Waiting for pending navigations...
+[1602439499.160][INFO]: Done waiting for pending navigations. Status: ok
+[1602439499.160][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602439499.205][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/"
+}
+[1602439499.205][INFO]: Waiting for pending navigations...
+[1602439499.208][INFO]: Done waiting for pending navigations. Status: ok
+[1602439501.189][INFO]: Waiting for pending navigations...
+[1602439502.989][INFO]: Done waiting for pending navigations. Status: ok
+[1602439502.990][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE Navigate
+[1602439503.538][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Frames"
+}
+[1602439503.538][INFO]: Waiting for pending navigations...
+[1602439503.541][INFO]: Done waiting for pending navigations. Status: ok
+[1602439503.622][INFO]: Waiting for pending navigations...
+[1602439503.624][INFO]: Done waiting for pending navigations. Status: ok
+[1602439503.624][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f10f7c30-a771-4591-a93e-8a20bb1919b1"
+}
+[1602439503.737][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f10f7c30-a771-4591-a93e-8a20bb1919b1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602439503.737][INFO]: Waiting for pending navigations...
+[1602439503.748][INFO]: Done waiting for pending navigations. Status: ok
+[1602439503.805][INFO]: Waiting for pending navigations...
+[1602439503.807][INFO]: Done waiting for pending navigations. Status: ok
+[1602439503.807][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ExecuteScript true
+[1602439503.822][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ClickElement {
+   "id": "f10f7c30-a771-4591-a93e-8a20bb1919b1"
+}
+[1602439503.822][INFO]: Waiting for pending navigations...
+[1602439503.824][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.028][INFO]: Waiting for pending navigations...
+[1602439504.589][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.589][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ClickElement
+[1602439504.606][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "iFrame"
+}
+[1602439504.606][INFO]: Waiting for pending navigations...
+[1602439504.608][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.673][INFO]: Waiting for pending navigations...
+[1602439504.688][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.689][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8281199e-7381-4700-b5d0-49851c956889"
+}
+[1602439504.722][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "8281199e-7381-4700-b5d0-49851c956889"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602439504.722][INFO]: Waiting for pending navigations...
+[1602439504.724][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.777][INFO]: Waiting for pending navigations...
+[1602439504.779][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.780][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ExecuteScript true
+[1602439504.790][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ClickElement {
+   "id": "8281199e-7381-4700-b5d0-49851c956889"
+}
+[1602439504.790][INFO]: Waiting for pending navigations...
+[1602439504.793][INFO]: Done waiting for pending navigations. Status: ok
+[1602439504.964][INFO]: Waiting for pending navigations...
+[1602439507.403][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.403][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ClickElement
+[1602439507.465][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame[name='mce_0_ifr'],iframe[name='mce_0_ifr']"
+}
+[1602439507.465][INFO]: Waiting for pending navigations...
+[1602439507.467][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.525][INFO]: Waiting for pending navigations...
+[1602439507.533][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.534][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElements [  ]
+[1602439507.556][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElements {
+   "using": "css selector",
+   "value": "frame#mce_0_ifr,iframe#mce_0_ifr"
+}
+[1602439507.556][INFO]: Waiting for pending navigations...
+[1602439507.558][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.619][INFO]: Waiting for pending navigations...
+[1602439507.650][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.651][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "78f74172-aac1-4bf4-9802-177de964cddf"
+} ]
+[1602439507.667][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND SwitchToFrame {
+   "id": {
+      "ELEMENT": "78f74172-aac1-4bf4-9802-177de964cddf",
+      "element-6066-11e4-a52e-4f735466cecf": "78f74172-aac1-4bf4-9802-177de964cddf"
+   }
+}
+[1602439507.668][INFO]: Waiting for pending navigations...
+[1602439507.689][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.937][INFO]: Waiting for pending navigations...
+[1602439507.942][INFO]: Done waiting for pending navigations. Status: ok
+[1602439507.942][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE SwitchToFrame
+[1602439507.956][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439507.956][INFO]: Waiting for pending navigations...
+[1602439507.958][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.000][INFO]: Waiting for pending navigations...
+[1602439508.002][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.002][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b58a3e62-a719-4205-b3f1-e99876465294"
+}
+[1602439508.013][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ClearElement {
+   "id": "b58a3e62-a719-4205-b3f1-e99876465294"
+}
+[1602439508.013][INFO]: Waiting for pending navigations...
+[1602439508.016][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.084][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1602439508.130][INFO]: Waiting for pending navigations...
+[1602439508.134][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.134][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ClearElement
+[1602439508.156][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tinymce"
+}
+[1602439508.157][INFO]: Waiting for pending navigations...
+[1602439508.166][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.179][INFO]: Waiting for pending navigations...
+[1602439508.182][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.182][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b58a3e62-a719-4205-b3f1-e99876465294"
+}
+[1602439508.219][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b58a3e62-a719-4205-b3f1-e99876465294"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602439508.219][INFO]: Waiting for pending navigations...
+[1602439508.221][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.248][INFO]: Waiting for pending navigations...
+[1602439508.250][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.250][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ExecuteScript true
+[1602439508.259][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ClearElement {
+   "id": "b58a3e62-a719-4205-b3f1-e99876465294"
+}
+[1602439508.259][INFO]: Waiting for pending navigations...
+[1602439508.262][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.301][INFO]: Waiting for pending navigations...
+[1602439508.303][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.303][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ClearElement
+[1602439508.319][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND TypeElement {
+   "id": "b58a3e62-a719-4205-b3f1-e99876465294",
+   "text": "Teste de iframes",
+   "value": [ "T", "e", "s", "t", "e", " ", "d", "e", " ", "i", "f", "r", "a", "m", "e", "s" ]
+}
+[1602439508.319][INFO]: Waiting for pending navigations...
+[1602439508.322][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.747][INFO]: Waiting for pending navigations...
+[1602439508.757][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.758][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE TypeElement
+[1602439508.768][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439508.768][INFO]: Waiting for pending navigations...
+[1602439508.771][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.810][INFO]: Waiting for pending navigations...
+[1602439508.813][INFO]: Done waiting for pending navigations. Status: ok
+[1602439508.813][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439509.069][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439509.069][INFO]: Waiting for pending navigations...
+[1602439509.072][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.088][INFO]: Waiting for pending navigations...
+[1602439509.089][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.090][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439509.309][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439509.309][INFO]: Waiting for pending navigations...
+[1602439509.312][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.330][INFO]: Waiting for pending navigations...
+[1602439509.332][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.333][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439509.546][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439509.547][INFO]: Waiting for pending navigations...
+[1602439509.549][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.564][INFO]: Waiting for pending navigations...
+[1602439509.565][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.565][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439509.777][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439509.777][INFO]: Waiting for pending navigations...
+[1602439509.780][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.795][INFO]: Waiting for pending navigations...
+[1602439509.799][INFO]: Done waiting for pending navigations. Status: ok
+[1602439509.799][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439510.017][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439510.017][INFO]: Waiting for pending navigations...
+[1602439510.020][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.047][INFO]: Waiting for pending navigations...
+[1602439510.050][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.050][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439510.267][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439510.267][INFO]: Waiting for pending navigations...
+[1602439510.269][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.283][INFO]: Waiting for pending navigations...
+[1602439510.284][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.285][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439510.501][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439510.501][INFO]: Waiting for pending navigations...
+[1602439510.505][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.521][INFO]: Waiting for pending navigations...
+[1602439510.523][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.523][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439510.737][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439510.737][INFO]: Waiting for pending navigations...
+[1602439510.739][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.756][INFO]: Waiting for pending navigations...
+[1602439510.758][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.758][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439510.973][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439510.973][INFO]: Waiting for pending navigations...
+[1602439510.976][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.991][INFO]: Waiting for pending navigations...
+[1602439510.993][INFO]: Done waiting for pending navigations. Status: ok
+[1602439510.993][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439511.222][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439511.222][INFO]: Waiting for pending navigations...
+[1602439511.223][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.243][INFO]: Waiting for pending navigations...
+[1602439511.245][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.245][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439511.457][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439511.457][INFO]: Waiting for pending navigations...
+[1602439511.459][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.473][INFO]: Waiting for pending navigations...
+[1602439511.476][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.476][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439511.688][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439511.688][INFO]: Waiting for pending navigations...
+[1602439511.690][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.707][INFO]: Waiting for pending navigations...
+[1602439511.710][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.710][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439511.930][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439511.930][INFO]: Waiting for pending navigations...
+[1602439511.938][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.957][INFO]: Waiting for pending navigations...
+[1602439511.958][INFO]: Done waiting for pending navigations. Status: ok
+[1602439511.959][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439512.170][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439512.170][INFO]: Waiting for pending navigations...
+[1602439512.172][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.187][INFO]: Waiting for pending navigations...
+[1602439512.189][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.189][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439512.400][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439512.400][INFO]: Waiting for pending navigations...
+[1602439512.402][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.419][INFO]: Waiting for pending navigations...
+[1602439512.421][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.421][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439512.639][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439512.639][INFO]: Waiting for pending navigations...
+[1602439512.643][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.661][INFO]: Waiting for pending navigations...
+[1602439512.663][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.663][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439512.876][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439512.876][INFO]: Waiting for pending navigations...
+[1602439512.878][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.893][INFO]: Waiting for pending navigations...
+[1602439512.896][INFO]: Done waiting for pending navigations. Status: ok
+[1602439512.896][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439513.113][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439513.113][INFO]: Waiting for pending navigations...
+[1602439513.114][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.131][INFO]: Waiting for pending navigations...
+[1602439513.132][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.133][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439513.345][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439513.345][INFO]: Waiting for pending navigations...
+[1602439513.348][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.363][INFO]: Waiting for pending navigations...
+[1602439513.364][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.364][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439513.576][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439513.576][INFO]: Waiting for pending navigations...
+[1602439513.578][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.598][INFO]: Waiting for pending navigations...
+[1602439513.599][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.600][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439513.812][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439513.812][INFO]: Waiting for pending navigations...
+[1602439513.815][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.833][INFO]: Waiting for pending navigations...
+[1602439513.836][INFO]: Done waiting for pending navigations. Status: ok
+[1602439513.837][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439514.047][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439514.047][INFO]: Waiting for pending navigations...
+[1602439514.053][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.074][INFO]: Waiting for pending navigations...
+[1602439514.078][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.078][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439514.290][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439514.291][INFO]: Waiting for pending navigations...
+[1602439514.293][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.308][INFO]: Waiting for pending navigations...
+[1602439514.309][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.309][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439514.519][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439514.519][INFO]: Waiting for pending navigations...
+[1602439514.521][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.533][INFO]: Waiting for pending navigations...
+[1602439514.534][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.534][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439514.745][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439514.746][INFO]: Waiting for pending navigations...
+[1602439514.748][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.761][INFO]: Waiting for pending navigations...
+[1602439514.763][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.763][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439514.974][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439514.974][INFO]: Waiting for pending navigations...
+[1602439514.976][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.989][INFO]: Waiting for pending navigations...
+[1602439514.992][INFO]: Done waiting for pending navigations. Status: ok
+[1602439514.992][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439515.205][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439515.206][INFO]: Waiting for pending navigations...
+[1602439515.208][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.223][INFO]: Waiting for pending navigations...
+[1602439515.225][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.225][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439515.436][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439515.436][INFO]: Waiting for pending navigations...
+[1602439515.438][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.455][INFO]: Waiting for pending navigations...
+[1602439515.457][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.457][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439515.669][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND FindElement {
+   "using": "link text",
+   "value": "Elemental Selenium"
+}
+[1602439515.669][INFO]: Waiting for pending navigations...
+[1602439515.673][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.687][INFO]: Waiting for pending navigations...
+[1602439515.688][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.689][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Elemental Selenium"}
+  (Session info: chrome=85.0.4183.121)
+[1602439515.912][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602439515.912][INFO]: Waiting for pending navigations...
+[1602439515.916][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.931][INFO]: Waiting for pending navigations...
+[1602439515.933][INFO]: Done waiting for pending navigations. Status: ok
+[1602439515.933][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cstyle id=\"mceDefaultStyles\" type=\"text/css\">.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;background: #FFF;width: 5px;height: 5px;z-index: 10000}.m..."
+[1602439515.942][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND Screenshot {
+
+}
+[1602439515.942][INFO]: Waiting for pending navigations...
+[1602439515.944][INFO]: Done waiting for pending navigations. Status: ok
+[1602439516.468][INFO]: Waiting for pending navigations...
+[1602439516.470][INFO]: Done waiting for pending navigations. Status: ok
+[1602439516.470][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XtcU3e6L/4PN6NoY6OFooWqBHsBbQ3RlrRYooC07hHrPoCdUTqvUYSZomeK7Wxhus8M7W93gLNbbafiHBA701I7NTC1QseKeImODnZryEyVdFRALbYqiNEIa..."
+[1602439517.353][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] COMMAND Quit {
+
+}
+[1602439517.676][INFO]: [7d15e48256859c2c795a49fd1d69ec0f] RESPONSE Quit

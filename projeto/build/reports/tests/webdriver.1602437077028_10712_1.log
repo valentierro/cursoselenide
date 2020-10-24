@@ -1,0 +1,216 @@
+[1602437077.482][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 30067
+[1602437077.483][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602437078.313][INFO]: [5af256d2500412377f72250396db639e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602437078.321][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602437078.322][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602437078.324][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602437078.324][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir8316_833715235" data:,
+[1602437079.280][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602437081.291][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602437083.311][INFO]: [5af256d2500412377f72250396db639e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir8316_833715235"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64866"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5af256d2500412377f72250396db639e"
+}
+[1602437083.429][INFO]: [5af256d2500412377f72250396db639e] COMMAND MaximizeWindow {
+
+}
+[1602437083.429][INFO]: Waiting for pending navigations...
+[1602437083.433][INFO]: Done waiting for pending navigations. Status: ok
+[1602437083.552][INFO]: Waiting for pending navigations...
+[1602437083.554][INFO]: Done waiting for pending navigations. Status: ok
+[1602437083.555][INFO]: [5af256d2500412377f72250396db639e] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602437083.580][INFO]: [5af256d2500412377f72250396db639e] COMMAND Navigate {
+   "url": "https://demoqa.com/browser-windows"
+}
+[1602437083.581][INFO]: Waiting for pending navigations...
+[1602437083.583][INFO]: Done waiting for pending navigations. Status: ok
+[1602437084.415][INFO]: Waiting for pending navigations...
+[1602437087.097][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.097][INFO]: [5af256d2500412377f72250396db639e] RESPONSE Navigate
+[1602437087.254][INFO]: [5af256d2500412377f72250396db639e] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#tabButton"
+}
+[1602437087.254][INFO]: Waiting for pending navigations...
+[1602437087.256][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.286][INFO]: Waiting for pending navigations...
+[1602437087.288][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.288][INFO]: [5af256d2500412377f72250396db639e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b2833bc2-afce-49a6-a3fc-81347b72d161"
+}
+[1602437087.368][INFO]: [5af256d2500412377f72250396db639e] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "b2833bc2-afce-49a6-a3fc-81347b72d161"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602437087.368][INFO]: Waiting for pending navigations...
+[1602437087.370][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.417][INFO]: Waiting for pending navigations...
+[1602437087.419][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.419][INFO]: [5af256d2500412377f72250396db639e] RESPONSE ExecuteScript true
+[1602437087.430][INFO]: [5af256d2500412377f72250396db639e] COMMAND ClickElement {
+   "id": "b2833bc2-afce-49a6-a3fc-81347b72d161"
+}
+[1602437087.430][INFO]: Waiting for pending navigations...
+[1602437087.432][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.578][INFO]: Waiting for pending navigations...
+[1602437087.585][INFO]: Done waiting for pending navigations. Status: ok
+[1602437087.585][INFO]: [5af256d2500412377f72250396db639e] RESPONSE ClickElement
+[1602437087.612][INFO]: [5af256d2500412377f72250396db639e] COMMAND GetWindows {
+
+}
+[1602437087.617][INFO]: [5af256d2500412377f72250396db639e] RESPONSE GetWindows [ "CDwindow-4EEAD2A226FB1FF1E0980F2B095D7CD6", "CDwindow-76C9984BD36BB24209926BC73421A3C1" ]
+[1602437087.632][INFO]: [5af256d2500412377f72250396db639e] COMMAND SwitchToWindow {
+   "handle": "CDwindow-76C9984BD36BB24209926BC73421A3C1"
+}
+[1602437087.648][INFO]: [5af256d2500412377f72250396db639e] RESPONSE SwitchToWindow
+[1602437087.667][INFO]: [5af256d2500412377f72250396db639e] COMMAND GetTitle {
+
+}
+[1602437087.668][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602437089.678][INFO]: Waiting for pending navigations...
+[1602437089.680][INFO]: Done waiting for pending navigations. Status: ok
+[1602437089.688][INFO]: Waiting for pending navigations...
+[1602437089.689][INFO]: Done waiting for pending navigations. Status: ok
+[1602437089.689][INFO]: [5af256d2500412377f72250396db639e] RESPONSE GetTitle ""
+[1602437090.070][INFO]: [5af256d2500412377f72250396db639e] COMMAND Quit {
+
+}
+[1602437090.342][INFO]: [5af256d2500412377f72250396db639e] RESPONSE Quit

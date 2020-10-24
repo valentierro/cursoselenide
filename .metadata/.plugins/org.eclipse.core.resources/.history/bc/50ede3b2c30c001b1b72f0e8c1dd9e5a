@@ -1,0 +1,33 @@
+package projeto.selenide.objects;
+
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.*;
+
+public class Login {
+	
+	private SelenideElement inputEmail = $("#email_create"),
+							btnCriarConta = $("#SubmitCreate");
+
+	public SelenideElement getInputEmail() {
+		return inputEmail;
+	}
+
+	public void setInputEmail(SelenideElement inputEmail) {
+		this.inputEmail = inputEmail;
+	}
+
+	public SelenideElement getBtnCriarConta() {
+		return btnCriarConta;
+	}
+
+	public void setBtnCriarConta(SelenideElement btnCriarConta) {
+		this.btnCriarConta = btnCriarConta;
+	}
+	
+	
+	public void iniciarCadastro(String email) {
+		inputEmail.setValue(email);
+		btnCriarConta.click();
+	}
+
+}

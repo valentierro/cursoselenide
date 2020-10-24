@@ -1,0 +1,2270 @@
+[1602363896.455][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 11201
+[1602363896.456][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602363897.803][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602363897.821][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602363897.822][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602363897.825][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602363897.825][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir10296_215956916" data:,
+[1602363899.577][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602363901.688][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602363903.755][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir10296_215956916"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55177"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0a1a21ea0621bf865b94b699eb8840fe"
+}
+[1602363904.121][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND MaximizeWindow {
+
+}
+[1602363904.122][INFO]: Waiting for pending navigations...
+[1602363904.136][INFO]: Done waiting for pending navigations. Status: ok
+[1602363904.283][INFO]: Waiting for pending navigations...
+[1602363904.287][INFO]: Done waiting for pending navigations. Status: ok
+[1602363904.287][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602363904.337][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND Navigate {
+   "url": "https://www.submarino.com.br/"
+}
+[1602363904.337][INFO]: Waiting for pending navigations...
+[1602363904.343][INFO]: Done waiting for pending navigations. Status: ok
+[1602363904.980][INFO]: Waiting for pending navigations...
+[1602363927.724][INFO]: Done waiting for pending navigations. Status: ok
+[1602363927.724][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE Navigate
+[1602363928.366][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#lgpd-accept"
+}
+[1602363928.366][INFO]: Waiting for pending navigations...
+[1602363928.371][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.437][INFO]: Waiting for pending navigations...
+[1602363928.439][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.439][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d1980eb5-96e7-4aac-ada6-91ebfff054a8"
+}
+[1602363928.557][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d1980eb5-96e7-4aac-ada6-91ebfff054a8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363928.558][INFO]: Waiting for pending navigations...
+[1602363928.560][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.608][INFO]: Waiting for pending navigations...
+[1602363928.611][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.611][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363928.626][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ClickElement {
+   "id": "d1980eb5-96e7-4aac-ada6-91ebfff054a8"
+}
+[1602363928.626][INFO]: Waiting for pending navigations...
+[1602363928.628][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.891][INFO]: Waiting for pending navigations...
+[1602363928.911][INFO]: Done waiting for pending navigations. Status: ok
+[1602363928.911][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ClickElement
+[1602363928.925][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-input"
+}
+[1602363928.926][INFO]: Waiting for pending navigations...
+[1602363928.933][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.001][INFO]: Waiting for pending navigations...
+[1602363929.009][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.009][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "82d3a337-11ea-4db2-b1b3-87fb220784b0"
+}
+[1602363929.051][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "82d3a337-11ea-4db2-b1b3-87fb220784b0"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363929.051][INFO]: Waiting for pending navigations...
+[1602363929.059][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.167][INFO]: Waiting for pending navigations...
+[1602363929.171][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.171][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363929.187][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ClearElement {
+   "id": "82d3a337-11ea-4db2-b1b3-87fb220784b0"
+}
+[1602363929.187][INFO]: Waiting for pending navigations...
+[1602363929.226][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.350][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1602363929.414][INFO]: Waiting for pending navigations...
+[1602363929.420][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.420][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ClearElement
+[1602363929.447][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND TypeElement {
+   "id": "82d3a337-11ea-4db2-b1b3-87fb220784b0",
+   "text": "celular",
+   "value": [ "c", "e", "l", "u", "l", "a", "r" ]
+}
+[1602363929.447][INFO]: Waiting for pending navigations...
+[1602363929.453][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.885][INFO]: Waiting for pending navigations...
+[1602363929.923][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.924][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE TypeElement
+[1602363929.938][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#h_search-input"
+}
+[1602363929.938][INFO]: Waiting for pending navigations...
+[1602363929.941][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.975][INFO]: Waiting for pending navigations...
+[1602363929.977][INFO]: Done waiting for pending navigations. Status: ok
+[1602363929.978][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "82d3a337-11ea-4db2-b1b3-87fb220784b0"
+}
+[1602363930.040][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "82d3a337-11ea-4db2-b1b3-87fb220784b0"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363930.040][INFO]: Waiting for pending navigations...
+[1602363930.043][INFO]: Done waiting for pending navigations. Status: ok
+[1602363930.071][INFO]: Waiting for pending navigations...
+[1602363930.075][INFO]: Done waiting for pending navigations. Status: ok
+[1602363930.075][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363930.097][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND TypeElement {
+   "id": "82d3a337-11ea-4db2-b1b3-87fb220784b0",
+   "text": "",
+   "value": [ "" ]
+}
+[1602363930.097][INFO]: Waiting for pending navigations...
+[1602363930.099][INFO]: Done waiting for pending navigations. Status: ok
+[1602363930.336][INFO]: Waiting for pending navigations...
+[1602363948.354][INFO]: Done waiting for pending navigations. Status: ok
+[1602363948.354][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE TypeElement
+[1602363948.375][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".page-title"
+}
+[1602363948.375][INFO]: Waiting for pending navigations...
+[1602363951.100][INFO]: Done waiting for pending navigations. Status: ok
+[1602363953.899][INFO]: Waiting for pending navigations...
+[1602363956.336][INFO]: Done waiting for pending navigations. Status: ok
+[1602363956.336][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "89294903-95d5-4ce8-ba31-3c6f3223d31f"
+}
+[1602363956.370][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "89294903-95d5-4ce8-ba31-3c6f3223d31f"
+}
+[1602363956.370][INFO]: Waiting for pending navigations...
+[1602363959.594][INFO]: Done waiting for pending navigations. Status: ok
+[1602363961.354][INFO]: Waiting for pending navigations...
+[1602363961.860][INFO]: Done waiting for pending navigations. Status: ok
+[1602363961.861][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "celular"
+[1602363961.935][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363961.935][INFO]: Waiting for pending navigations...
+[1602363962.550][INFO]: Done waiting for pending navigations. Status: ok
+[1602363962.835][INFO]: Waiting for pending navigations...
+[1602363963.107][INFO]: Done waiting for pending navigations. Status: ok
+[1602363963.108][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363963.163][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363963.163][INFO]: Waiting for pending navigations...
+[1602363963.389][INFO]: Done waiting for pending navigations. Status: ok
+[1602363963.560][INFO]: Waiting for pending navigations...
+[1602363963.856][INFO]: Done waiting for pending navigations. Status: ok
+[1602363963.857][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363963.952][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363963.952][INFO]: Waiting for pending navigations...
+[1602363964.240][INFO]: Done waiting for pending navigations. Status: ok
+[1602363964.482][INFO]: Waiting for pending navigations...
+[1602363964.895][INFO]: Done waiting for pending navigations. Status: ok
+[1602363964.895][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363964.920][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363964.921][INFO]: Waiting for pending navigations...
+[1602363965.301][INFO]: Done waiting for pending navigations. Status: ok
+[1602363965.538][INFO]: Waiting for pending navigations...
+[1602363965.734][INFO]: Done waiting for pending navigations. Status: ok
+[1602363965.734][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363965.749][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363965.749][INFO]: Waiting for pending navigations...
+[1602363965.896][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.115][INFO]: Waiting for pending navigations...
+[1602363966.232][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.233][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363966.252][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363966.252][INFO]: Waiting for pending navigations...
+[1602363966.300][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.389][INFO]: Waiting for pending navigations...
+[1602363966.405][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.405][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363966.417][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363966.417][INFO]: Waiting for pending navigations...
+[1602363966.431][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.817][INFO]: Waiting for pending navigations...
+[1602363966.838][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.838][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363966.856][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363966.857][INFO]: Waiting for pending navigations...
+[1602363966.868][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.968][INFO]: Waiting for pending navigations...
+[1602363966.987][INFO]: Done waiting for pending navigations. Status: ok
+[1602363966.987][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363967.045][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}
+[1602363967.046][INFO]: Waiting for pending navigations...
+[1602363967.126][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.178][INFO]: Waiting for pending navigations...
+[1602363967.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.194][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363967.275][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}
+[1602363967.275][INFO]: Waiting for pending navigations...
+[1602363967.321][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.456][INFO]: Waiting for pending navigations...
+[1602363967.517][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.517][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Preto"
+[1602363967.571][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}
+[1602363967.571][INFO]: Waiting for pending navigations...
+[1602363967.661][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.730][INFO]: Waiting for pending navigations...
+[1602363967.749][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.749][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363967.778][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}
+[1602363967.779][INFO]: Waiting for pending navigations...
+[1602363967.801][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.877][INFO]: Waiting for pending navigations...
+[1602363967.899][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.899][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone LG K71 128GB Dual Chip Android 10 Tela 6.8\" Quad Core Câmera Tripla 48MP+5MP+5MP Frontal 32MP - White"
+[1602363967.923][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}
+[1602363967.923][INFO]: Waiting for pending navigations...
+[1602363967.941][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.969][INFO]: Waiting for pending navigations...
+[1602363967.985][INFO]: Done waiting for pending navigations. Status: ok
+[1602363967.985][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.001][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}
+[1602363968.001][INFO]: Waiting for pending navigations...
+[1602363968.030][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.093][INFO]: Waiting for pending navigations...
+[1602363968.109][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.109][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Prata"
+[1602363968.122][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}
+[1602363968.122][INFO]: Waiting for pending navigations...
+[1602363968.130][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.157][INFO]: Waiting for pending navigations...
+[1602363968.177][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.178][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.191][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}
+[1602363968.191][INFO]: Waiting for pending navigations...
+[1602363968.215][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.276][INFO]: Waiting for pending navigations...
+[1602363968.292][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.292][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 Lite - Preto"
+[1602363968.321][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "8f211701-013f-4778-aed8-ff77c7097366"
+}
+[1602363968.321][INFO]: Waiting for pending navigations...
+[1602363968.329][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.355][INFO]: Waiting for pending navigations...
+[1602363968.371][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.371][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.386][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "8f211701-013f-4778-aed8-ff77c7097366"
+}
+[1602363968.386][INFO]: Waiting for pending navigations...
+[1602363968.393][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.447][INFO]: Waiting for pending navigations...
+[1602363968.463][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.463][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Rosa"
+[1602363968.483][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}
+[1602363968.483][INFO]: Waiting for pending navigations...
+[1602363968.493][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.516][INFO]: Waiting for pending navigations...
+[1602363968.533][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.534][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.543][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}
+[1602363968.544][INFO]: Waiting for pending navigations...
+[1602363968.547][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.601][INFO]: Waiting for pending navigations...
+[1602363968.615][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.615][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 128GB Dual Chip Android Tela 6.1” Octa-Core 4G Câmera Tripla Traseira 12MP + 12MP + 16MP - Branco"
+[1602363968.639][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}
+[1602363968.640][INFO]: Waiting for pending navigations...
+[1602363968.656][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.683][INFO]: Waiting for pending navigations...
+[1602363968.700][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.700][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.719][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}
+[1602363968.719][INFO]: Waiting for pending navigations...
+[1602363968.728][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.803][INFO]: Waiting for pending navigations...
+[1602363968.815][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.816][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602363968.833][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}
+[1602363968.833][INFO]: Waiting for pending navigations...
+[1602363968.842][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.880][INFO]: Waiting for pending navigations...
+[1602363968.895][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.895][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363968.906][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}
+[1602363968.906][INFO]: Waiting for pending navigations...
+[1602363968.912][INFO]: Done waiting for pending navigations. Status: ok
+[1602363968.977][INFO]: Waiting for pending navigations...
+[1602363969.004][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.004][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S20 - Cosmic Gray"
+[1602363969.018][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "1525423a-78f8-4898-902b-6eb5076e5723"
+}
+[1602363969.018][INFO]: Waiting for pending navigations...
+[1602363969.027][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.050][INFO]: Waiting for pending navigations...
+[1602363969.066][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.066][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.083][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "1525423a-78f8-4898-902b-6eb5076e5723"
+}
+[1602363969.083][INFO]: Waiting for pending navigations...
+[1602363969.086][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.139][INFO]: Waiting for pending navigations...
+[1602363969.153][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.153][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s 64GB Dual Chip Android 10 Tela 6.5\" Octa-Core 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Preto"
+[1602363969.172][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}
+[1602363969.173][INFO]: Waiting for pending navigations...
+[1602363969.180][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.203][INFO]: Waiting for pending navigations...
+[1602363969.226][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.226][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.239][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}
+[1602363969.240][INFO]: Waiting for pending navigations...
+[1602363969.243][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.300][INFO]: Waiting for pending navigations...
+[1602363969.313][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.314][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Azul Capri"
+[1602363969.333][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}
+[1602363969.333][INFO]: Waiting for pending navigations...
+[1602363969.342][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.363][INFO]: Waiting for pending navigations...
+[1602363969.383][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.383][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.403][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}
+[1602363969.403][INFO]: Waiting for pending navigations...
+[1602363969.419][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.479][INFO]: Waiting for pending navigations...
+[1602363969.493][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.493][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A10s 32GB Dual Chip Android 9.0 Tela 6.2” Octa-Core 4G Câmera 13MP+2MP - Preto"
+[1602363969.507][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}
+[1602363969.508][INFO]: Waiting for pending navigations...
+[1602363969.530][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.549][INFO]: Waiting for pending navigations...
+[1602363969.567][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.567][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.583][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}
+[1602363969.583][INFO]: Waiting for pending navigations...
+[1602363969.599][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.655][INFO]: Waiting for pending navigations...
+[1602363969.667][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.667][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s Dual Chip Android 10 Tela 6.5\" Octa-Core 64GB 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Branco"
+[1602363969.680][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}
+[1602363969.680][INFO]: Waiting for pending navigations...
+[1602363969.689][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.713][INFO]: Waiting for pending navigations...
+[1602363969.734][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.734][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.747][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}
+[1602363969.747][INFO]: Waiting for pending navigations...
+[1602363969.767][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.832][INFO]: Waiting for pending navigations...
+[1602363969.846][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.846][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Azul"
+[1602363969.883][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}
+[1602363969.883][INFO]: Waiting for pending navigations...
+[1602363969.894][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.915][INFO]: Waiting for pending navigations...
+[1602363969.933][INFO]: Done waiting for pending navigations. Status: ok
+[1602363969.933][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363969.949][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}
+[1602363969.949][INFO]: Waiting for pending navigations...
+[1602363969.965][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.034][INFO]: Waiting for pending navigations...
+[1602363970.046][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.047][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A31 Dual Chip Android 10 Tela 6.4\" Octa-Core 128GB 4G Câmera Quádrupla 48MP+8MP+5MP+5MP - Azul"
+[1602363970.069][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}
+[1602363970.069][INFO]: Waiting for pending navigations...
+[1602363970.081][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.107][INFO]: Waiting for pending navigations...
+[1602363970.125][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.125][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363970.150][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}
+[1602363970.150][INFO]: Waiting for pending navigations...
+[1602363970.166][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.223][INFO]: Waiting for pending navigations...
+[1602363970.246][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.246][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A51 Android Tela 6,5\" Super Amoled Octa-Core 2.3 128GB 4G Câmera 48MP+12MP+5Mp - Azul"
+[1602363970.269][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}
+[1602363970.269][INFO]: Waiting for pending navigations...
+[1602363970.284][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.315][INFO]: Waiting for pending navigations...
+[1602363970.329][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.329][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363970.344][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}
+[1602363970.344][INFO]: Waiting for pending navigations...
+[1602363970.356][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.409][INFO]: Waiting for pending navigations...
+[1602363970.420][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.420][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A20s 32GB Dual Chip Android 9.0 Tela 6.5\" Octa-Core 1.8 GHz 4G Câmera Tripla 13.0 MP + 5.0 MP + 5.0 MP(UW) - Azul"
+[1602363970.459][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "6e2b9d36-8f6c-40b5-b431-1d5c15b5c8da"
+}
+[1602363970.459][INFO]: Waiting for pending navigations...
+[1602363970.468][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.493][INFO]: Waiting for pending navigations...
+[1602363970.507][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.507][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363970.527][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "6e2b9d36-8f6c-40b5-b431-1d5c15b5c8da"
+}
+[1602363970.528][INFO]: Waiting for pending navigations...
+[1602363970.541][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.599][INFO]: Waiting for pending navigations...
+[1602363970.609][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.610][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Azul"
+[1602363970.630][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5cad0234-4e81-4a74-b092-1b2eb6b2cc38"
+}
+[1602363970.630][INFO]: Waiting for pending navigations...
+[1602363970.649][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.674][INFO]: Waiting for pending navigations...
+[1602363970.694][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.694][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363970.704][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5cad0234-4e81-4a74-b092-1b2eb6b2cc38"
+}
+[1602363970.705][INFO]: Waiting for pending navigations...
+[1602363970.709][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.764][INFO]: Waiting for pending navigations...
+[1602363970.796][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.796][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Branco"
+[1602363970.837][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "18796385-a9e0-46b9-aa1c-2781a73b7b6b"
+}
+[1602363970.838][INFO]: Waiting for pending navigations...
+[1602363970.860][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.891][INFO]: Waiting for pending navigations...
+[1602363970.907][INFO]: Done waiting for pending navigations. Status: ok
+[1602363970.908][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363970.939][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "18796385-a9e0-46b9-aa1c-2781a73b7b6b"
+}
+[1602363970.939][INFO]: Waiting for pending navigations...
+[1602363970.946][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.000][INFO]: Waiting for pending navigations...
+[1602363971.013][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.014][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola One Fusion Dual Chip Android tela 6.5\" 128GB Wi-Fi Câmera 48MP+8MP - Azul Safira"
+[1602363971.039][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "e09d4093-bead-448a-b16c-7d1c470d1893"
+}
+[1602363971.039][INFO]: Waiting for pending navigations...
+[1602363971.065][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.087][INFO]: Waiting for pending navigations...
+[1602363971.102][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.103][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363971.121][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "e09d4093-bead-448a-b16c-7d1c470d1893"
+}
+[1602363971.121][INFO]: Waiting for pending navigations...
+[1602363971.134][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.196][INFO]: Waiting for pending navigations...
+[1602363971.210][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.210][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A01 - Azul"
+[1602363971.230][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "eed2f46e-ffa5-4368-a0bc-4f9d1e94108a"
+}
+[1602363971.230][INFO]: Waiting for pending navigations...
+[1602363971.236][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.264][INFO]: Waiting for pending navigations...
+[1602363971.294][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.294][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363971.322][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "eed2f46e-ffa5-4368-a0bc-4f9d1e94108a"
+}
+[1602363971.322][INFO]: Waiting for pending navigations...
+[1602363971.334][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.393][INFO]: Waiting for pending navigations...
+[1602363971.405][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.405][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Moto G8 Play 32GB Dual Chip Android Tela 6.2\" 4G Wi-Fi Câmera 13MP + 8MP + 2MP - Preto Ônix"
+[1602363971.431][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "69366746-ca18-4305-a751-776d91be3abb"
+}
+[1602363971.432][INFO]: Waiting for pending navigations...
+[1602363971.443][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.465][INFO]: Waiting for pending navigations...
+[1602363971.484][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.484][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363971.509][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "69366746-ca18-4305-a751-776d91be3abb"
+}
+[1602363971.509][INFO]: Waiting for pending navigations...
+[1602363971.522][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.584][INFO]: Waiting for pending navigations...
+[1602363971.601][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.603][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602363971.619][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "da2b5a86-33c1-4372-a0ca-36f93afe7c66"
+}
+[1602363971.620][INFO]: Waiting for pending navigations...
+[1602363971.632][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.651][INFO]: Waiting for pending navigations...
+[1602363971.667][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.667][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363971.694][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "da2b5a86-33c1-4372-a0ca-36f93afe7c66"
+}
+[1602363971.694][INFO]: Waiting for pending navigations...
+[1602363971.709][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.770][INFO]: Waiting for pending navigations...
+[1602363971.784][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.784][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Porta Celular Suporte Smartphone Tablet Prime Maxcril Preto"
+[1602363971.819][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "86edfb5f-b681-4709-b6ef-e5fb3e3a4574"
+}
+[1602363971.819][INFO]: Waiting for pending navigations...
+[1602363971.843][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.879][INFO]: Waiting for pending navigations...
+[1602363971.887][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.887][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363971.903][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "86edfb5f-b681-4709-b6ef-e5fb3e3a4574"
+}
+[1602363971.903][INFO]: Waiting for pending navigations...
+[1602363971.906][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.966][INFO]: Waiting for pending navigations...
+[1602363971.979][INFO]: Done waiting for pending navigations. Status: ok
+[1602363971.980][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Sony Xperia Z5 Premium 32GB 3GB RAM Câmera Traseira 23MP e Frontal 5MP Tela 5.5\" Dourado"
+[1602363972.009][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "ca74fa99-e41a-4f46-86ce-05534597d534"
+}
+[1602363972.009][INFO]: Waiting for pending navigations...
+[1602363972.015][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.039][INFO]: Waiting for pending navigations...
+[1602363972.064][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.064][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363972.085][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "ca74fa99-e41a-4f46-86ce-05534597d534"
+}
+[1602363972.086][INFO]: Waiting for pending navigations...
+[1602363972.097][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.161][INFO]: Waiting for pending navigations...
+[1602363972.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.194][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Suporte Veicular Magnético Super Firme E Resistente Super Fino Para Carro Segura Celular Smartphone GPS Tablet 2 Unidades WixGear"
+[1602363972.221][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "09ed5dcf-c75c-40ea-b30f-9031e6b72bc7"
+}
+[1602363972.221][INFO]: Waiting for pending navigations...
+[1602363972.238][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.263][INFO]: Waiting for pending navigations...
+[1602363972.283][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.283][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363972.337][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "09ed5dcf-c75c-40ea-b30f-9031e6b72bc7"
+}
+[1602363972.337][INFO]: Waiting for pending navigations...
+[1602363972.369][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.441][INFO]: Waiting for pending navigations...
+[1602363972.451][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.451][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "USADO: Smartphone LG X230DS K4 Novo Dual Chip, 4G, Câmera Traseira: 8 MP, Ram 1GB, Tela: 5” - Chocolate - Excelente"
+[1602363972.493][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "bc2564e7-0559-40cb-9aa8-bb7c44489d90"
+}
+[1602363972.493][INFO]: Waiting for pending navigations...
+[1602363972.505][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.543][INFO]: Waiting for pending navigations...
+[1602363972.551][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.552][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363972.573][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "bc2564e7-0559-40cb-9aa8-bb7c44489d90"
+}
+[1602363972.573][INFO]: Waiting for pending navigations...
+[1602363972.588][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.657][INFO]: Waiting for pending navigations...
+[1602363972.669][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.669][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Celular Dual Chip LG B220 Desbloqueado 32MB 2G Rádio FM - Preto"
+[1602363972.696][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "9203613e-6980-4db8-8b3f-8450a3ab2374"
+}
+[1602363972.696][INFO]: Waiting for pending navigations...
+[1602363972.716][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.739][INFO]: Waiting for pending navigations...
+[1602363972.759][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.759][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363972.777][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "9203613e-6980-4db8-8b3f-8450a3ab2374"
+}
+[1602363972.777][INFO]: Waiting for pending navigations...
+[1602363972.804][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.859][INFO]: Waiting for pending navigations...
+[1602363972.875][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.875][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Celular Positivo P28 Preto com Dual Chip, Tela 2.8”, Câmera, Rádio FM, MP3/MP4, Bluetooth"
+[1602363972.909][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5a4b6d97-12f3-4da2-9757-a4975feb0203"
+}
+[1602363972.909][INFO]: Waiting for pending navigations...
+[1602363972.926][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.942][INFO]: Waiting for pending navigations...
+[1602363972.960][INFO]: Done waiting for pending navigations. Status: ok
+[1602363972.960][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363972.988][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5a4b6d97-12f3-4da2-9757-a4975feb0203"
+}
+[1602363972.989][INFO]: Waiting for pending navigations...
+[1602363972.999][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.061][INFO]: Waiting for pending navigations...
+[1602363973.076][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.076][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy J6 32GB Dual Chip Android 8.0 Tela 5.6\" Octa-Core 1.6GHz 4G Câmera 13MP com TV - Preto"
+[1602363973.105][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "7aae304a-3714-4351-ba90-77bc4c1bfb45"
+}
+[1602363973.105][INFO]: Waiting for pending navigations...
+[1602363973.120][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.141][INFO]: Waiting for pending navigations...
+[1602363973.171][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.171][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363973.217][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "7aae304a-3714-4351-ba90-77bc4c1bfb45"
+}
+[1602363973.217][INFO]: Waiting for pending navigations...
+[1602363973.229][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.286][INFO]: Waiting for pending navigations...
+[1602363973.311][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.311][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G6 32GB Dual Chip Android Oreo - 8.0 Tela 5.7\" Octa-Core 1.8 GHz 4G Câmera 12 + 5MP (Dual Traseira) - Índigo"
+[1602363973.337][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "a540d0bf-fd06-4e15-b091-48add7571043"
+}
+[1602363973.337][INFO]: Waiting for pending navigations...
+[1602363973.346][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.366][INFO]: Waiting for pending navigations...
+[1602363973.386][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.386][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363973.414][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "a540d0bf-fd06-4e15-b091-48add7571043"
+}
+[1602363973.414][INFO]: Waiting for pending navigations...
+[1602363973.430][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.487][INFO]: Waiting for pending navigations...
+[1602363973.501][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.501][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText ""
+[1602363973.511][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363973.512][INFO]: Waiting for pending navigations...
+[1602363973.526][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.557][INFO]: Waiting for pending navigations...
+[1602363973.571][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.572][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363973.606][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363973.606][INFO]: Waiting for pending navigations...
+[1602363973.610][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.633][INFO]: Waiting for pending navigations...
+[1602363973.650][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.650][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363973.677][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363973.677][INFO]: Waiting for pending navigations...
+[1602363973.693][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.727][INFO]: Waiting for pending navigations...
+[1602363973.751][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.751][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363973.780][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363973.780][INFO]: Waiting for pending navigations...
+[1602363973.790][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.816][INFO]: Waiting for pending navigations...
+[1602363973.834][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.834][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363973.859][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363973.859][INFO]: Waiting for pending navigations...
+[1602363973.869][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.899][INFO]: Waiting for pending navigations...
+[1602363973.913][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.913][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363973.935][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363973.935][INFO]: Waiting for pending navigations...
+[1602363973.945][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.966][INFO]: Waiting for pending navigations...
+[1602363973.985][INFO]: Done waiting for pending navigations. Status: ok
+[1602363973.985][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.009][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363974.009][INFO]: Waiting for pending navigations...
+[1602363974.022][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.063][INFO]: Waiting for pending navigations...
+[1602363974.077][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.077][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363974.116][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}
+[1602363974.116][INFO]: Waiting for pending navigations...
+[1602363974.123][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.143][INFO]: Waiting for pending navigations...
+[1602363974.163][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.163][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.195][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}
+[1602363974.195][INFO]: Waiting for pending navigations...
+[1602363974.206][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.237][INFO]: Waiting for pending navigations...
+[1602363974.255][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.256][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Preto"
+[1602363974.283][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}
+[1602363974.283][INFO]: Waiting for pending navigations...
+[1602363974.301][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.308][INFO]: Waiting for pending navigations...
+[1602363974.325][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.325][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.352][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}
+[1602363974.352][INFO]: Waiting for pending navigations...
+[1602363974.361][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.398][INFO]: Waiting for pending navigations...
+[1602363974.411][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.411][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone LG K71 128GB Dual Chip Android 10 Tela 6.8\" Quad Core Câmera Tripla 48MP+5MP+5MP Frontal 32MP - White"
+[1602363974.443][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}
+[1602363974.444][INFO]: Waiting for pending navigations...
+[1602363974.451][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.471][INFO]: Waiting for pending navigations...
+[1602363974.490][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.490][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.521][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}
+[1602363974.522][INFO]: Waiting for pending navigations...
+[1602363974.543][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.584][INFO]: Waiting for pending navigations...
+[1602363974.611][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.611][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Prata"
+[1602363974.644][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}
+[1602363974.644][INFO]: Waiting for pending navigations...
+[1602363974.655][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.676][INFO]: Waiting for pending navigations...
+[1602363974.691][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.691][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.721][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}
+[1602363974.721][INFO]: Waiting for pending navigations...
+[1602363974.735][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.774][INFO]: Waiting for pending navigations...
+[1602363974.786][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.786][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 Lite - Preto"
+[1602363974.815][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "8f211701-013f-4778-aed8-ff77c7097366"
+}
+[1602363974.816][INFO]: Waiting for pending navigations...
+[1602363974.833][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.850][INFO]: Waiting for pending navigations...
+[1602363974.867][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.867][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363974.896][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "8f211701-013f-4778-aed8-ff77c7097366"
+}
+[1602363974.896][INFO]: Waiting for pending navigations...
+[1602363974.904][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.946][INFO]: Waiting for pending navigations...
+[1602363974.957][INFO]: Done waiting for pending navigations. Status: ok
+[1602363974.957][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Rosa"
+[1602363975.000][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}
+[1602363975.000][INFO]: Waiting for pending navigations...
+[1602363975.019][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.041][INFO]: Waiting for pending navigations...
+[1602363975.060][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.061][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.090][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}
+[1602363975.091][INFO]: Waiting for pending navigations...
+[1602363975.095][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.126][INFO]: Waiting for pending navigations...
+[1602363975.152][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.153][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10 128GB Dual Chip Android Tela 6.1” Octa-Core 4G Câmera Tripla Traseira 12MP + 12MP + 16MP - Branco"
+[1602363975.176][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}
+[1602363975.176][INFO]: Waiting for pending navigations...
+[1602363975.186][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.206][INFO]: Waiting for pending navigations...
+[1602363975.221][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.221][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.245][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}
+[1602363975.245][INFO]: Waiting for pending navigations...
+[1602363975.266][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.301][INFO]: Waiting for pending navigations...
+[1602363975.313][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.314][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602363975.335][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}
+[1602363975.336][INFO]: Waiting for pending navigations...
+[1602363975.346][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.371][INFO]: Waiting for pending navigations...
+[1602363975.387][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.388][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.420][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}
+[1602363975.421][INFO]: Waiting for pending navigations...
+[1602363975.436][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.483][INFO]: Waiting for pending navigations...
+[1602363975.493][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.493][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S20 - Cosmic Gray"
+[1602363975.523][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "1525423a-78f8-4898-902b-6eb5076e5723"
+}
+[1602363975.523][INFO]: Waiting for pending navigations...
+[1602363975.529][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.549][INFO]: Waiting for pending navigations...
+[1602363975.565][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.565][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.604][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "1525423a-78f8-4898-902b-6eb5076e5723"
+}
+[1602363975.604][INFO]: Waiting for pending navigations...
+[1602363975.611][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.647][INFO]: Waiting for pending navigations...
+[1602363975.663][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.663][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s 64GB Dual Chip Android 10 Tela 6.5\" Octa-Core 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Preto"
+[1602363975.700][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}
+[1602363975.700][INFO]: Waiting for pending navigations...
+[1602363975.719][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.740][INFO]: Waiting for pending navigations...
+[1602363975.756][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.756][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.785][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}
+[1602363975.786][INFO]: Waiting for pending navigations...
+[1602363975.819][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.851][INFO]: Waiting for pending navigations...
+[1602363975.870][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.870][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Azul Capri"
+[1602363975.905][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}
+[1602363975.905][INFO]: Waiting for pending navigations...
+[1602363975.921][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.936][INFO]: Waiting for pending navigations...
+[1602363975.951][INFO]: Done waiting for pending navigations. Status: ok
+[1602363975.952][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363975.988][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}
+[1602363975.988][INFO]: Waiting for pending navigations...
+[1602363976.005][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.042][INFO]: Waiting for pending navigations...
+[1602363976.060][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.060][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A10s 32GB Dual Chip Android 9.0 Tela 6.2” Octa-Core 4G Câmera 13MP+2MP - Preto"
+[1602363976.091][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}
+[1602363976.092][INFO]: Waiting for pending navigations...
+[1602363976.096][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.115][INFO]: Waiting for pending navigations...
+[1602363976.135][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.136][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363976.166][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}
+[1602363976.169][INFO]: Waiting for pending navigations...
+[1602363976.175][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.207][INFO]: Waiting for pending navigations...
+[1602363976.219][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.221][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A21s Dual Chip Android 10 Tela 6.5\" Octa-Core 64GB 4G Câmera Quádrupla 48MP+8MP+2MP+2MP - Branco"
+[1602363976.260][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}
+[1602363976.260][INFO]: Waiting for pending navigations...
+[1602363976.279][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.303][INFO]: Waiting for pending navigations...
+[1602363976.320][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.320][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363976.353][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}
+[1602363976.353][INFO]: Waiting for pending navigations...
+[1602363976.381][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.412][INFO]: Waiting for pending navigations...
+[1602363976.423][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.423][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Azul"
+[1602363976.470][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}
+[1602363976.470][INFO]: Waiting for pending navigations...
+[1602363976.485][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.509][INFO]: Waiting for pending navigations...
+[1602363976.527][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.527][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363976.563][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}
+[1602363976.563][INFO]: Waiting for pending navigations...
+[1602363976.581][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.627][INFO]: Waiting for pending navigations...
+[1602363976.638][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.638][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A31 Dual Chip Android 10 Tela 6.4\" Octa-Core 128GB 4G Câmera Quádrupla 48MP+8MP+5MP+5MP - Azul"
+[1602363976.674][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}
+[1602363976.674][INFO]: Waiting for pending navigations...
+[1602363976.685][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.703][INFO]: Waiting for pending navigations...
+[1602363976.727][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.727][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363976.767][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}
+[1602363976.767][INFO]: Waiting for pending navigations...
+[1602363976.784][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.827][INFO]: Waiting for pending navigations...
+[1602363976.885][INFO]: Done waiting for pending navigations. Status: ok
+[1602363976.885][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A51 Android Tela 6,5\" Super Amoled Octa-Core 2.3 128GB 4G Câmera 48MP+12MP+5Mp - Azul"
+[1602363976.955][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}
+[1602363976.955][INFO]: Waiting for pending navigations...
+[1602363976.975][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.027][INFO]: Waiting for pending navigations...
+[1602363977.076][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.076][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363977.121][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}
+[1602363977.121][INFO]: Waiting for pending navigations...
+[1602363977.146][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.177][INFO]: Waiting for pending navigations...
+[1602363977.190][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.190][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A20s 32GB Dual Chip Android 9.0 Tela 6.5\" Octa-Core 1.8 GHz 4G Câmera Tripla 13.0 MP + 5.0 MP + 5.0 MP(UW) - Azul"
+[1602363977.250][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "6e2b9d36-8f6c-40b5-b431-1d5c15b5c8da"
+}
+[1602363977.250][INFO]: Waiting for pending navigations...
+[1602363977.271][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.300][INFO]: Waiting for pending navigations...
+[1602363977.326][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.326][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363977.354][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "6e2b9d36-8f6c-40b5-b431-1d5c15b5c8da"
+}
+[1602363977.355][INFO]: Waiting for pending navigations...
+[1602363977.376][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.450][INFO]: Waiting for pending navigations...
+[1602363977.503][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.503][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Azul"
+[1602363977.569][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5cad0234-4e81-4a74-b092-1b2eb6b2cc38"
+}
+[1602363977.569][INFO]: Waiting for pending navigations...
+[1602363977.600][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.708][INFO]: Waiting for pending navigations...
+[1602363977.742][INFO]: Done waiting for pending navigations. Status: ok
+[1602363977.742][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363977.863][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5cad0234-4e81-4a74-b092-1b2eb6b2cc38"
+}
+[1602363977.863][INFO]: Waiting for pending navigations...
+[1602363977.925][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.023][INFO]: Waiting for pending navigations...
+[1602363978.075][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.076][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy S10e 128GB Dual Chip Android 9.0 Tela 5,8\" Octa-Core 4G Câmera 12MP + 16MP - Branco"
+[1602363978.190][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "18796385-a9e0-46b9-aa1c-2781a73b7b6b"
+}
+[1602363978.190][INFO]: Waiting for pending navigations...
+[1602363978.224][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.246][INFO]: Waiting for pending navigations...
+[1602363978.264][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.264][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363978.302][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "18796385-a9e0-46b9-aa1c-2781a73b7b6b"
+}
+[1602363978.302][INFO]: Waiting for pending navigations...
+[1602363978.325][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.363][INFO]: Waiting for pending navigations...
+[1602363978.379][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.379][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola One Fusion Dual Chip Android tela 6.5\" 128GB Wi-Fi Câmera 48MP+8MP - Azul Safira"
+[1602363978.416][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "e09d4093-bead-448a-b16c-7d1c470d1893"
+}
+[1602363978.416][INFO]: Waiting for pending navigations...
+[1602363978.430][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.456][INFO]: Waiting for pending navigations...
+[1602363978.473][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.474][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363978.505][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "e09d4093-bead-448a-b16c-7d1c470d1893"
+}
+[1602363978.506][INFO]: Waiting for pending navigations...
+[1602363978.516][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.564][INFO]: Waiting for pending navigations...
+[1602363978.596][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.596][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A01 - Azul"
+[1602363978.738][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "eed2f46e-ffa5-4368-a0bc-4f9d1e94108a"
+}
+[1602363978.739][INFO]: Waiting for pending navigations...
+[1602363978.785][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.899][INFO]: Waiting for pending navigations...
+[1602363978.927][INFO]: Done waiting for pending navigations. Status: ok
+[1602363978.927][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363978.972][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "eed2f46e-ffa5-4368-a0bc-4f9d1e94108a"
+}
+[1602363978.975][INFO]: Waiting for pending navigations...
+[1602363979.001][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.167][INFO]: Waiting for pending navigations...
+[1602363979.215][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.215][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Moto G8 Play 32GB Dual Chip Android Tela 6.2\" 4G Wi-Fi Câmera 13MP + 8MP + 2MP - Preto Ônix"
+[1602363979.364][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "69366746-ca18-4305-a751-776d91be3abb"
+}
+[1602363979.364][INFO]: Waiting for pending navigations...
+[1602363979.389][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.410][INFO]: Waiting for pending navigations...
+[1602363979.448][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.448][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363979.480][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "69366746-ca18-4305-a751-776d91be3abb"
+}
+[1602363979.480][INFO]: Waiting for pending navigations...
+[1602363979.498][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.533][INFO]: Waiting for pending navigations...
+[1602363979.545][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.545][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy Note10 256GB Dual Chip Android 9.0 6.3\" Octa-Core 4G Câmera 12 MP + 16 MP + 12 MP - Preto"
+[1602363979.576][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "da2b5a86-33c1-4372-a0ca-36f93afe7c66"
+}
+[1602363979.576][INFO]: Waiting for pending navigations...
+[1602363979.584][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.606][INFO]: Waiting for pending navigations...
+[1602363979.624][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.624][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363979.656][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "da2b5a86-33c1-4372-a0ca-36f93afe7c66"
+}
+[1602363979.656][INFO]: Waiting for pending navigations...
+[1602363979.675][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.715][INFO]: Waiting for pending navigations...
+[1602363979.743][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.743][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Porta Celular Suporte Smartphone Tablet Prime Maxcril Preto"
+[1602363979.775][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "86edfb5f-b681-4709-b6ef-e5fb3e3a4574"
+}
+[1602363979.775][INFO]: Waiting for pending navigations...
+[1602363979.806][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.820][INFO]: Waiting for pending navigations...
+[1602363979.889][INFO]: Done waiting for pending navigations. Status: ok
+[1602363979.889][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363979.959][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "86edfb5f-b681-4709-b6ef-e5fb3e3a4574"
+}
+[1602363979.959][INFO]: Waiting for pending navigations...
+[1602363979.981][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.020][INFO]: Waiting for pending navigations...
+[1602363980.037][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.037][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Sony Xperia Z5 Premium 32GB 3GB RAM Câmera Traseira 23MP e Frontal 5MP Tela 5.5\" Dourado"
+[1602363980.087][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "ca74fa99-e41a-4f46-86ce-05534597d534"
+}
+[1602363980.087][INFO]: Waiting for pending navigations...
+[1602363980.096][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.115][INFO]: Waiting for pending navigations...
+[1602363980.137][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.137][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363980.175][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "ca74fa99-e41a-4f46-86ce-05534597d534"
+}
+[1602363980.176][INFO]: Waiting for pending navigations...
+[1602363980.189][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.229][INFO]: Waiting for pending navigations...
+[1602363980.240][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.240][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Suporte Veicular Magnético Super Firme E Resistente Super Fino Para Carro Segura Celular Smartphone GPS Tablet 2 Unidades WixGear"
+[1602363980.276][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "09ed5dcf-c75c-40ea-b30f-9031e6b72bc7"
+}
+[1602363980.277][INFO]: Waiting for pending navigations...
+[1602363980.299][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.313][INFO]: Waiting for pending navigations...
+[1602363980.330][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.330][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363980.371][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "09ed5dcf-c75c-40ea-b30f-9031e6b72bc7"
+}
+[1602363980.371][INFO]: Waiting for pending navigations...
+[1602363980.386][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.429][INFO]: Waiting for pending navigations...
+[1602363980.443][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.443][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "USADO: Smartphone LG X230DS K4 Novo Dual Chip, 4G, Câmera Traseira: 8 MP, Ram 1GB, Tela: 5” - Chocolate - Excelente"
+[1602363980.485][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "bc2564e7-0559-40cb-9aa8-bb7c44489d90"
+}
+[1602363980.485][INFO]: Waiting for pending navigations...
+[1602363980.500][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.523][INFO]: Waiting for pending navigations...
+[1602363980.540][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.540][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363980.584][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "bc2564e7-0559-40cb-9aa8-bb7c44489d90"
+}
+[1602363980.584][INFO]: Waiting for pending navigations...
+[1602363980.607][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.644][INFO]: Waiting for pending navigations...
+[1602363980.654][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.655][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Celular Dual Chip LG B220 Desbloqueado 32MB 2G Rádio FM - Preto"
+[1602363980.725][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "9203613e-6980-4db8-8b3f-8450a3ab2374"
+}
+[1602363980.725][INFO]: Waiting for pending navigations...
+[1602363980.733][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.753][INFO]: Waiting for pending navigations...
+[1602363980.768][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.768][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363980.804][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "9203613e-6980-4db8-8b3f-8450a3ab2374"
+}
+[1602363980.804][INFO]: Waiting for pending navigations...
+[1602363980.821][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.861][INFO]: Waiting for pending navigations...
+[1602363980.887][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.887][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Celular Positivo P28 Preto com Dual Chip, Tela 2.8”, Câmera, Rádio FM, MP3/MP4, Bluetooth"
+[1602363980.926][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5a4b6d97-12f3-4da2-9757-a4975feb0203"
+}
+[1602363980.926][INFO]: Waiting for pending navigations...
+[1602363980.939][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.955][INFO]: Waiting for pending navigations...
+[1602363980.975][INFO]: Done waiting for pending navigations. Status: ok
+[1602363980.975][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363981.015][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5a4b6d97-12f3-4da2-9757-a4975feb0203"
+}
+[1602363981.015][INFO]: Waiting for pending navigations...
+[1602363981.030][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.067][INFO]: Waiting for pending navigations...
+[1602363981.083][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.084][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy J6 32GB Dual Chip Android 8.0 Tela 5.6\" Octa-Core 1.6GHz 4G Câmera 13MP com TV - Preto"
+[1602363981.119][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "7aae304a-3714-4351-ba90-77bc4c1bfb45"
+}
+[1602363981.119][INFO]: Waiting for pending navigations...
+[1602363981.136][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.157][INFO]: Waiting for pending navigations...
+[1602363981.174][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.174][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363981.208][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "7aae304a-3714-4351-ba90-77bc4c1bfb45"
+}
+[1602363981.208][INFO]: Waiting for pending navigations...
+[1602363981.226][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.268][INFO]: Waiting for pending navigations...
+[1602363981.300][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.300][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G6 32GB Dual Chip Android Oreo - 8.0 Tela 5.7\" Octa-Core 1.8 GHz 4G Câmera 12 + 5MP (Dual Traseira) - Índigo"
+[1602363981.334][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "a540d0bf-fd06-4e15-b091-48add7571043"
+}
+[1602363981.334][INFO]: Waiting for pending navigations...
+[1602363981.352][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.369][INFO]: Waiting for pending navigations...
+[1602363981.405][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.406][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363981.460][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "a540d0bf-fd06-4e15-b091-48add7571043"
+}
+[1602363981.461][INFO]: Waiting for pending navigations...
+[1602363981.480][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.514][INFO]: Waiting for pending navigations...
+[1602363981.537][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.537][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText ""
+[1602363981.548][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363981.548][INFO]: Waiting for pending navigations...
+[1602363981.561][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.592][INFO]: Waiting for pending navigations...
+[1602363981.613][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.614][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363981.676][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363981.676][INFO]: Waiting for pending navigations...
+[1602363981.693][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.714][INFO]: Waiting for pending navigations...
+[1602363981.734][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.734][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363981.779][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363981.779][INFO]: Waiting for pending navigations...
+[1602363981.797][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.844][INFO]: Waiting for pending navigations...
+[1602363981.854][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.856][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363981.900][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363981.900][INFO]: Waiting for pending navigations...
+[1602363981.909][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.928][INFO]: Waiting for pending navigations...
+[1602363981.945][INFO]: Done waiting for pending navigations. Status: ok
+[1602363981.946][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363981.985][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363981.985][INFO]: Waiting for pending navigations...
+[1602363981.993][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.025][INFO]: Waiting for pending navigations...
+[1602363982.043][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.043][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363982.101][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363982.101][INFO]: Waiting for pending navigations...
+[1602363982.116][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.136][INFO]: Waiting for pending navigations...
+[1602363982.151][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.152][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363982.188][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363982.191][INFO]: Waiting for pending navigations...
+[1602363982.209][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.239][INFO]: Waiting for pending navigations...
+[1602363982.257][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.257][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363982.307][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363982.308][INFO]: Waiting for pending navigations...
+[1602363982.310][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.343][INFO]: Waiting for pending navigations...
+[1602363982.357][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.357][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363982.401][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363982.401][INFO]: Waiting for pending navigations...
+[1602363982.417][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.439][INFO]: Waiting for pending navigations...
+[1602363982.457][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.457][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363982.474][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0e8b69c0-d42d-43bb-9585-d2218086827b",
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1602363982.475][INFO]: Waiting for pending navigations...
+[1602363982.483][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.507][INFO]: Waiting for pending navigations...
+[1602363982.527][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.527][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript {
+   "class": "TitleUI-bwhjk3-15 khKJTM TitleH2-sc-1wh9e1x-1 fINzxm"
+}
+[1602363982.545][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363982.545][INFO]: Waiting for pending navigations...
+[1602363982.579][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.606][INFO]: Waiting for pending navigations...
+[1602363982.639][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.640][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363982.652][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363982.652][INFO]: Waiting for pending navigations...
+[1602363982.667][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.689][INFO]: Waiting for pending navigations...
+[1602363982.711][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.711][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363982.746][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND IsElementSelected {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363982.746][INFO]: Waiting for pending navigations...
+[1602363982.750][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.783][INFO]: Waiting for pending navigations...
+[1602363982.815][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.815][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE IsElementSelected false
+[1602363982.852][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363982.855][INFO]: Waiting for pending navigations...
+[1602363982.901][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.950][INFO]: Waiting for pending navigations...
+[1602363982.962][INFO]: Done waiting for pending navigations. Status: ok
+[1602363982.962][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363983.023][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363983.023][INFO]: Waiting for pending navigations...
+[1602363983.060][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.089][INFO]: Waiting for pending navigations...
+[1602363983.101][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.102][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363983.151][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363983.152][INFO]: Waiting for pending navigations...
+[1602363983.161][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.183][INFO]: Waiting for pending navigations...
+[1602363983.195][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.195][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363983.416][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363983.417][INFO]: Waiting for pending navigations...
+[1602363983.447][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.494][INFO]: Waiting for pending navigations...
+[1602363983.519][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.519][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363983.620][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363983.620][INFO]: Waiting for pending navigations...
+[1602363983.632][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.652][INFO]: Waiting for pending navigations...
+[1602363983.682][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.682][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363983.759][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363983.759][INFO]: Waiting for pending navigations...
+[1602363983.770][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.836][INFO]: Waiting for pending navigations...
+[1602363983.851][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.851][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363983.940][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363983.940][INFO]: Waiting for pending navigations...
+[1602363983.953][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.977][INFO]: Waiting for pending navigations...
+[1602363983.993][INFO]: Done waiting for pending navigations. Status: ok
+[1602363983.993][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363984.044][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363984.044][INFO]: Waiting for pending navigations...
+[1602363984.064][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.099][INFO]: Waiting for pending navigations...
+[1602363984.121][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.121][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363984.170][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363984.170][INFO]: Waiting for pending navigations...
+[1602363984.183][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.210][INFO]: Waiting for pending navigations...
+[1602363984.233][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.233][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363984.313][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363984.314][INFO]: Waiting for pending navigations...
+[1602363984.344][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.383][INFO]: Waiting for pending navigations...
+[1602363984.409][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.409][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363984.480][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363984.480][INFO]: Waiting for pending navigations...
+[1602363984.493][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.543][INFO]: Waiting for pending navigations...
+[1602363984.561][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.561][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363984.620][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363984.620][INFO]: Waiting for pending navigations...
+[1602363984.629][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.648][INFO]: Waiting for pending navigations...
+[1602363984.666][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.666][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363984.684][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0e8b69c0-d42d-43bb-9585-d2218086827b",
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1602363984.685][INFO]: Waiting for pending navigations...
+[1602363984.700][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.733][INFO]: Waiting for pending navigations...
+[1602363984.764][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.764][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript {
+   "class": "TitleUI-bwhjk3-15 khKJTM TitleH2-sc-1wh9e1x-1 fINzxm"
+}
+[1602363984.784][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363984.785][INFO]: Waiting for pending navigations...
+[1602363984.828][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.860][INFO]: Waiting for pending navigations...
+[1602363984.893][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.893][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363984.905][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363984.905][INFO]: Waiting for pending navigations...
+[1602363984.913][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.944][INFO]: Waiting for pending navigations...
+[1602363984.964][INFO]: Done waiting for pending navigations. Status: ok
+[1602363984.964][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363985.020][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND IsElementSelected {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363985.020][INFO]: Waiting for pending navigations...
+[1602363985.030][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.066][INFO]: Waiting for pending navigations...
+[1602363985.089][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.089][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE IsElementSelected false
+[1602363985.111][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363985.111][INFO]: Waiting for pending navigations...
+[1602363985.133][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.180][INFO]: Waiting for pending navigations...
+[1602363985.194][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.194][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363985.243][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363985.243][INFO]: Waiting for pending navigations...
+[1602363985.260][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.310][INFO]: Waiting for pending navigations...
+[1602363985.324][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.324][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363985.367][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363985.367][INFO]: Waiting for pending navigations...
+[1602363985.380][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.401][INFO]: Waiting for pending navigations...
+[1602363985.431][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.431][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363985.643][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363985.644][INFO]: Waiting for pending navigations...
+[1602363985.647][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.675][INFO]: Waiting for pending navigations...
+[1602363985.696][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.697][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363985.767][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363985.767][INFO]: Waiting for pending navigations...
+[1602363985.786][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.813][INFO]: Waiting for pending navigations...
+[1602363985.833][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.833][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363985.900][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363985.900][INFO]: Waiting for pending navigations...
+[1602363985.923][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.980][INFO]: Waiting for pending navigations...
+[1602363985.989][INFO]: Done waiting for pending navigations. Status: ok
+[1602363985.989][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363986.037][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363986.037][INFO]: Waiting for pending navigations...
+[1602363986.043][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.063][INFO]: Waiting for pending navigations...
+[1602363986.078][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.078][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363986.147][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363986.147][INFO]: Waiting for pending navigations...
+[1602363986.157][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.191][INFO]: Waiting for pending navigations...
+[1602363986.203][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.203][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363986.252][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363986.252][INFO]: Waiting for pending navigations...
+[1602363986.256][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.281][INFO]: Waiting for pending navigations...
+[1602363986.299][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.299][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363986.352][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363986.352][INFO]: Waiting for pending navigations...
+[1602363986.359][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.400][INFO]: Waiting for pending navigations...
+[1602363986.413][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.413][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363986.458][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363986.458][INFO]: Waiting for pending navigations...
+[1602363986.464][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.503][INFO]: Waiting for pending navigations...
+[1602363986.514][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.514][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363986.554][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363986.554][INFO]: Waiting for pending navigations...
+[1602363986.569][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.591][INFO]: Waiting for pending navigations...
+[1602363986.606][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.606][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363986.614][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0e8b69c0-d42d-43bb-9585-d2218086827b",
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1602363986.614][INFO]: Waiting for pending navigations...
+[1602363986.626][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.646][INFO]: Waiting for pending navigations...
+[1602363986.663][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.663][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript {
+   "class": "TitleUI-bwhjk3-15 khKJTM TitleH2-sc-1wh9e1x-1 fINzxm"
+}
+[1602363986.677][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363986.677][INFO]: Waiting for pending navigations...
+[1602363986.685][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.709][INFO]: Waiting for pending navigations...
+[1602363986.733][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.733][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363986.745][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363986.745][INFO]: Waiting for pending navigations...
+[1602363986.749][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.767][INFO]: Waiting for pending navigations...
+[1602363986.788][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.789][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363986.839][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND IsElementSelected {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363986.840][INFO]: Waiting for pending navigations...
+[1602363986.857][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.873][INFO]: Waiting for pending navigations...
+[1602363986.893][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.893][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE IsElementSelected false
+[1602363986.925][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363986.925][INFO]: Waiting for pending navigations...
+[1602363986.938][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.977][INFO]: Waiting for pending navigations...
+[1602363986.997][INFO]: Done waiting for pending navigations. Status: ok
+[1602363986.997][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363987.046][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363987.046][INFO]: Waiting for pending navigations...
+[1602363987.059][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.095][INFO]: Waiting for pending navigations...
+[1602363987.111][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.112][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363987.190][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363987.190][INFO]: Waiting for pending navigations...
+[1602363987.197][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.218][INFO]: Waiting for pending navigations...
+[1602363987.231][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.231][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363987.440][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".TitleUI-bwhjk3-15"
+}
+[1602363987.440][INFO]: Waiting for pending navigations...
+[1602363987.458][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.483][INFO]: Waiting for pending navigations...
+[1602363987.497][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.498][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "43447359-89a9-430f-999a-33c13def009a"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "7bde8ad1-d181-4a09-bb7a-78dbcb3a37b7"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "97cd48a2-ec1d-44df-bcca-a668a7499a9f"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "33c1c8fa-ed4a-4b8f-bdb4-8370395d6c08"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "00b4dd3e-292b-4f18-8a04-f7dd99beb11b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8f211701-013f-4778-aed8-ff77c7097366"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0b8d0d28-9b20-41e1-968b-e34f9299f651"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "fdc97f33-12e3-4767-bbcc-815c13636c41"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "878bf530-a371-4dd7-9e70-3bf6e03921d5"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "1525423a-78f8-4898-902b-6eb5076e5723"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "ebfac78e-eed6-4d46-97b4-61020c73c614"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "34940eea-49d7-4f5e-9a34-b8f2795c5632"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "d3ec43d8-cd51-4fb4-b3bf-dc73c8670905"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "660d3122-6e43-460b-8d59-8e9107c9e923"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f86b08b0-f487-4404-a2b7-f172c65178e2"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "da24d93a-1713-4d45-9377-e2709cb8ae1b"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "8d55f2d4-bf18-4b72-ae72-16bb424a6090"
+}, "..." ]
+[1602363987.551][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363987.551][INFO]: Waiting for pending navigations...
+[1602363987.559][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.579][INFO]: Waiting for pending navigations...
+[1602363987.595][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.595][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363987.639][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "5d01039c-5495-4eae-a1c0-6341167b73c9"
+}
+[1602363987.639][INFO]: Waiting for pending navigations...
+[1602363987.651][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.690][INFO]: Waiting for pending navigations...
+[1602363987.707][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.707][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Motorola Moto G8 64GB Dual Chip Android 6,4\" Qualcomm Snapdragon 665 (SM6125) 4G Câmera Traseira 16MP + 8MP + 2MP Foco à Laser Filmadora 4K - Branco Prisma"
+[1602363987.755][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363987.755][INFO]: Waiting for pending navigations...
+[1602363987.775][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.803][INFO]: Waiting for pending navigations...
+[1602363987.817][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.817][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363987.853][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "43447359-89a9-430f-999a-33c13def009a"
+}
+[1602363987.853][INFO]: Waiting for pending navigations...
+[1602363987.856][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.887][INFO]: Waiting for pending navigations...
+[1602363987.908][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.909][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy M31 128GB Dual Chip Android 10.0 Tela 6.4\" Octa-Core 4G Câmera Quádrupla 64MP+8MP+5MP+5MP - Preto"
+[1602363987.959][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363987.959][INFO]: Waiting for pending navigations...
+[1602363987.973][INFO]: Done waiting for pending navigations. Status: ok
+[1602363987.991][INFO]: Waiting for pending navigations...
+[1602363988.009][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.009][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363988.063][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.063][INFO]: Waiting for pending navigations...
+[1602363988.076][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.111][INFO]: Waiting for pending navigations...
+[1602363988.125][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.125][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363988.181][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.181][INFO]: Waiting for pending navigations...
+[1602363988.195][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.226][INFO]: Waiting for pending navigations...
+[1602363988.238][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.239][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363988.286][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.286][INFO]: Waiting for pending navigations...
+[1602363988.296][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.306][INFO]: Waiting for pending navigations...
+[1602363988.324][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.324][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363988.331][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0e8b69c0-d42d-43bb-9585-d2218086827b",
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "var s = {};var attrs = arguments[0].attributes;for (var i = 0; i \u003C attrs.length; i++) {   var a = attrs[i];    if (a.name != 'style') {     s[a.name] = a.value;   }}return s;"
+}
+[1602363988.331][INFO]: Waiting for pending navigations...
+[1602363988.339][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.356][INFO]: Waiting for pending navigations...
+[1602363988.373][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.373][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript {
+   "class": "TitleUI-bwhjk3-15 khKJTM TitleH2-sc-1wh9e1x-1 fINzxm"
+}
+[1602363988.385][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363988.385][INFO]: Waiting for pending navigations...
+[1602363988.390][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.407][INFO]: Waiting for pending navigations...
+[1602363988.425][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.425][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363988.433][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   }, "type" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a..."
+}
+[1602363988.433][INFO]: Waiting for pending navigations...
+[1602363988.440][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.459][INFO]: Waiting for pending navigations...
+[1602363988.473][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.474][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript null
+[1602363988.537][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND IsElementSelected {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.537][INFO]: Waiting for pending navigations...
+[1602363988.552][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.570][INFO]: Waiting for pending navigations...
+[1602363988.588][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.588][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE IsElementSelected false
+[1602363988.610][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602363988.610][INFO]: Waiting for pending navigations...
+[1602363988.621][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.662][INFO]: Waiting for pending navigations...
+[1602363988.676][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.677][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript true
+[1602363988.741][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementText {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.742][INFO]: Waiting for pending navigations...
+[1602363988.751][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.800][INFO]: Waiting for pending navigations...
+[1602363988.810][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.810][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementText "Smartphone Samsung Galaxy A71 128GB Dual Chip Android Tela 6,7\" Octa-Core 2.2 GHz 4G Câmera Quádrupla 64MP(Principal)+12MP(Ultra Wide)+5MP(Macro)+5MP(Profundidade) Filmadora 4K - Preto"
+[1602363988.869][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND GetElementTagName {
+   "id": "0e8b69c0-d42d-43bb-9585-d2218086827b"
+}
+[1602363988.869][INFO]: Waiting for pending navigations...
+[1602363988.874][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.891][INFO]: Waiting for pending navigations...
+[1602363988.910][INFO]: Done waiting for pending navigations. Status: ok
+[1602363988.911][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE GetElementTagName "h2"
+[1602363989.132][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602363989.132][INFO]: Waiting for pending navigations...
+[1602363989.149][INFO]: Done waiting for pending navigations. Status: ok
+[1602363989.914][INFO]: Waiting for pending navigations...
+[1602363989.930][INFO]: Done waiting for pending navigations. Status: ok
+[1602363989.933][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE ExecuteScript "\u003Chtml lang=\"pt-br\">\u003Chead>\n        \u003Cmeta charset=\"UTF-8\">\n        \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\u003Cmeta name=\"X-Recruiting\" content=\"Do you want to impact people's life with yo..."
+[1602363991.210][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND Screenshot {
+
+}
+[1602363991.210][INFO]: Waiting for pending navigations...
+[1602363991.225][INFO]: Done waiting for pending navigations. Status: ok
+[1602363991.967][INFO]: Waiting for pending navigations...
+[1602363991.992][INFO]: Done waiting for pending navigations. Status: ok
+[1602363991.992][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd4VNXWx/GvdAhBrBSlF+mEXlSKIgoCiuBFUIMIUiwoCIj6UgTuFZAmWCgq16hEvSgKiIp0kBpqAJFehAACBkIJTd4/VsYpmUlm0hN+n+eZB3LmnH32mTlzk..."
+[1602363993.403][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] COMMAND Quit {
+
+}
+[1602363994.098][INFO]: [0a1a21ea0621bf865b94b699eb8840fe] RESPONSE Quit

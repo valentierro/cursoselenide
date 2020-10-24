@@ -1,0 +1,276 @@
+[1601842942.728][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24761
+[1601842942.729][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601842943.733][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601842943.743][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601842943.744][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601842943.746][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1601842943.746][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir12500_369855406" data:,
+[1601842944.946][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601842946.962][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601842948.977][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir12500_369855406"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63600"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7a6b2c89f05eec71336b95e0ae06d4ba"
+}
+[1601842949.128][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND MaximizeWindow {
+
+}
+[1601842949.128][INFO]: Waiting for pending navigations...
+[1601842949.133][INFO]: Done waiting for pending navigations. Status: ok
+[1601842949.264][INFO]: Waiting for pending navigations...
+[1601842949.268][INFO]: Done waiting for pending navigations. Status: ok
+[1601842949.268][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1601842949.303][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND Navigate {
+   "url": "https://sqengineer.com/"
+}
+[1601842949.303][INFO]: Waiting for pending navigations...
+[1601842949.315][INFO]: Done waiting for pending navigations. Status: ok
+[1601842951.608][INFO]: Waiting for pending navigations...
+[1601842953.872][INFO]: Done waiting for pending navigations. Status: ok
+[1601842953.872][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE Navigate
+[1601842954.148][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#menu-item-33"
+}
+[1601842954.149][INFO]: Waiting for pending navigations...
+[1601842954.152][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.202][INFO]: Waiting for pending navigations...
+[1601842954.204][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.204][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d52790a4-aae4-478b-aeb4-357736929fc8"
+}
+[1601842954.244][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "d52790a4-aae4-478b-aeb4-357736929fc8",
+            "element-6066-11e4-a52e-4f735466cecf": "d52790a4-aae4-478b-aeb4-357736929fc8"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1601842954.244][INFO]: Waiting for pending navigations...
+[1601842954.248][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.402][INFO]: Waiting for pending navigations...
+[1601842954.404][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.404][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE PerformActions
+[1601842954.417][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Tables"
+}
+[1601842954.417][INFO]: Waiting for pending navigations...
+[1601842954.419][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.468][INFO]: Waiting for pending navigations...
+[1601842954.471][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.471][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "eb33fc0d-43cc-44e3-99d9-80090aee7483"
+}
+[1601842954.580][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "eb33fc0d-43cc-44e3-99d9-80090aee7483"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601842954.580][INFO]: Waiting for pending navigations...
+[1601842954.582][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.631][INFO]: Waiting for pending navigations...
+[1601842954.633][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.633][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE ExecuteScript true
+[1601842954.645][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND ClickElement {
+   "id": "eb33fc0d-43cc-44e3-99d9-80090aee7483"
+}
+[1601842954.645][INFO]: Waiting for pending navigations...
+[1601842954.647][INFO]: Done waiting for pending navigations. Status: ok
+[1601842954.820][INFO]: Waiting for pending navigations...
+[1601842956.364][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.364][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE ClickElement
+[1601842956.377][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#table1"
+}
+[1601842956.377][INFO]: Waiting for pending navigations...
+[1601842956.379][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.421][INFO]: Waiting for pending navigations...
+[1601842956.422][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.423][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "4ea9fad8-2628-43e1-88cd-4a932542ef71"
+}
+[1601842956.436][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND FindChildElement {
+   "id": "4ea9fad8-2628-43e1-88cd-4a932542ef71",
+   "using": "xpath",
+   "value": ".//*/text()[contains(normalize-space(translate(string(.), '\t\n\r ', '    ')), \" Complete\")]/parent::*"
+}
+[1601842956.436][INFO]: Waiting for pending navigations...
+[1601842956.438][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.470][INFO]: Waiting for pending navigations...
+[1601842956.471][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.471][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d4bec243-5ef2-475a-b49e-e2e8838efde9"
+}
+[1601842956.496][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d4bec243-5ef2-475a-b49e-e2e8838efde9"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601842956.497][INFO]: Waiting for pending navigations...
+[1601842956.498][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.535][INFO]: Waiting for pending navigations...
+[1601842956.537][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.537][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE ExecuteScript true
+[1601842956.545][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND ClickElement {
+   "id": "d4bec243-5ef2-475a-b49e-e2e8838efde9"
+}
+[1601842956.545][INFO]: Waiting for pending navigations...
+[1601842956.546][INFO]: Done waiting for pending navigations. Status: ok
+[1601842956.713][INFO]: Waiting for pending navigations...
+[1601842959.887][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
+[1601842964.250][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE ClickElement
+[1601842964.623][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] COMMAND Quit {
+
+}
+[1601842964.624][INFO]: [7a6b2c89f05eec71336b95e0ae06d4ba] RESPONSE Quit

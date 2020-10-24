@@ -1,0 +1,456 @@
+[1602367845.320][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 23585
+[1602367845.320][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1602367846.530][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1602367846.543][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1602367846.545][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1602367846.547][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1602367846.548][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir5876_1934015877" data:,
+[1602367847.920][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602367849.939][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1602367851.969][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir5876_1934015877"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57249"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "9ab2508f0e0b134fb7546f392d988ed6"
+}
+[1602367852.223][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND MaximizeWindow {
+
+}
+[1602367852.223][INFO]: Waiting for pending navigations...
+[1602367852.228][INFO]: Done waiting for pending navigations. Status: ok
+[1602367852.384][INFO]: Waiting for pending navigations...
+[1602367852.386][INFO]: Done waiting for pending navigations. Status: ok
+[1602367852.386][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1602367852.421][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND Navigate {
+   "url": "https://demoqa.com/"
+}
+[1602367852.421][INFO]: Waiting for pending navigations...
+[1602367852.426][INFO]: Done waiting for pending navigations. Status: ok
+[1602367853.374][INFO]: Waiting for pending navigations...
+[1602367857.718][INFO]: Done waiting for pending navigations. Status: ok
+[1602367857.718][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE Navigate
+[1602367858.062][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".card-body"
+}
+[1602367858.062][INFO]: Waiting for pending navigations...
+[1602367858.065][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.111][INFO]: Waiting for pending navigations...
+[1602367858.115][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.115][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "1669770b-3b8a-461b-98da-538c26d5a2bb"
+}
+[1602367858.328][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "1669770b-3b8a-461b-98da-538c26d5a2bb"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602367858.328][INFO]: Waiting for pending navigations...
+[1602367858.342][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.401][INFO]: Waiting for pending navigations...
+[1602367858.404][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.404][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE ExecuteScript true
+[1602367858.416][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND ClickElement {
+   "id": "1669770b-3b8a-461b-98da-538c26d5a2bb"
+}
+[1602367858.416][INFO]: Waiting for pending navigations...
+[1602367858.420][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.723][INFO]: Waiting for pending navigations...
+[1602367858.852][INFO]: Done waiting for pending navigations. Status: ok
+[1602367858.852][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE ClickElement
+[1602367858.927][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#item-1"
+}
+[1602367858.928][INFO]: Waiting for pending navigations...
+[1602367858.937][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.085][INFO]: Waiting for pending navigations...
+[1602367859.087][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.087][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "872909db-c9f8-4394-91e4-488a1ab30019"
+}
+[1602367859.140][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "872909db-c9f8-4394-91e4-488a1ab30019"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1602367859.140][INFO]: Waiting for pending navigations...
+[1602367859.145][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.218][INFO]: Waiting for pending navigations...
+[1602367859.223][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.224][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE ExecuteScript true
+[1602367859.245][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND ClickElement {
+   "id": "872909db-c9f8-4394-91e4-488a1ab30019"
+}
+[1602367859.246][INFO]: Waiting for pending navigations...
+[1602367859.254][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.488][INFO]: Waiting for pending navigations...
+[1602367859.577][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.577][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE ClickElement
+[1602367859.609][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367859.609][INFO]: Waiting for pending navigations...
+[1602367859.620][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.671][INFO]: Waiting for pending navigations...
+[1602367859.674][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.674][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367859.943][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367859.943][INFO]: Waiting for pending navigations...
+[1602367859.946][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.968][INFO]: Waiting for pending navigations...
+[1602367859.970][INFO]: Done waiting for pending navigations. Status: ok
+[1602367859.970][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367860.192][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367860.192][INFO]: Waiting for pending navigations...
+[1602367860.195][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.210][INFO]: Waiting for pending navigations...
+[1602367860.212][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.212][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367860.428][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367860.428][INFO]: Waiting for pending navigations...
+[1602367860.430][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.444][INFO]: Waiting for pending navigations...
+[1602367860.446][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.446][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367860.663][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367860.664][INFO]: Waiting for pending navigations...
+[1602367860.666][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.681][INFO]: Waiting for pending navigations...
+[1602367860.685][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.686][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367860.907][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367860.908][INFO]: Waiting for pending navigations...
+[1602367860.911][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.928][INFO]: Waiting for pending navigations...
+[1602367860.930][INFO]: Done waiting for pending navigations. Status: ok
+[1602367860.930][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367861.144][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367861.144][INFO]: Waiting for pending navigations...
+[1602367861.146][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.167][INFO]: Waiting for pending navigations...
+[1602367861.169][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.169][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367861.383][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367861.383][INFO]: Waiting for pending navigations...
+[1602367861.387][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.400][INFO]: Waiting for pending navigations...
+[1602367861.403][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.403][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367861.619][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367861.619][INFO]: Waiting for pending navigations...
+[1602367861.621][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.639][INFO]: Waiting for pending navigations...
+[1602367861.641][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.641][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367861.855][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367861.855][INFO]: Waiting for pending navigations...
+[1602367861.857][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.870][INFO]: Waiting for pending navigations...
+[1602367861.872][INFO]: Done waiting for pending navigations. Status: ok
+[1602367861.873][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367862.087][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367862.088][INFO]: Waiting for pending navigations...
+[1602367862.090][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.103][INFO]: Waiting for pending navigations...
+[1602367862.105][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.105][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367862.324][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367862.324][INFO]: Waiting for pending navigations...
+[1602367862.326][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.346][INFO]: Waiting for pending navigations...
+[1602367862.348][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.348][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367862.563][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367862.563][INFO]: Waiting for pending navigations...
+[1602367862.566][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.579][INFO]: Waiting for pending navigations...
+[1602367862.580][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.581][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367862.792][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367862.792][INFO]: Waiting for pending navigations...
+[1602367862.794][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.815][INFO]: Waiting for pending navigations...
+[1602367862.818][INFO]: Done waiting for pending navigations. Status: ok
+[1602367862.818][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367863.033][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367863.033][INFO]: Waiting for pending navigations...
+[1602367863.036][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.050][INFO]: Waiting for pending navigations...
+[1602367863.051][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.051][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367863.265][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367863.265][INFO]: Waiting for pending navigations...
+[1602367863.268][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.326][INFO]: Waiting for pending navigations...
+[1602367863.331][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.331][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367863.546][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367863.546][INFO]: Waiting for pending navigations...
+[1602367863.548][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.565][INFO]: Waiting for pending navigations...
+[1602367863.568][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.568][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367863.779][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367863.779][INFO]: Waiting for pending navigations...
+[1602367863.781][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.795][INFO]: Waiting for pending navigations...
+[1602367863.796][INFO]: Done waiting for pending navigations. Status: ok
+[1602367863.796][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367864.009][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367864.009][INFO]: Waiting for pending navigations...
+[1602367864.012][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.026][INFO]: Waiting for pending navigations...
+[1602367864.027][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.027][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367864.239][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367864.239][INFO]: Waiting for pending navigations...
+[1602367864.241][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.254][INFO]: Waiting for pending navigations...
+[1602367864.256][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.256][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367864.468][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".rct-icon .rct-icon-expand-close"
+}
+[1602367864.468][INFO]: Waiting for pending navigations...
+[1602367864.471][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.489][INFO]: Waiting for pending navigations...
+[1602367864.491][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.491][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".rct-icon .rct-icon-expand-close"}
+  (Session info: chrome=85.0.4183.121)
+[1602367864.719][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1602367864.719][INFO]: Waiting for pending navigations...
+[1602367864.723][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.748][INFO]: Waiting for pending navigations...
+[1602367864.751][INFO]: Done waiting for pending navigations. Status: ok
+[1602367864.751][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003Cmeta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\u003Cscript type=\"text/javascript\" async=\"\" src=\"https://www.gstatic.com/recaptcha/releases/48TunWH-ZrLteSwFVbw6tVnx/recap..."
+[1602367864.797][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND Screenshot {
+
+}
+[1602367864.798][INFO]: Waiting for pending navigations...
+[1602367864.800][INFO]: Done waiting for pending navigations. Status: ok
+[1602367865.405][INFO]: Waiting for pending navigations...
+[1602367865.408][INFO]: Done waiting for pending navigations. Status: ok
+[1602367865.408][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXuQZFd15vtbe5+TmfXo6lZ3S0hC5ikQIMJIti4CG0Ng7MHg4WE8fmCFL76eO6OJ8MT4TtgeWWMzl4mxY5iJsAf8iNAQRsb3Cgtjg7mAxfCSDAKGh2R6hEAgo..."
+[1602367866.382][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] COMMAND Quit {
+
+}
+[1602367866.756][INFO]: [9ab2508f0e0b134fb7546f392d988ed6] RESPONSE Quit

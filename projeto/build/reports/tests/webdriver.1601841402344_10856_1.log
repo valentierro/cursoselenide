@@ -1,0 +1,346 @@
+[1601841403.253][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 14425
+[1601841403.253][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601841404.431][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601841404.444][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\eclipse-workspace\\projeto\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601841404.445][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601841404.447][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1601841404.447][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Julianne\AppData\Local\Temp\scoped_dir9420_935094269" data:,
+[1601841406.158][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601841408.180][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601841410.215][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.121",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Julianne\\AppData\\Local\\Temp\\scoped_dir9420_935094269"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62416"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2ea58a1f732dfa72d1f250fd0032e237"
+}
+[1601841410.478][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND MaximizeWindow {
+
+}
+[1601841410.479][INFO]: Waiting for pending navigations...
+[1601841410.495][INFO]: Done waiting for pending navigations. Status: ok
+[1601841410.655][INFO]: Waiting for pending navigations...
+[1601841410.657][INFO]: Done waiting for pending navigations. Status: ok
+[1601841410.657][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE MaximizeWindow {
+   "height": 876,
+   "width": 1616,
+   "x": -8,
+   "y": -8
+}
+[1601841410.707][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND Navigate {
+   "url": "https://sqengineer.com/"
+}
+[1601841410.707][INFO]: Waiting for pending navigations...
+[1601841410.710][INFO]: Done waiting for pending navigations. Status: ok
+[1601841413.252][INFO]: Waiting for pending navigations...
+[1601841417.091][INFO]: Done waiting for pending navigations. Status: ok
+[1601841417.091][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE Navigate
+[1601841417.539][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841417.539][INFO]: Waiting for pending navigations...
+[1601841417.542][INFO]: Done waiting for pending navigations. Status: ok
+[1601841417.738][INFO]: Waiting for pending navigations...
+[1601841417.739][INFO]: Done waiting for pending navigations. Status: ok
+[1601841417.740][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841417.986][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841417.986][INFO]: Waiting for pending navigations...
+[1601841417.988][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.133][INFO]: Waiting for pending navigations...
+[1601841418.135][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.135][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841418.348][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841418.348][INFO]: Waiting for pending navigations...
+[1601841418.351][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.508][INFO]: Waiting for pending navigations...
+[1601841418.510][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.510][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841418.724][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841418.724][INFO]: Waiting for pending navigations...
+[1601841418.726][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.852][INFO]: Waiting for pending navigations...
+[1601841418.855][INFO]: Done waiting for pending navigations. Status: ok
+[1601841418.855][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841419.066][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841419.067][INFO]: Waiting for pending navigations...
+[1601841419.069][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.230][INFO]: Waiting for pending navigations...
+[1601841419.232][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.232][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841419.447][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841419.448][INFO]: Waiting for pending navigations...
+[1601841419.450][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.592][INFO]: Waiting for pending navigations...
+[1601841419.594][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.594][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841419.808][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841419.808][INFO]: Waiting for pending navigations...
+[1601841419.810][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.947][INFO]: Waiting for pending navigations...
+[1601841419.949][INFO]: Done waiting for pending navigations. Status: ok
+[1601841419.949][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841420.162][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841420.163][INFO]: Waiting for pending navigations...
+[1601841420.165][INFO]: Done waiting for pending navigations. Status: ok
+[1601841420.307][INFO]: Waiting for pending navigations...
+[1601841420.309][INFO]: Done waiting for pending navigations. Status: ok
+[1601841420.309][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841420.539][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841420.539][INFO]: Waiting for pending navigations...
+[1601841420.541][INFO]: Done waiting for pending navigations. Status: ok
+[1601841420.700][INFO]: Waiting for pending navigations...
+[1601841420.701][INFO]: Done waiting for pending navigations. Status: ok
+[1601841420.701][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841420.914][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841420.914][INFO]: Waiting for pending navigations...
+[1601841420.916][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.060][INFO]: Waiting for pending navigations...
+[1601841421.062][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.062][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841421.274][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841421.274][INFO]: Waiting for pending navigations...
+[1601841421.276][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.408][INFO]: Waiting for pending navigations...
+[1601841421.411][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.412][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841421.625][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841421.625][INFO]: Waiting for pending navigations...
+[1601841421.628][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.775][INFO]: Waiting for pending navigations...
+[1601841421.776][INFO]: Done waiting for pending navigations. Status: ok
+[1601841421.776][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841421.992][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841421.992][INFO]: Waiting for pending navigations...
+[1601841421.995][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.138][INFO]: Waiting for pending navigations...
+[1601841422.140][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.140][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841422.351][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841422.352][INFO]: Waiting for pending navigations...
+[1601841422.355][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.501][INFO]: Waiting for pending navigations...
+[1601841422.506][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.506][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841422.716][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841422.716][INFO]: Waiting for pending navigations...
+[1601841422.719][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.850][INFO]: Waiting for pending navigations...
+[1601841422.851][INFO]: Done waiting for pending navigations. Status: ok
+[1601841422.851][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841423.061][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND FindElement {
+   "using": "link text",
+   "value": "Practice Sites"
+}
+[1601841423.062][INFO]: Waiting for pending navigations...
+[1601841423.064][INFO]: Done waiting for pending navigations. Status: ok
+[1601841423.215][INFO]: Waiting for pending navigations...
+[1601841423.217][INFO]: Done waiting for pending navigations. Status: ok
+[1601841423.218][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"link text","selector":"Practice Sites"}
+  (Session info: chrome=85.0.4183.121)
+[1601841423.461][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601841423.462][INFO]: Waiting for pending navigations...
+[1601841423.471][INFO]: Done waiting for pending navigations. Status: ok
+[1601841423.498][INFO]: Waiting for pending navigations...
+[1601841423.501][INFO]: Done waiting for pending navigations. Status: ok
+[1601841423.501][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE ExecuteScript "\u003Chtml lang=\"en-US\" prefix=\"og: http://ogp.me/ns#\">\u003Chead>\n\u003Cmeta charset=\"UTF-8\">\n\u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\u003Clink rel=\"profile\" href=\"http://gmpg.org/xfn/11..."
+[1601841423.587][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND Screenshot {
+
+}
+[1601841423.588][INFO]: Waiting for pending navigations...
+[1601841423.591][INFO]: Done waiting for pending navigations. Status: ok
+[1601841424.161][INFO]: Waiting for pending navigations...
+[1601841424.163][INFO]: Done waiting for pending navigations. Status: ok
+[1601841424.163][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABkAAAAMVCAYAAAAvdzhEAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlYVGX7B/DvAI2yjKmDC/CWuIQauCQogpamCCKQawaa+0ZuuS8oRipoipJpprjghuaCG5KAqPBTxA2XJEXrJfANKBW3QUAS5/cHzmkGZoZhE6Tv57q4opnnn..."
+[1601841425.586][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] COMMAND Quit {
+
+}
+[1601841426.024][INFO]: [2ea58a1f732dfa72d1f250fd0032e237] RESPONSE Quit

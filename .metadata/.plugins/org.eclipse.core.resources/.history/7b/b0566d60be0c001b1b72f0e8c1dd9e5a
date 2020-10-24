@@ -1,0 +1,25 @@
+package projeto.selenide.objects;
+
+import org.openqa.selenium.By;
+
+import com.codeborne.selenide.SelenideElement;
+import static com.codeborne.selenide.Selenide.*;
+
+public class DetalhesProduto {
+	
+	private SelenideElement btnAddCarrinho = $(By.name("Submit"));
+
+	public SelenideElement getBtnAddCarrinho() {
+		return btnAddCarrinho;
+	}
+
+	public void setBtnAddCarrinho(SelenideElement btnAddCarrinho) {
+		this.btnAddCarrinho = btnAddCarrinho;
+	}
+	
+	
+	public void adicionarCarrinho() {
+		btnAddCarrinho.click();
+	}
+
+}
